@@ -1,0 +1,15 @@
+{
+  "short_name": "D7 Evility Search",
+  "name": "Disgaea 7 Evility Search",
+  "icons": [
+    {
+      "src": "higan-face-favicon.png",
+      "sizes": "260x260",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

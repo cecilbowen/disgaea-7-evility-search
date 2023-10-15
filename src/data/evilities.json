@@ -1,0 +1,6532 @@
+[
+  {
+    "id": "EVILITY_ID_FUJI_FIX_1",
+    "name": "Dirtier the Better",
+    "description": "Increase ATK by 5% after attacking from behind. (Max 100%)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Fuji exclusive"
+  },
+  {
+    "id": "EVILITY_ID_FUJI_FIX_2",
+    "name": "Two-Part Plan",
+    "description": "Attack twice when attacking with sword specials.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Fuji exclusive (reach chapter ???)"
+  },
+  {
+    "id": "EVILITY_ID_FUJI_GENERIC_1",
+    "name": "Soft Sword",
+    "description": "Parry rate is boosted by 15% when swords are equipped.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Fuji at Level 1"
+  },
+  {
+    "id": "EVILITY_ID_FUJI_GENERIC_2",
+    "name": "Refined Swordplay",
+    "description": "Sword skill SP cost -50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Fuji at Level 10"
+  },
+  {
+    "id": "EVILITY_ID_FUJI_GENERIC_3",
+    "name": "Zeni Geba",
+    "description": "Increase HL gained by 50% & Mana gained by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Fuji at Level 30"
+  },
+  {
+    "id": "EVILITY_ID_FUJI_GENERIC_4",
+    "name": "Vital Strike",
+    "description": "Increase critical damage by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Fuji at Level 60"
+  },
+  {
+    "id": "EVILITY_ID_FUJI_GENERIC_5",
+    "name": "Hell Unleashed",
+    "description": "Increase damage dealt by 50% when in Hell Mode.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Fuji at Level 100"
+  },
+  {
+    "id": "EVILITY_ID_PIRIRIKA_FIX_1",
+    "name": "Syndicate Head",
+    "description": "Increase max HP and SP by 10% of number of digits of held HL.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Pirilika exclusive"
+  },
+  {
+    "id": "EVILITY_ID_PIRIRIKA_FIX_2",
+    "name": "Wave of Restoration",
+    "description": "Cure and heal allies within 2 panels by 30% of own max HP when turn ends.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Pirilika exclusive (reach chapter 14-5)"
+  },
+  {
+    "id": "EVILITY_ID_PIRIRIKA_GENERIC_1",
+    "name": "Cheerful Aura",
+    "description": "Increase Joint Attack rate of adjacent allies by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Pirilika at Level 1"
+  },
+  {
+    "id": "EVILITY_ID_PIRIRIKA_GENERIC_2",
+    "name": "Super-Positivity",
+    "description": "When in combat at base panel, increase own abilities by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Pirilika at Level 10"
+  },
+  {
+    "id": "EVILITY_ID_PIRIRIKA_GENERIC_3",
+    "name": "Development Support",
+    "description": "Increase EXP gained by adjacent allies by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Pirilika at Level 30"
+  },
+  {
+    "id": "EVILITY_ID_PIRIRIKA_GENERIC_4",
+    "name": "Overbig",
+    "description": "Increase number of continuing turns by 1 when Jumbified.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Pirilika at Level 60"
+  },
+  {
+    "id": "EVILITY_ID_PIRIRIKA_GENERIC_5",
+    "name": "EM Barrier",
+    "description": "Nullify damage taken when attacked. (Once per stage)",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Pirilika at Level 100"
+  },
+  {
+    "id": "EVILITY_ID_WEIYASU_FIX_1",
+    "name": "Shogun's Influence",
+    "description": "If 2 or more allies are within 2 panels, boost own abilities by 50%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Yeyasu exclusive"
+  },
+  {
+    "id": "EVILITY_ID_WEIYASU_FIX_2",
+    "name": "Shogun's Orders",
+    "description": "Boost abilities of allies on map by 20%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Yeyasu exclusive (reach chapter ???)"
+  },
+  {
+    "id": "EVILITY_ID_WEIYASU_GENERIC_1",
+    "name": "Human Shield",
+    "description": "Controlled units within 2 panels will be covered when attacked.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Yeyasu at Level 1"
+  },
+  {
+    "id": "EVILITY_ID_WEIYASU_GENERIC_2",
+    "name": "Tactical Guidance",
+    "description": "Boost ATK for adjacent ally units by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Yeyasu at Level 10"
+  },
+  {
+    "id": "EVILITY_ID_WEIYASU_GENERIC_3",
+    "name": "Wariness",
+    "description": "50% of facing attacker when attacked from behind.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Yeyasu at Level 30"
+  },
+  {
+    "id": "EVILITY_ID_WEIYASU_GENERIC_4",
+    "name": "Keen Mind",
+    "description": "Increase INT by 30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Yeyasu at Level 60"
+  },
+  {
+    "id": "EVILITY_ID_WEIYASU_GENERIC_5",
+    "name": "Cautious Soul",
+    "description": "Increases Evasion Rate by 50% when target is 2 panels or more away.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Yeyasu at Level 100"
+  },
+  {
+    "id": "EVILITY_ID_SIFOU_FIX_1",
+    "name": "Extreme Takeover",
+    "description": "50% chance of stealing after defeating enemy unit.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Ceefore exclusive"
+  },
+  {
+    "id": "EVILITY_ID_SIFOU_FIX_2",
+    "name": "Distance Shot",
+    "description": "Increase critical damage by 10% per panel away from enemy.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Ceefore exclusive (reach chapter 10-5)"
+  },
+  {
+    "id": "EVILITY_ID_SIFOU_GENERIC_1",
+    "name": "HE Rounds",
+    "description": "Increase critical rate by 20% when guns are equipped.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Ceefore at Level 1"
+  },
+  {
+    "id": "EVILITY_ID_SIFOU_GENERIC_2",
+    "name": "Phantom's Mask",
+    "description": "Increase Equipment ability by 20% when glasses are equipped.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Ceefore at Level 10"
+  },
+  {
+    "id": "EVILITY_ID_SIFOU_GENERIC_3",
+    "name": "Ready, Snort!",
+    "description": "Increase ATK by 30% when performing a fire attack.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Ceefore at Level 30"
+  },
+  {
+    "id": "EVILITY_ID_SIFOU_GENERIC_4",
+    "name": "Phantastic Escape",
+    "description": "Increase movement by X after making an attack.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Ceefore at Level 60"
+  },
+  {
+    "id": "EVILITY_ID_SIFOU_GENERIC_5",
+    "name": "Unclouded Vision",
+    "description": "Guaranteed hit when attacking a unit X or more panels away.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ceefore at Level 100"
+  },
+  {
+    "id": "EVILITY_ID_HIGAN_FIX_1",
+    "name": "Sword Limitations",
+    "description": "Can't equip swords. Decrease stats by 25%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Higan exclusive (up to chapter 12-5)"
+  },
+  {
+    "id": "EVILITY_ID_HIGAN_FIX_2",
+    "name": "Higan's Pledge",
+    "description": "Decrease damage taken when attacked by monster units by 50%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Higan exclusive (reach chapter 12-5)"
+  },
+  {
+    "id": "EVILITY_ID_HIGAN_FIX_3",
+    "name": "Shinrabanshosai",
+    "description": "Increase range by 2 and counter-attacks by 5 when using spears.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Higan exclusive (reach chapter 12-5)"
+  },
+  {
+    "id": "EVILITY_ID_HIGAN_GENERIC_1",
+    "name": "Spear Parry",
+    "description": "Can parry when equipped with a spear.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Higan at Level 1"
+  },
+  {
+    "id": "EVILITY_ID_HIGAN_GENERIC_2",
+    "name": "Peerless",
+    "description": "Increase equipped weapon's ability when no armor is equipped by 200%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Higan at Level 10"
+  },
+  {
+    "id": "EVILITY_ID_HIGAN_GENERIC_3",
+    "name": "Intimidating Aura",
+    "description": "Decrease Evasion rate for enemies within 2 panels by -30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Higan at Level 30"
+  },
+  {
+    "id": "EVILITY_ID_HIGAN_GENERIC_4",
+    "name": "Heavy Stance",
+    "description": "Increase defense power by 50%. Can't be lifted.",
+    "notes": "Formerly \"Increase DEF by 50%. Can't Lift.\"",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Higan at Level 60"
+  },
+  {
+    "id": "EVILITY_ID_HIGAN_GENERIC_5",
+    "name": "Vainglory",
+    "description": "Increase abilities by 50% when no other units enter battle.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Higan at Level 100"
+  },
+  {
+    "id": "EVILITY_ID_SUISEN_FIX_1",
+    "name": "Foreseeing Mag.",
+    "description": "Adjacent allies always hit when attacking.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Suisen exclusive"
+  },
+  {
+    "id": "EVILITY_ID_SUISEN_FIX_2",
+    "name": "Foreseeing Mag. 2.0",
+    "description": "Adjacent allies always land critical hits when attacking.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Suisen exclusive (reach chapter ???)"
+  },
+  {
+    "id": "EVILITY_ID_SUISEN_FIX_3",
+    "name": "Fatality",
+    "description": "Can't enter battle.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Suisen exclusive (chapters 9-3 to 9-5)"
+  },
+  {
+    "id": "EVILITY_ID_SUISEN_GENERIC_1",
+    "name": "Self-Repairing",
+    "description": "Restore 20% of HP and SP if no movement or action taken at end of turn.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Suisen at Level 1"
+  },
+  {
+    "id": "EVILITY_ID_SUISEN_GENERIC_2",
+    "name": "Pure Bonds",
+    "description": "Boost damage dealt by 3% per number of combos. (Max 60%)",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Suisen at Level 10"
+  },
+  {
+    "id": "EVILITY_ID_SUISEN_GENERIC_3",
+    "name": "Powerful Souls",
+    "description": "Increase Max HP by 25% and max SP by 25%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Suisen at Level 30"
+  },
+  {
+    "id": "EVILITY_ID_SUISEN_GENERIC_4",
+    "name": "A Curious Friend",
+    "description": "Increase ATK and DEF by 30% when Yeyasu is deployed as an ally.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Suisen at Level 60"
+  },
+  {
+    "id": "EVILITY_ID_SUISEN_GENERIC_5",
+    "name": "Machine Learning",
+    "description": "Decrease damage taken by 50% when attacked with a previously-used Special.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Suisen at Level 100"
+  },
+  {
+    "id": "EVILITY_ID_AO_FIX_1",
+    "name": "Insane Power",
+    "description": "Increase ATK by 75% and DEF -25%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Ao exclusive"
+  },
+  {
+    "id": "EVILITY_ID_AO_FIX_2",
+    "name": "Daddy-Daughter Time!",
+    "description": "Increase abilities by 50% when Fuji is deployed as an ally.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Ao exclusive"
+  },
+  {
+    "id": "EVILITY_ID_AO_GENERIC_1",
+    "name": "Going All Out",
+    "description": "Nicks and parries don't reduce damage dealt.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Ao at Level 1"
+  },
+  {
+    "id": "EVILITY_ID_AO_GENERIC_2",
+    "name": "Pouncing Tiger",
+    "description": "When HP is reduced by 20%, increase ATK by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Ao at Level 10"
+  },
+  {
+    "id": "EVILITY_ID_AO_GENERIC_3",
+    "name": "Hidden Turtle",
+    "description": "When HP is reduced by 20%, increase DEF by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Ao at Level 30"
+  },
+  {
+    "id": "EVILITY_ID_AO_GENERIC_4",
+    "name": "Death and Rebirth",
+    "description": "When killing enemy unit using Specials, restore used SP.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ao at Level 60"
+  },
+  {
+    "id": "EVILITY_ID_AO_GENERIC_5",
+    "name": "Freeze Dry",
+    "description": "Adjacent enemies' Movement becomes 1.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ao at Level 100"
+  },
+  {
+    "id": "EVILITY_ID_SOROFUNE_FIX_1",
+    "name": "Resonating Souls",
+    "description": "At end of turn, increase abilities by 5%. (Max 100%)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy Shirofune exclusive"
+  },
+  {
+    "id": "EVILITY_ID_KUROFUNE_FIX_1",
+    "name": "Amplified Souls",
+    "description": "At end of turn, increase abilities by 10%. (Max 100%)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy Kurofune exclusive"
+  },
+  {
+    "id": "EVILITY_ID_NITRA_FIX_1",
+    "name": "Soulkeeper Mag.",
+    "description": "Each time an ally dies, increase defense power by 10%. (Max 100%)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Nitra exlusive"
+  },
+  {
+    "id": "EVILITY_ID_NITRA_FIX_2",
+    "name": "Soulkeeper Mag. 2.0",
+    "description": "When attacking, 50% of damage dealt is also dealt to SP.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Nitra exlusive"
+  },
+  {
+    "id": "EVILITY_ID_NITRA_GENERIC_1",
+    "name": "Weapon Fan",
+    "description": "Increases Weapon Mastery growth speed by 1 rank for all Weapon Mastery.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Nitra at Level 1"
+  },
+  {
+    "id": "EVILITY_ID_NITRA_GENERIC_2",
+    "name": "Weapon Researcher",
+    "description": "Increase ATK power by 5% per ally with same weapon type as you.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Nitra at Level 10"
+  },
+  {
+    "id": "EVILITY_ID_NITRA_GENERIC_3",
+    "name": "Weapon Expert",
+    "description": "Increase ATK power by 5% per ally with different weapon type than you.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Nitra at Level 30"
+  },
+  {
+    "id": "EVILITY_ID_NITRA_GENERIC_4",
+    "name": "Weapon Otaku",
+    "description": "Decrease damage taken by 50% when attacked by unit with same weapon type as you.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Nitra at Level 60"
+  },
+  {
+    "id": "EVILITY_ID_NITRA_GENERIC_5",
+    "name": "Weapon Mania",
+    "description": "Increase equipped weapon's ability by 30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Nitra at Level 100"
+  },
+  {
+    "id": "EVILITY_ID_OPENER_FIX_1",
+    "name": "The Demmodore",
+    "description": "When allies within 5 panels are attacked, decrease damage taken by 25%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Opener exclusive"
+  },
+  {
+    "id": "EVILITY_ID_OPENER_GENERIC_1",
+    "name": "Merciless Command",
+    "description": "Increase ATK by 25% for allies within 3 panels. Take 10% of HP as damage.",
+    "notes": "Both the attack power and the damage apply to allies, not to evility owner.",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Opener at Level 1"
+  },
+  {
+    "id": "EVILITY_ID_OPENER_GENERIC_2",
+    "name": "Howling Spirit",
+    "description": "ATK of enemies within 2 panels becomes -30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Opener at Level 10"
+  },
+  {
+    "id": "EVILITY_ID_OPENER_GENERIC_3",
+    "name": "Calm Strength",
+    "description": "Ignore damage equal to or under 5% of max HP.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Opener at Level 30"
+  },
+  {
+    "id": "EVILITY_ID_OPENER_GENERIC_4",
+    "name": "Noble Cause",
+    "description": "Boost abilities of allies on map by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Opener at Level 60"
+  },
+  {
+    "id": "EVILITY_ID_OPENER_GENERIC_5",
+    "name": "Honed Senses",
+    "description": "Always evades when target is 4 or more panels away.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Opener at Level 100"
+  },
+  {
+    "id": "EVILITY_ID_MUGAI_FIX_1",
+    "name": "Ultimate Swordsman",
+    "description": "Increase damage dealt by 100% when using Special.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_MUGAI_GOD_FIX_1",
+    "name": "Super-Deity",
+    "description": "Increases ATK and DEF by 75%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_BIG_BULL_FIX_1",
+    "name": "Protection Mag.",
+    "description": "Increase DEF by 100%.",
+    "notes": "Defense power, not DEF stat.",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_THE_AGAIN_FIX_1",
+    "name": "Ocean Mag.",
+    "description": "Reverse damage when hit with water attacks.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_SPICES_FIX_1",
+    "name": "SpecOps Angels",
+    "description": "When attacking a demon, increase damage dealt by 50%. Justice!",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_CIRCULAR_FIX_1",
+    "name": "S. Princess Mag.",
+    "description": "Increase ATK by 20% for allies within 3 panels.",
+    "notes": "To be clear, this is \"increase allies within 3 panels' attack power by 20%\" and not \"increase Sakoora's attack power by 20% per ally within 3 panels\".",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_YAYAKA_FIX_1",
+    "name": "Gambling Mag.",
+    "description": "When attacked, 50% chance of taking 0 damage.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_TENBAIA_FIX_1",
+    "name": "Resale Mag.",
+    "description": "Decrease cost of items purchased by 50%. Increase price for items sold by 100%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_YUVANA_FIX_1",
+    "name": "H. Springs Mag.",
+    "description": "At end of turn, restore 20% of HP for allies on the map.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_AKUMA_FIX_1",
+    "name": "Ping-Pong Mag.",
+    "description": "Serve improved by 99,990,000.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_PARIPIYASU_FIX_1",
+    "name": "Subjugation Mag.",
+    "description": "Each time an enemy dies, increase stats by 20%. (Max 200%)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_JOEDO_FIX_1",
+    "name": "Head Mag.",
+    "description": "No damage taken when on Geo Panel.",
+    "notes": "Yes, even if the Geo Panel has no geo effect active.",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_GACHIYASU_FIX_1",
+    "name": "Charisma",
+    "description": "Increase stats of allies on map by 30%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_HADO_ZESSHOSAI_FIX_1",
+    "name": "Hado",
+    "description": "Increases damage dealt when attacking adjacent units by 500%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_KAZAN_ZESSHOSAI_FIX_1",
+    "name": "Kazan",
+    "description": "Completely restore HP of all allies on map at end of turn.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_PAPURICA_ZESSHOSAI_FIX_1",
+    "name": "Haburika",
+    "description": "Reverse damage taken by all units.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_IXA_ZESSHOSAI_FIX_1",
+    "name": "Kijo",
+    "description": "Flip all units' genders.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_MAARU_ZESSHOSAI_FIX_1",
+    "name": "Mawaku",
+    "description": "When hit with an attack, control target unit.",
+    "notes": "Applies the Puppet status, so Puppet Vaccine still blocks it.",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_HAO_ZESSHOSAI_FIX_1",
+    "name": "Hayu",
+    "description": "When attacking, restore own HP and SP by 20% per target unit.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_MITSUKI_ZESSHOSAI_FIX_1",
+    "name": "Mangestu",
+    "description": "Allies take 0 damage on odd turns. Ignore enemies' DEF on even turns.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_MUSASHI_ZESSHOSAI_FIX_1",
+    "name": "Mushi",
+    "description": "When attacking, ignore target's DEF.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_DODO_ZESSHOSAI_FIX_1",
+    "name": "Dodo",
+    "description": "When Jumibified, area of attack becomes entire map.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_SAIKA_ZESSHOSAI_FIX_1",
+    "name": "Saika",
+    "description": "At end of turn, HP of enemies on map becomes 1.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_SHIKI_ZESSHOSAI_FIX_1",
+    "name": "Shiki",
+    "description": "When an ally dies, revive with 20% to stats (1 time max for each unit).",
+    "notes": "Even once Shiki Zesshosai dies, enemies still have the revive saved up...",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_SAZAN_ZESSHOSAI_FIX_1",
+    "name": "Sazan",
+    "description": "0 damage taken when hit with weapon skill.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_JIRO_ZESSHOSAI_FIX_1",
+    "name": "Jiro",
+    "description": "Deal a deathblow to target unit.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_REKKA_ZESSHOSAI_FIX_1",
+    "name": "Rekka",
+    "description": "Nullifies Hell Mode for all units, and nullifies explosion for self.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_SHODAI_ZESSHOSAI_FIX_1",
+    "name": "Zessho",
+    "description": "When enemy unit dies, forces all enemies on map to die.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "",
+    "name": "Ultimate Force",
+    "description": "Use Special on target when enemy unit enters battle.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "",
+    "name": "S.O. Charge",
+    "description": "Increase attack and defense power by 10% per ally on the map.",
+    "notes": "(Not including self.)",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "",
+    "name": "S.O. Legion",
+    "description": "At end of turn, summon 3 allies to the map. (Cannot exceed map limit.)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "",
+    "name": "S.O. Force II",
+    "description": "Use Special 3 times on target when enemy unit enters battle.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "",
+    "name": "S.O. Charge II",
+    "description": "Increase attack and defense power by 20% per ally on the map.",
+    "notes": "(Not including self.)",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "",
+    "name": "S.O. Legion II",
+    "description": "At end of turn, summon 5 allies to the map. (Cannot exceed map limit.)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy-only"
+  },
+  {
+    "id": "EVILITY_ID_WARRIOR_MALE_FIX_1",
+    "name": "Wild Cry",
+    "description": "Increase stats by 10% per adjacent enemy unit.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Warrior to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_WARRIOR_MALE_GENERIC_1",
+    "name": "Vanguard",
+    "description": "Increase HP by 5%, ATK by 5%, and DEF by 5%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Warrior to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_WARRIOR_MALE_GENERIC_2",
+    "name": "Power Axe",
+    "description": "Increase damage dealt by 25% when equipped with an axe.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Warrior to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_WARRIOR_MALE_GENERIC_3",
+    "name": "Fighting Instinct",
+    "description": "Increase stats by 3% per elapsed turn. (Max 60%)",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Warrior to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_WARRIOR_MALE_GENERIC_4",
+    "name": "Boiling Blood",
+    "description": "Increase stats by 3% per enemy on the map.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Warrior to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_WARRIOR_MALE_GENERIC_5",
+    "name": "Super Guts",
+    "description": "For every 5% of HP lost, decrease damage taken by 5%. (Max 50%)",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Warrior to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_WARRIOR_FEMALE_FIX_1",
+    "name": "Assault Attack",
+    "description": "Boost damage dealt by 10% per panels moved this turn. (Max 200%).",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Valkyrie to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_WARRIOR_FEMALE_GENERIC_1",
+    "name": "Defense Mastery",
+    "description": "Increase DEF Equipment Compatibility by 20%.",
+    "notes": "Formerly \"Increase Equipment Compatibility by 20%.\"",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Valkyrie to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_WARRIOR_FEMALE_GENERIC_2",
+    "name": "Hard Effort",
+    "description": "Increase EXP gained when attacked by higher-leveled unit by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Valkyrie to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_WARRIOR_FEMALE_GENERIC_3",
+    "name": "Pierce",
+    "description": "Attack target number has no effect on power when attacking normally.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Valkyrie to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_WARRIOR_FEMALE_GENERIC_4",
+    "name": "Full Speed Ahead",
+    "description": "For 1 turn only, add 3 to Movement.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Valkyrie to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_WARRIOR_FEMALE_GENERIC_5",
+    "name": "Hit and Run",
+    "description": "Can move again after defeating an enemy unit.",
+    "notes": "Formerly \"Can move again if they defeat an enemy unit after moving.\"",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Valkyrie to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_WIZARD_MALE_FIX_1",
+    "name": "M. Convergence",
+    "description": "When using Specials, increase attack power by 30% and SP cost by 50%.",
+    "notes": "Formerly \"When using Specials, increase ATK by 30% and SP cost by 50%.\"",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Magician to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_WIZARD_MALE_GENERIC_1",
+    "name": "Casting Mastery",
+    "description": "Increase INT Equipment Compatibility by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Magician to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_WIZARD_MALE_GENERIC_2",
+    "name": "Magical Discipline",
+    "description": "Increase Skill EXP gain by 50%.",
+    "notes": "Formerly \"Increase EXP gain by 50%.\"",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Magician to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_WIZARD_MALE_GENERIC_3",
+    "name": "Enlarge",
+    "description": "Increase magic range by 2 and SP cost by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Magician to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_WIZARD_MALE_GENERIC_4",
+    "name": "Lights of Life",
+    "description": "If SP is insufficient for Specials, consume HP instead.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Magician to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_WIZARD_MALE_GENERIC_5",
+    "name": "Over the Limit",
+    "description": "Increase ATK by 50% when using Specials. Costs 10% SP each turn.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Magician to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_WIZARD_FEMALE_FIX_1",
+    "name": "Magic Moderation",
+    "description": "Consume -50% SP when using Specials.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Witch to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_WIZARD_FEMALE_GENERIC_1",
+    "name": "Caster",
+    "description": "Increase SP by 5%, INT by 5%, and RES by 5%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Witch to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_WIZARD_FEMALE_GENERIC_2",
+    "name": "Expand",
+    "description": "Increase spell area by 1.",
+    "notes": "Formerly \"Increase spell area by 1%.\"",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Witch to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_WIZARD_FEMALE_GENERIC_3",
+    "name": "Damage Convert",
+    "description": "Increase INT by 10% when attacked. (Max 100%)",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Witch to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_WIZARD_FEMALE_GENERIC_4",
+    "name": "Magic Collection",
+    "description": "Recover SP equal to 5% of damage dealt when attacking.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Witch to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_WIZARD_FEMALE_GENERIC_5",
+    "name": "Overflowing Magic",
+    "description": "When remaining SP is 50% or more, increase Specials ATK power by 30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Witch to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_FIGHTER_MALE_FIX_1",
+    "name": "Fury",
+    "description": "Increase ATK power by 25% per counter-attack in a single turn. (Max 100%)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Martial Artist to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_FIGHTER_MALE_GENERIC_1",
+    "name": "Grappler",
+    "description": "Decrease damage taken from counter-attacks by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Martial Artist to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_FIGHTER_MALE_GENERIC_2",
+    "name": "Retribution",
+    "description": "Increase number of counter-attacks by 2.",
+    "notes": "Formerly \"Increase number of counter-attacks by 2%.\"",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Martial Artist to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_FIGHTER_MALE_GENERIC_3",
+    "name": "Blasting Fist",
+    "description": "Decrease target's DEF power by -10% when using a Fist. (Lasts 3 turns)",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Martial Artist to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_FIGHTER_MALE_GENERIC_4",
+    "name": "Counter Chance",
+    "description": "Increase critical rate of counter-attacks by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Martial Artist to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_FIGHTER_MALE_GENERIC_5",
+    "name": "Forced Counter",
+    "description": "Force target unit to counter-attack. (Max 20 times)",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Martial Artist to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_FIGHTER_FEMALE_FIX_1",
+    "name": "Rapid Move",
+    "description": "Increase Evasion by 3% per panel moved in a single turn. (Max 64%)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Fight Mistress to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_FIGHTER_FEMALE_GENERIC_1",
+    "name": "Wisdom Fist",
+    "description": "Increase attack range when fists are equipped by 1 panel(s).",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Fight Mistress to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_FIGHTER_FEMALE_GENERIC_2",
+    "name": "Quick Thinking",
+    "description": "Increase Joint Attack rate by 20% when attacking.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Fight Mistress to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_FIGHTER_FEMALE_GENERIC_3",
+    "name": "Eye for an Eye",
+    "description": "Guaranteed hit when counter-attacking.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Fight Mistress to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_FIGHTER_FEMALE_GENERIC_4",
+    "name": "Smash Hit",
+    "description": "Increase damage by 50% when using Specials with Knockback.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Fight Mistress to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_FIGHTER_FEMALE_GENERIC_5",
+    "name": "Counter Dodge",
+    "description": "Always dodge counter-attacks",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Fight Mistress to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLERIC_MALE_FIX_1",
+    "name": "Medical Aid",
+    "description": "Cure all ailments when using healing Specials.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Clergy to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLERIC_MALE_GENERIC_1",
+    "name": "Healing Plus",
+    "description": "Increase heal amount by 30% when using healing Specials.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Clergy to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_CLERIC_MALE_GENERIC_2",
+    "name": "Staff Rebellion",
+    "description": "Damage of normal attacks is based on RES when equipped with a staff.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Clergy to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLERIC_MALE_GENERIC_3",
+    "name": "Light Salvation",
+    "description": "When using healing Specials, recover extra 30% of own Max HP.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Clergy to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLERIC_MALE_GENERIC_4",
+    "name": "Staff of Healing",
+    "description": "Reverse damage dealt by normal attacks when equipped with a staff.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Clergy to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLERIC_MALE_GENERIC_5",
+    "name": "Light Protection",
+    "description": "When using healing Specials, increase DEF & RES of target unit by 30%. (Lasts 3 turns)",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Clergy to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLERIC_FEMALE_FIX_1",
+    "name": "Expert Healer",
+    "description": "Increase amount restored by 100% when using healing Specials.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Cleric to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLERIC_FEMALE_GENERIC_1",
+    "name": "Res. Mastery",
+    "description": "Increase RES Equipment Compatibility by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Cleric to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_CLERIC_FEMALE_GENERIC_2",
+    "name": "Arrow Rebellion",
+    "description": "Normal attack damage is based on RES & HIT when equipped with a bow.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Cleric to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLERIC_FEMALE_GENERIC_3",
+    "name": "Heart of Affection",
+    "description": "When target's HP is maxxed out with a healing Special, increase own RES by 10%. (Lasts 3 turns)",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Cleric to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLERIC_FEMALE_GENERIC_4",
+    "name": "Dynamic Arrow",
+    "description": "Reverse damage dealt by normal attacks when equipped with a bow.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Cleric to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLERIC_FEMALE_GENERIC_5",
+    "name": "Advanced Heal",
+    "description": "Restore extra 25% of target HP when using healing Specials.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Cleric to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_THIEF_MALE_FIX_1",
+    "name": "Treasure Hunt",
+    "description": "30% chance of generating a chest when defeating an enemy.",
+    "notes": "Chest's item rank depends on the map's item rank, not on the enemy?",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Bandit to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_THIEF_MALE_GENERIC_1",
+    "name": "Dodge Mastery",
+    "description": "Increase SPD Equipment Compatibility by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Bandit to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_THIEF_MALE_GENERIC_2",
+    "name": "Stealing Senses",
+    "description": "10% chance of additional reward when defeating chests and level spheres.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Bandit to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_THIEF_MALE_GENERIC_3",
+    "name": "Evade Danger",
+    "description": "Nullify explosive damage.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Bandit to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_THIEF_MALE_GENERIC_4",
+    "name": "Lucky Finger",
+    "description": "When defeating treasure chests, increase Item Rank by 1.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Bandit to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_THIEF_MALE_GENERIC_5",
+    "name": "Loot Appraisal",
+    "description": "When defeating treasure chests, Item Rarity increases.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Bandit to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_THIEF_FEMALE_FIX_1",
+    "name": "Art of Robbery",
+    "description": "Steal success rate increased by 100%.",
+    "notes": "I.e., doubled.",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Thief to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_THIEF_FEMALE_GENERIC_1",
+    "name": "Heart Catch",
+    "description": "Gain extra 10% EXP of unit attacked during a successful steal.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Thief to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_THIEF_FEMALE_GENERIC_2",
+    "name": "Quickfooted",
+    "description": "Increase movement by 1 and SPD by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Thief to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_THIEF_FEMALE_GENERIC_3",
+    "name": "Second Challenge",
+    "description": "When steal fails, attempt again.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Thief to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_THIEF_FEMALE_GENERIC_4",
+    "name": "Reaching Hands",
+    "description": "When using hand item, add 3 to range.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Thief to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_THIEF_FEMALE_GENERIC_5",
+    "name": "Prideful Thief",
+    "description": "For every successful steal, add 10% to HIT. (Max 100%)",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Thief to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_ARCHER_MALE_FIX_1",
+    "name": "Potential Energy",
+    "description": "Increase ATK power by 30% when attacking unit at a lower elevation.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Ranger to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_ARCHER_MALE_GENERIC_1",
+    "name": "Hunter's Distance",
+    "description": "Increase HIT by 30% when attacking nonadjacent enemy.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ranger to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_ARCHER_MALE_GENERIC_2",
+    "name": "Lady Killer",
+    "description": "Increase damage by 30% when attacking female units.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Ranger to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_ARCHER_MALE_GENERIC_3",
+    "name": "Bow Focus",
+    "description": "Add 30% of base HIT to ATK when equipped with a bow.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ranger to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_ARCHER_MALE_GENERIC_4",
+    "name": "Rear Attack",
+    "description": "Always hit when attacking from behind.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Ranger to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_ARCHER_MALE_GENERIC_5",
+    "name": "Sturdy Bow",
+    "description": "Accuracy rate is -50%. Increase damage dealt by 60%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ranger to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_ARCHER_FEMALE_FIX_1",
+    "name": "Support Attack",
+    "description": "Attack an enemy unit within range when an ally unit attacks it.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Archer to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_ARCHER_FEMALE_GENERIC_1",
+    "name": "Crack Shot",
+    "description": "Increase ATK by 5%, HIT by 5%, and SPD by 5%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Archer to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_ARCHER_FEMALE_GENERIC_2",
+    "name": "Bow Range",
+    "description": "Increase attack range by 1 panel(s) when equipped with a bow.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Archer to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_ARCHER_FEMALE_GENERIC_3",
+    "name": "Arrow in the Knee",
+    "description": "When attacking with a bow, target unit's SPD becomes -10%. (Lasts 3 turns)",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Archer to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_ARCHER_FEMALE_GENERIC_4",
+    "name": "Fly Swatter",
+    "description": "Increase attack power by 50% when attacking flying units.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Archer to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_ARCHER_FEMALE_GENERIC_5",
+    "name": "Support Fire",
+    "description": "Increase damage dealt with support attacks by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Archer to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_GUNNER_MALE_FIX_1",
+    "name": "Gun Tricks",
+    "description": "Add 30% of base HIT to SPD when equipped with a gun.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Gunner to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_GUNNER_MALE_GENERIC_1",
+    "name": "Hawk Eye",
+    "description": "Attacking an enemy 3 or more panels away increases accuracy by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Gunner to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_GUNNER_MALE_GENERIC_2",
+    "name": "Sniping",
+    "description": "Attack range increased by 2 panel(s) when gun is equipped.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Gunner to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_GUNNER_MALE_GENERIC_3",
+    "name": "Assist",
+    "description": "Register attack to give subsequent attacks 100% accuracy.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Gunner to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_GUNNER_MALE_GENERIC_4",
+    "name": "Flying Bullets",
+    "description": "Normal attacks with guns can target any panel in range.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Gunner to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_GUNNER_MALE_GENERIC_5",
+    "name": "Marking",
+    "description": "Register attack to increase damage of subsequent ally units by 25%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Gunner to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_GUNNER_FEMALE_FIX_1",
+    "name": "Second Attack",
+    "description": "Increase attack power by 30% when the combo count is 2 or more.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Gunslinger to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_GUNNER_FEMALE_GENERIC_1",
+    "name": "Golden Touch",
+    "description": "Increase HL gained when defeating enemies by 100%.",
+    "notes": "Formerly \"Increase HL gained when defeating by 100%.\"",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Gunslinger to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_GUNNER_FEMALE_GENERIC_2",
+    "name": "Coin Toss",
+    "description": "Increase ATK power by 20%. Use 1% of HL when attacking. (Max 100,000 HL)",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Gunslinger to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_GUNNER_FEMALE_GENERIC_3",
+    "name": "Wide Shot",
+    "description": "When equipped with a gun, normal attack area is increased.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Gunslinger to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_GUNNER_FEMALE_GENERIC_4",
+    "name": "Combination",
+    "description": "Add 1 to combos when attacking.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Gunslinger to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_GUNNER_FEMALE_GENERIC_5",
+    "name": "Point-Blank",
+    "description": "When attacking adjacent unit, add 75% to damage dealt.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Gunslinger to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_NINJA_MALE_FIX_1",
+    "name": "Mirage",
+    "description": "50% chance of evading when attacked by an adjacent unit.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Ninja to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_NINJA_MALE_GENERIC_1",
+    "name": "Sharp Eye",
+    "description": "Increase critical rate by 15%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Ninja to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_NINJA_MALE_GENERIC_2",
+    "name": "Sasuke",
+    "description": "Increase movement by 2 and jump power by 30.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Ninja to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_NINJA_MALE_GENERIC_3",
+    "name": "Smokebomb",
+    "description": "When attacking, target unit will not counter-attack.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ninja to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_NINJA_MALE_GENERIC_4",
+    "name": "Assassination",
+    "description": "Increase damage dealt by 50% when attacking from behind.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ninja to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_NINJA_MALE_GENERIC_5",
+    "name": "Secret Recon",
+    "description": "Increase movement by 5, but Max HP becomes 1.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ninja to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_NINJA_FEMALE_FIX_1",
+    "name": "Heat Haze",
+    "description": "When attacked by 2 or more unit(s), increase evasion rate by 50%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Kunoichi to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_NINJA_FEMALE_GENERIC_1",
+    "name": "Shadow Art",
+    "description": "Increase stats by 10% for each attack evaded. (Max 100%)",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Kunoichi to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_NINJA_FEMALE_GENERIC_2",
+    "name": "Subversion",
+    "description": "When attacking, target unit's HIT becomes -10%. (Lasts 3 turns)",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Kunoichi to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_NINJA_FEMALE_GENERIC_3",
+    "name": "Shield Art",
+    "description": "When attacked, cover a random ally up to X time(s) per turn.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Kunoichi to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_NINJA_FEMALE_GENERIC_4",
+    "name": "Scouting Mission",
+    "description": "Increase Mystery Room appearance by 10% when going through Item Worlds.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Kunoichi to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_NINJA_FEMALE_GENERIC_5",
+    "name": "Evade Danger",
+    "description": "Increase evasion rate by 50% when remaining HP is 25% or less.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Kunoichi to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_SAMURAI_MALE_FIX_1",
+    "name": "Head-to-Head",
+    "description": "Increase damage dealt by 50% when attacking enemies from the front.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Male Samurai to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_SAMURAI_MALE_GENERIC_1",
+    "name": "Ensure Victory",
+    "description": "When attacking on first turn, increase attack power by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Male Samurai to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_SAMURAI_MALE_GENERIC_2",
+    "name": "Yoroi-Doshi",
+    "description": "When attacking normally, deal fixed damage equal to 25% of own ATK.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Male Samurai to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_SAMURAI_MALE_GENERIC_3",
+    "name": "Sword Catch",
+    "description": "When attacked from front, 20% chance of taking 0 damage.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Male Samurai to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_SAMURAI_MALE_GENERIC_4",
+    "name": "Inauspiciousness",
+    "description": "Increase damage dealt by 25% when attacking humanoid units.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Male Samurai to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_SAMURAI_MALE_GENERIC_5",
+    "name": "Divine Wind",
+    "description": "When remaining HP is 25% or less, increase critical damage by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Male Samurai to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_SAMURAI_FEMALE_FIX_1",
+    "name": "Clear Mind",
+    "description": "Increase damage dealt by 50% when attacking a single unit.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Lady Samurai to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_SAMURAI_FEMALE_GENERIC_1",
+    "name": "Mind's Eye",
+    "description": "Nullify any attack revisions when attacked from the side or behind.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Lady Samurai to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_SAMURAI_FEMALE_GENERIC_2",
+    "name": "Banishing Evil",
+    "description": "Increase damage dealt by 25% when attacking enemy monsters.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Lady Samurai to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_SAMURAI_FEMALE_GENERIC_3",
+    "name": "Euthanasia",
+    "description": "Normal attacks will deathblow targets with less than 25% HP.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Lady Samurai to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_SAMURAI_FEMALE_GENERIC_4",
+    "name": "Duelist",
+    "description": "Increase damage dealt by 75% if only 1 enemy unit is on the map.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Lady Samurai to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_SAMURAI_FEMALE_GENERIC_5",
+    "name": "To the Death",
+    "description": "Increase damage taken by 30%, but increase damage dealt by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Lady Samurai to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_HEAVYKNIGHT_MALE_FIX_1",
+    "name": "Aegis",
+    "description": "Reduce damage taken by 30% when attacked from front.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Male Armor Knight to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_HEAVYKNIGHT_MALE_GENERIC_1",
+    "name": "Last Fortress",
+    "description": "When remaining HP is 25% or less, increase DEF & RES by 30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Male Armor Knight to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_HEAVYKNIGHT_MALE_GENERIC_2",
+    "name": "Advance Guard",
+    "description": "When defending, decrease damage taken by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Male Armor Knight to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_HEAVYKNIGHT_MALE_GENERIC_3",
+    "name": "Spear Defense",
+    "description": "Add 30% of base ATK to DEF when equipped with a spear.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Male Armor Knight to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_HEAVYKNIGHT_MALE_GENERIC_4",
+    "name": "Synch Guard",
+    "description": "When defending, decrease damage taken by adjacent ally units by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Male Armor Knight to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_HEAVYKNIGHT_MALE_GENERIC_5",
+    "name": "Still Standing",
+    "description": "When HP is reduced to 0, restore it to 1 and prevent death. (Once per battle)",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Male Armor Knight to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_HEAVYKNIGHT_FEMALE_FIX_1",
+    "name": "Hero's Shield",
+    "description": "When defending, protect adjacent ally units by taking attacks in their place.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Female Armor Knight to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_HEAVYKNIGHT_FEMALE_GENERIC_1",
+    "name": "Fire Site",
+    "description": "When protecting, decrease damage taken by 30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Female Armor Knight to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_HEAVYKNIGHT_FEMALE_GENERIC_2",
+    "name": "Hold the Line",
+    "description": "When defending, enemies cannot enter within 2 left or right panel(s).",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Female Armor Knight to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_HEAVYKNIGHT_FEMALE_GENERIC_3",
+    "name": "Swift Stance",
+    "description": "When defending, always counter-attack. (Max 20 times)",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Female Armor Knight to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_HEAVYKNIGHT_FEMALE_GENERIC_4",
+    "name": "Defensive Stance",
+    "description": "Always defend when attacked from the front or side.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Female Armor Knight to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_HEAVYKNIGHT_FEMALE_GENERIC_5",
+    "name": "Gut Instinct",
+    "description": "Boost area of effect for Hero's Shield by 4 panels.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Female Armor Knight to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_SHAMAN_MALE_FIX_1",
+    "name": "Cursed Dance",
+    "description": "Increase damage taken by enemies on map by 5%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Sorcerer to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_SHAMAN_MALE_GENERIC_1",
+    "name": "Death Throes",
+    "description": "When dying, decrease ATK for enemies on map by -30%. (Lasts 3 turns)",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Sorcerer to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_SHAMAN_MALE_GENERIC_2",
+    "name": "Contagious Curse",
+    "description": "If status ailment remains at end of turn, adjacent enemies mirror it.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Sorcerer to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_SHAMAN_MALE_GENERIC_3",
+    "name": "Gloomy Dance",
+    "description": "Decrease critical rate by -20% for enemies on map.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Sorcerer to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_SHAMAN_MALE_GENERIC_4",
+    "name": "Dullness Dance",
+    "description": "Decrease movement for enemies on map by -2. (Doesn't stack)",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Sorcerer to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_SHAMAN_MALE_GENERIC_5",
+    "name": "Dying Breath",
+    "description": "Upon death, paralyze random enemy unit on map.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Sorcerer to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_DANCER_FEMALE_FIX_1",
+    "name": "Alluring Dance",
+    "description": "When attacked by males, they have a 30% chance of being charmed.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Maiko to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_DANCER_FEMALE_GENERIC_1",
+    "name": "Deadly Footwear",
+    "description": "Decrease movement by -1. Increase damage dealt by 20%.",
+    "notes": "Formerly \"Movement becomes -1. Increase damage dealt by 20%.\"",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Maiko to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_DANCER_FEMALE_GENERIC_2",
+    "name": "Best Service",
+    "description": "When using healing item, increase healing power by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Maiko to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_DANCER_FEMALE_GENERIC_3",
+    "name": "Waste Not, Want Not",
+    "description": "When using healing item, 50% chance of non-consumption.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Maiko to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_DANCER_FEMALE_GENERIC_4",
+    "name": "Magnificent Cheer",
+    "description": "Increase attacking power of male allies by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Maiko to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_DANCER_FEMALE_GENERIC_5",
+    "name": "Fierce Attack",
+    "description": "When attacking male units, increase damage dealt by 75%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Maiko to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_MAGICSWORDMAN_FEMALE_FIX_1",
+    "name": "Elemental Force",
+    "description": "Increase elemental attack power by element resist value.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Magic Knight to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_MAGICSWORDMAN_FEMALE_GENERIC_1",
+    "name": "Elemental Rise",
+    "description": "Increase resistances to all elements except star by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Magic Knight to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_MAGICSWORDMAN_FEMALE_GENERIC_2",
+    "name": "Mana Blade",
+    "description": "Add 50% of INT to ATK power when attacking normally with a sword.",
+    "notes": "TO DO: Does this affect literally everything, like in 6, or was it fixed?",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Magic Knight to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_MAGICSWORDMAN_FEMALE_GENERIC_3",
+    "name": "Oracle Sword",
+    "description": "Recover 20% of damage dealt as SP when attacking normally with a sword.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Magic Knight to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_MAGICSWORDMAN_FEMALE_GENERIC_4",
+    "name": "Spirit Protection",
+    "description": "Increase resistance of all allies to all elements except star by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Magic Knight to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_MAGICSWORDMAN_FEMALE_GENERIC_5",
+    "name": "Spirit Gun",
+    "description": "Add unit's highest resistance element to non-elemental attacks.",
+    "notes": "Formerly \"When attacking non-elementally, add unit's highest resistance as elemental attack.\"",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Magic Knight to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_PSYCHIC_MALE_FIX_1",
+    "name": "Psychic Force",
+    "description": "After attacking, decrease stats of target unit by -10%. (Lasts 3 turns)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Psychic to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_PSYCHIC_MALE_GENERIC_1",
+    "name": "Psychokinesis",
+    "description": "Increase lift range by 1.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Psychic to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_PSYCHIC_MALE_GENERIC_2",
+    "name": "Shock Wave",
+    "description": "If an enemy 3 or more panels away attacks, increase DEF power by 30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Psychic to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_PSYCHIC_MALE_GENERIC_3",
+    "name": "Psychic Shackles",
+    "description": "When attacking, decrease target movement by-2. (Lasts 3 turns)",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Psychic to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_PSYCHIC_MALE_GENERIC_4",
+    "name": "Brainwash Wave",
+    "description": "After attacking, 5% chance of inflicting puppet on targets.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Psychic to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_PSYCHIC_MALE_GENERIC_5",
+    "name": "Teleport",
+    "description": "Switches movement type to Warp.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Psychic to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_PROFESSOR_FEMALE_FIX_1",
+    "name": "Latest Meds",
+    "description": "Boost stat-increasing effects by 100% when using Specials",
+    "notes": "I.e. buff effect doubles. Stat buff cap is still 200% total.",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Professor to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_PROFESSOR_FEMALE_GENERIC_1",
+    "name": "Clinical Trial",
+    "description": "At end of turn, status ailments are healed but stats decrease by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Professor to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_PROFESSOR_FEMALE_GENERIC_2",
+    "name": "Philosopher's Egg",
+    "description": "When equipped with a staff, add 30% of base INT to DEF.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Professor to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_PROFESSOR_FEMALE_GENERIC_3",
+    "name": "Good Management",
+    "description": "Halve the range expansion of magic power.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Professor to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_PROFESSOR_FEMALE_GENERIC_4",
+    "name": "Enhancements",
+    "description": "When using Specials, increase one of your stats by 30%. (Lasts 3 turns)",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Professor to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_PROFESSOR_FEMALE_GENERIC_5",
+    "name": "Extended Heal",
+    "description": "When using healing item, extend range in a 5-panel T-shape.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Professor to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_ROBOT_FEMALE_FIX_1",
+    "name": "Panel Blaster",
+    "description": "When attacking, increase damage by 10% per unit targeted.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Mecha Girl to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_ROBOT_FEMALE_GENERIC_1",
+    "name": "Zone Control",
+    "description": "When attacking, increase accuracy by 10% per unit targeted.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Mecha Girl to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_ROBOT_FEMALE_GENERIC_2",
+    "name": "Three Laws",
+    "description": "Will not hit allies in area of effect when attacking.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Mecha Girl to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_ROBOT_FEMALE_GENERIC_3",
+    "name": "Multi-Lock",
+    "description": "When attacking, increase critical rate by 5% per unit targeted.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Mecha Girl to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_ROBOT_FEMALE_GENERIC_4",
+    "name": "Firepower Mode",
+    "description": "Increase ATK power by 50%, but decrease movement by -5 and jump power by -50.",
+    "notes": "Formerly \"Increase ATK power by 50%, but set movement to -5 and jump power to -50.\"",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Mecha Girl to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_ROBOT_FEMALE_GENERIC_5",
+    "name": "Mana Charge",
+    "description": "After attacking, recover 3% SP per unit targeted.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Mecha Girl to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_ANGEL_FEMALE_FIX_1",
+    "name": "Angelic Protection",
+    "description": "Reduce ally damage within 3 panels by 5%. (Max 30%)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Celestial Hostess to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_ANGEL_FEMALE_GENERIC_1",
+    "name": "Angelic Rituals",
+    "description": "When using magic, increase power by one level.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Celestial Hostess to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_ANGEL_FEMALE_GENERIC_2",
+    "name": "Angelic Blessings",
+    "description": "Restores 10% of adjacent ally HP at the end of the turn.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Celestial Hostess to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_ANGEL_FEMALE_GENERIC_3",
+    "name": "Angelic Immunity",
+    "description": "Decrease rate of status debuffs received by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Celestial Hostess to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_ANGEL_FEMALE_GENERIC_4",
+    "name": "Angelic Shield",
+    "description": "Ally units within 3 panels ignore deathblow.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Celestial Hostess to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_ANGEL_FEMALE_GENERIC_5",
+    "name": "Angelic Flight",
+    "description": "Allies on the map switch movement type to Flying.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Celestial Hostess to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_PRINY_FIX_1",
+    "name": "Explosive Body",
+    "description": "Explode when thrown or taking explosive damage. Surrounding units take damage.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Prinny to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_PRINY_GENERIC_1",
+    "name": "Cross Bomber",
+    "description": "When this unit explodes, it explodes in straight lines of 5 panels.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Prinny to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_PRINY_GENERIC_2",
+    "name": "Defensive Line",
+    "description": "Increase all weapon resistance by 3% per adjacent ally.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Prinny to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_PRINY_GENERIC_3",
+    "name": "Through Adversity",
+    "description": "Increase stats by 35% when inflicted with an ailment.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Prinny to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_PRINY_GENERIC_4",
+    "name": "Focused Bomb",
+    "description": "When this unit explodes, increase damage dealt by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Prinny to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_PRINY_GENERIC_5",
+    "name": "Recycle Spirit",
+    "description": "If this unit dies by exploding, the number of dispatched units recovers.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Prinny to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_ORC_FIX_1",
+    "name": "Group Tactics",
+    "description": "Increase stats by 5% per ally within 2 panel(s).",
+    "notes": "Formerly \"Increase stats by number of allies within 2 panel(s).\"",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Orc to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_ORC_GENERIC_1",
+    "name": "Full Power Swing",
+    "description": "Increase critical damage by 75% and accuracy by -30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Orc to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_ORC_GENERIC_2",
+    "name": "Patience",
+    "description": "When remaining HP is 25% or less, increase attack power by 30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Orc to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_ORC_GENERIC_3",
+    "name": "Borrowed Power",
+    "description": "When adjacent allies are at a higher level, increase attack power by 30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Orc to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_ORC_GENERIC_4",
+    "name": "Group Psychology",
+    "description": "Increase stats by 5% of number of allies on map.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Orc to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_ORC_GENERIC_5",
+    "name": "Full Speed Ahead",
+    "description": "Increase attack power by 50% and accuracy by -30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Orc to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_SLUMBER_CAT_FIX_1",
+    "name": "Weak Aura",
+    "description": "When attacked by humanoid unit, reduce damage taken by 30%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Slumber Cat to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_SLUMBER_CAT_GENERIC_1",
+    "name": "Nail File",
+    "description": "Increase critical rate by 10% when using Specials.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Slumber Cat to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_SLUMBER_CAT_GENERIC_2",
+    "name": "Calm Aura",
+    "description": "Nullifies damage when attacked by allies.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Slumber Cat to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_SLUMBER_CAT_GENERIC_3",
+    "name": "Sleep Attack",
+    "description": "Increase damage dealt by 100% when attacking a sleeping unit.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Slumber Cat to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_SLUMBER_CAT_GENERIC_4",
+    "name": "Cat Step",
+    "description": "Increase evasion rate by 50% if elevation is higher than the target's.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Slumber Cat to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_SLUMBER_CAT_GENERIC_5",
+    "name": "Tribalism",
+    "description": "Increases stats by 10% per same class ally on the map.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Slumber Cat to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_SPIRIT_FIX_1",
+    "name": "Magic Creation",
+    "description": "At the end of the turn, restore 10% of SP.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Spirit to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_SPIRIT_GENERIC_1",
+    "name": "Lamentations",
+    "description": "Increase INT by 50% when remaining HP is 25% or less.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Spirit to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_SPIRIT_GENERIC_2",
+    "name": "Ethereal Blast",
+    "description": "Increase damage dealt by 60% when attacking an unit with amnesia.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Spirit to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_SPIRIT_GENERIC_3",
+    "name": "Focused Spirit",
+    "description": "When equipped with INT Monster Weapon, add 30% of base RES to INT.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Spirit to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_SPIRIT_GENERIC_4",
+    "name": "Incancations",
+    "description": "When attacking, reduce target unit’s RES by -30%. (Lasts 3 turns)",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Spirit to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_SPIRIT_GENERIC_5",
+    "name": "Transparent Body",
+    "description": "When attacked with a weapon skill, decrease damage taken by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Spirit to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_WINGED_WARRIOR_FIX_1",
+    "name": "Spreading Miasma",
+    "description": "Increase enemy ailment infliction & stat drop chance by 5%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Winged Warrior to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_WINGED_WARRIOR_GENERIC_1",
+    "name": "Poison Powder",
+    "description": "50% chance to inflict Poison when attacking normally.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Winged Warrior to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_WINGED_WARRIOR_GENERIC_2",
+    "name": "Sleep Powder",
+    "description": "25% chance to inflict Sleep when attacking normally.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Winged Warrior to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_WINGED_WARRIOR_GENERIC_3",
+    "name": "Poison Accelerator",
+    "description": "Increase Poison damage dealt to enemies on map by 25%.",
+    "notes": "TO DO: Is there a cap? What's normal poison damage?",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Winged Warrior to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_WINGED_WARRIOR_GENERIC_4",
+    "name": "Lengthen Ailment",
+    "description": "Status ailments will last 2 turns longer on enemies.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Winged Warrior to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_WINGED_WARRIOR_GENERIC_5",
+    "name": "Overdose",
+    "description": "Increase damage dealt to units affected by an ailment skill by 60%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Winged Warrior to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_ZOMBIE_FIX_1",
+    "name": "Predation",
+    "description": "Recover 10% of damage dealt as HP.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Undead to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_ZOMBIE_GENERIC_1",
+    "name": "Plague Spewer",
+    "description": "When attacking, increase aliment affliction and stat drop chances by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Undead to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_ZOMBIE_GENERIC_2",
+    "name": "Poison Chance",
+    "description": "Increase damage dealt to poisoned units by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Undead to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_ZOMBIE_GENERIC_3",
+    "name": "Undead",
+    "description": "Increase defense by 50%, but reverse the recovery of healing Specials.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Undead to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_ZOMBIE_GENERIC_4",
+    "name": "Regeneration",
+    "description": "When attacked, recover HP equal to 30% of damage taken.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Undead to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_ZOMBIE_GENERIC_5",
+    "name": "Corpse Cannibal",
+    "description": "Recover HP & SP by 5% per unit defeated.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Undead to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_SHROOM_FIX_1",
+    "name": "Mushroom Power",
+    "description": "Decrease stats by -20% for adjacent female enemies.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Shroom to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_SHROOM_GENERIC_1",
+    "name": "Exhaustion Spores",
+    "description": "25% chance of inflicting Weaken when attacking normally.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Shroom to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_SHROOM_GENERIC_2",
+    "name": "Season to Taste",
+    "description": "Recover extra 5% of target’s SP when using healing item.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Shroom to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_SHROOM_GENERIC_3",
+    "name": "Manly Valor",
+    "description": "When attacked by female units, reduce damage taken by 25%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Shroom to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_SHROOM_GENERIC_4",
+    "name": "Mushroom Doping",
+    "description": "Boost one stat of choice by 20% when turn ends. (Lasts 3 turns)",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Shroom to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_SHROOM_GENERIC_5",
+    "name": "Eryngi Essence",
+    "description": "30% chance of acquiring Mushroom Soup when attacked.",
+    "notes": "Formerly \"mushroom soup\".",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Shroom to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_KIT_CAT_FIX_1",
+    "name": "Run Them Down",
+    "description": "If target unit’s HP is at or under 10% when attacking, attack again.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Felynn to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_KIT_CAT_GENERIC_1",
+    "name": "Exploding Punch",
+    "description": "Enemies adjacent to target also take damage when attacking normally.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Felynn to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_KIT_CAT_GENERIC_2",
+    "name": "Joint Maneuvers",
+    "description": "Increase damage correction by 5% during a joint attack.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Felynn to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_KIT_CAT_GENERIC_3",
+    "name": "Life on the Line",
+    "description": "Increase ATK power by 50% and DEF power by -100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Felynn to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_KIT_CAT_GENERIC_4",
+    "name": "Vendetta",
+    "description": "Counter-attacks have a 10% chance to deathblow.",
+    "notes": "Formerly \"Counter-attacks are 10% of deathblow.\"",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Felynn to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_KIT_CAT_GENERIC_5",
+    "name": "Parry and Strike",
+    "description": "If not defending when attacked, counter-attack first. (Max 5 time(s))",
+    "notes": "Formerly \"If not defending when attacked, counter-attack first.\"",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Felynn to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLIONE_FIX_1",
+    "name": "Lovely Song",
+    "description": "Increase stats of all allies on the map by 5%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Sea Angel to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLIONE_GENERIC_1",
+    "name": "Happy Song",
+    "description": "Increase EXP gain for all allies on the map by 30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Sea Angel to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_CLIONE_GENERIC_2",
+    "name": "Fortune Song",
+    "description": "Increase Mana gain for all allies on the map by 30%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Sea Angel to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLIONE_GENERIC_3",
+    "name": "Cute Song",
+    "description": "Increase recovery from Specials for all allies on the map by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Sea Angel to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLIONE_GENERIC_4",
+    "name": "Charmy Song",
+    "description": "Increase team attack rate of all allies on the map by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Sea Angel to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_CLIONE_GENERIC_5",
+    "name": "Lucky Song",
+    "description": "Increase critical rate of all allies on the map by 5%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Sea Angel to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_FLORA_BEAST_FIX_1",
+    "name": "Sweet Aroma",
+    "description": "Recover 20% of HP for allies within 2 panels at the end of turn.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Flora Beast to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_FLORA_BEAST_GENERIC_1",
+    "name": "Prevention",
+    "description": "Nullify status ailments for allies within 2 panels.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Flora Beast to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_FLORA_BEAST_GENERIC_2",
+    "name": "Herbal Therapy",
+    "description": "Increase fire, wind, water resistance for adjacent allies by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Flora Beast to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_FLORA_BEAST_GENERIC_3",
+    "name": "Relaxation",
+    "description": "Reduce SP cost for Specials by -50% for adjacent allies.",
+    "notes": "Unlike Disgaea 5 this is additive! Doesn't cap at -100% because evilities can increase costs, though the minimum cost is 1 SP.",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Flora Beast to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_FLORA_BEAST_GENERIC_4",
+    "name": "Power Aroma",
+    "description": "Increase ATK power by 20% for allies within 2 panels when turn ends. (Lasts 3 turns)",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Flora Beast to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_FLORA_BEAST_GENERIC_5",
+    "name": "Leaf Shield",
+    "description": "Increase DEF & RES by 30% for allies within 2 panels when turn ends. (Lasts 3 turns)",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Flora Beast to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_UNDEAD_FIX_1",
+    "name": "Corpse",
+    "description": "Upon death, revive with 20% of HP. (Once per battle)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Zombie Maiden to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_UNDEAD_GENERIC_1",
+    "name": "Nerve Toxin",
+    "description": "10% chance to inflict Paralysis when attacking.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Zombie Maiden to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_UNDEAD_GENERIC_2",
+    "name": "Automatic Healing",
+    "description": "Recover 5% of HP when attacked.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Zombie Maiden to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_UNDEAD_GENERIC_3",
+    "name": "Death Corridors",
+    "description": "Boosts stats by 10% every time an ally dies. (Max 100%)",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Zombie Maiden to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_UNDEAD_GENERIC_4",
+    "name": "Crumbling Body",
+    "description": "Attacks increased by 1, but dies at when the turn ends.",
+    "notes": "Formerly \"Attacks increased by 1, then dies at when the turn ends.\"",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Zombie Maiden to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_UNDEAD_GENERIC_5",
+    "name": "Limit Cut",
+    "description": "Increase damage dealt by 100%, but take damage equal to 10% of HP when attacking.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Zombie Maiden to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_SUCCUBUS_FIX_1",
+    "name": "Sexy Aura",
+    "description": "Decrease stats of adjacent male enemies by -20%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Succubus to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_SUCCUBUS_GENERIC_1",
+    "name": "Temptation",
+    "description": "25% chance to inflict Charm when attacking normally.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Succubus to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_SUCCUBUS_GENERIC_2",
+    "name": "Punishing Punisher",
+    "description": "Increase damage dealt to charmed units by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Succubus to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_SUCCUBUS_GENERIC_3",
+    "name": "Bones Out",
+    "description": "After attacking, decrease DEF of target unit by -30%. (Lasts 3 turns)",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Succubus to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_SUCCUBUS_GENERIC_4",
+    "name": "Shame",
+    "description": "Increase stats by 5% per male unit on the map.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Succubus to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_SUCCUBUS_GENERIC_5",
+    "name": "Pheromones",
+    "description": "Charm adjacent male enemies at end of turn.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Succubus to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_CATOBLEPAS_FIX_1",
+    "name": "Evil Eye",
+    "description": "When attacking, lower target unit's defense power by -30%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Evil Eye to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_CATOBLEPAS_GENERIC_1",
+    "name": "Longhorn",
+    "description": "30% chance to increase damage dealt by 100% when attacking normally.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Evil Eye to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_CATOBLEPAS_GENERIC_2",
+    "name": "Petrifying Gaze",
+    "description": "50% chance to inflict Paralysis when attacking normally.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Evil Eye to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_CATOBLEPAS_GENERIC_3",
+    "name": "Inner Beast",
+    "description": "Increase ATK by 25% and DEF by 25%, but set INT & RES to 1.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Evil Eye to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_CATOBLEPAS_GENERIC_4",
+    "name": "One Hit Wonder",
+    "description": "Increase damage dealt by 20% when defeating an enemy with full HP. (Max 200%)",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Evil Eye to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_CATOBLEPAS_GENERIC_5",
+    "name": "Cursed Gaze",
+    "description": "For every ailment a target has, decrease target unit's defense power by -25%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Evil Eye to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_CAVALRY_DEVIL_FIX_1",
+    "name": "Immortal Body",
+    "description": "Decrease damage taken from physical attacks by 50%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Horseman to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_CAVALRY_DEVIL_GENERIC_1",
+    "name": "Death Fang",
+    "description": "Increase damage dealt to paralyzed units by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Horseman to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_CAVALRY_DEVIL_GENERIC_2",
+    "name": "Blood Insanity",
+    "description": "When attacking a unit below 50% HP, increase damage dealt by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Horseman to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_CAVALRY_DEVIL_GENERIC_3",
+    "name": "Turbo Boost",
+    "description": "If this unit did not move in a turn, increase movement by 10 the next turn.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Horseman to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_CAVALRY_DEVIL_GENERIC_4",
+    "name": "Shield Dash",
+    "description": "Decrease damage taken by 3% per panel moved this turn.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Horseman to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_CAVALRY_DEVIL_GENERIC_5",
+    "name": "Combat High",
+    "description": "Increase attack power by 10% per unit defeated by allies. (Max 100%)",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Horseman to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_DRAGON_FIX_1",
+    "name": "Rising Dragon",
+    "description": "Increase attack power by 10% per attack received. (Max 100%)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Dragon to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_DRAGON_GENERIC_1",
+    "name": "Dragon's Hoard",
+    "description": "Increase stats by 10% when an Emblem is equipped.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Dragon to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_DRAGON_GENERIC_2",
+    "name": "Dragonscales",
+    "description": "Increase defense power by 50% when HP is above 80%.",
+    "notes": "Formerly \"Increase defense power by 50% when HP is above 90%.\"?",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Dragon to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_DRAGON_GENERIC_3",
+    "name": "Cull the Weak",
+    "description": "Increase damage dealt to weakened units by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Dragon to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_DRAGON_GENERIC_4",
+    "name": "Fetters",
+    "description": "Seal Special skills, but increase stats by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Dragon to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_DRAGON_GENERIC_5",
+    "name": "King's Dignity",
+    "description": "Increase damage dealt to Boss units by 65%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Dragon to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_CRABKING_FIX_1",
+    "name": "Shellacker",
+    "description": "Increase defense power by 10% per attack received. (Max 100%)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Pincer Shell to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_CRABKING_GENERIC_1",
+    "name": "Herculean Pincers",
+    "description": "Stats cannot fall below 75%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Pincer Shell to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_CRABKING_GENERIC_2",
+    "name": "Crabwalk",
+    "description": "30% chance of evading attacks from the front.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Pincer Shell to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_CRABKING_GENERIC_3",
+    "name": "Shell Hammer",
+    "description": "50% chance to inflict Amnesia when attacking normally.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Pincer Shell to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_CRABKING_GENERIC_4",
+    "name": "Exoskeleton",
+    "description": "Decrease damage taken from the side and from behind by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Pincer Shell to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_CRABKING_GENERIC_5",
+    "name": "Majestic Carapace",
+    "description": "Cannot be lifted or knocked back, increase stats by 10% and counter-attacks by 1.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Pincer Shell to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_RIFLE_DEMON_FIX_1",
+    "name": "Holy Smokes",
+    "description": "When attacking without moving, increase damage dealt by 50%.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Rifle Demon to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_RIFLE_DEMON_GENERIC_1",
+    "name": "Anti-Elements",
+    "description": "When HP is below 25%, increase all elemental resistances by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Rifle Demon to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_RIFLE_DEMON_GENERIC_2",
+    "name": "Long Range",
+    "description": "When attacking, increase damage dealt by 10% per number of panels from target. (Max 100%）",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Rifle Demon to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_RIFLE_DEMON_GENERIC_3",
+    "name": "Double Lock",
+    "description": "Guaranteed hit when using the same attack twice.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Rifle Demon to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_RIFLE_DEMON_GENERIC_4",
+    "name": "Precision Instrument",
+    "description": "Increase critical rate by 35% and wind resistance by -50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Rifle Demon to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_RIFLE_DEMON_GENERIC_5",
+    "name": "Focused Attack",
+    "description": "Increase damage dealt by 10% per empty panel in attack range. (Max 100%）",
+    "notes": "Not worth it for magic spells, which have a separate multiplier (x1.0, x0.9, ..., x0.2) as range increases.",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Rifle Demon to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_BIG_EYE_FIX_1",
+    "name": "Utter Chaos",
+    "description": "When attacking, randomly changes defense to other stat.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Giant Eye to 6 stars"
+  },
+  {
+    "id": "EVILITY_ID_BIG_EYE_GENERIC_1",
+    "name": "Purifying Ailment",
+    "description": "Guaranteed critical when inflicting ailment, but target’s ailment will heal.",
+    "notes": "Does this actually mean \"if target has ailment\"?",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Giant Eye to 1 star"
+  },
+  {
+    "id": "EVILITY_ID_BIG_EYE_GENERIC_2",
+    "name": "Abyss Gazer",
+    "description": "When affected by a status ailment, inflict it on targeted unit.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Giant Eye to 2 stars"
+  },
+  {
+    "id": "EVILITY_ID_BIG_EYE_GENERIC_3",
+    "name": "Unorthodox Ways",
+    "description": "Increase damage dealt by 50%, but decrease own HP by 10% when performing magical attacks.",
+    "notes": "TO DO: Presumably the damage boost is only for magic attacks?",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Giant Eye to 3 stars"
+  },
+  {
+    "id": "EVILITY_ID_BIG_EYE_GENERIC_4",
+    "name": "Cloth of Truth",
+    "description": "Reduce damage taken by 50%, but can’t evade attacks.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Giant Eye to 4 stars"
+  },
+  {
+    "id": "EVILITY_ID_BIG_EYE_GENERIC_5",
+    "name": "Outer Gods",
+    "description": "Increase stats by 50% when no units are adjacent.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Giant Eye to 5 stars"
+  },
+  {
+    "id": "EVILITY_ID_LUCKYBOARD_FIX_1",
+    "name": "Metal Barrier",
+    "description": "Nullify damage taken that is less than unit's Max HP.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Lucky Board exclusive"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0001",
+    "name": "Poison Vaccine",
+    "description": "Immune to poison and toxins.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0002",
+    "name": "Paralysis Vaccine",
+    "description": "Immune to paralysis.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0003",
+    "name": "Sleep Vaccine",
+    "description": "Immune to sleep.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0004",
+    "name": "Weaken Vaccine",
+    "description": "Immune to weakening.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0005",
+    "name": "Forget Vaccine",
+    "description": "Immune to amnesia.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0006",
+    "name": "Charm Vaccine",
+    "description": "Immune to charm.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0007",
+    "name": "Stun Vaccine",
+    "description": "Immune to stun.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0008",
+    "name": "Puppet Vaccine",
+    "description": "Immune to being puppeted.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0009",
+    "name": "Reverse Vaccine",
+    "description": "Immune to reversal.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0010",
+    "name": "Bind Vaccine",
+    "description": "Immune to binding.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0011",
+    "name": "Freeze Vaccine",
+    "description": "Immune to freezing.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0012",
+    "name": "Vaccine",
+    "description": "Decrease chance of being afflicted with ailments by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0220",
+    "name": "Knuckle Guard",
+    "description": "Increase fist resistance by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0221",
+    "name": "Sword Guard",
+    "description": "Increase sword resistance by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0222",
+    "name": "Lance Guard",
+    "description": "Increase spear resistance by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0223",
+    "name": "Arrow Guard",
+    "description": "Increase bow resistance by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0224",
+    "name": "Rifle Guard",
+    "description": "Increase gun resistance by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0225",
+    "name": "Axe Guard",
+    "description": "Increase axe resistance by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0226",
+    "name": "Staff Guard",
+    "description": "Increase staff resistance by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0241",
+    "name": "Monster Guard",
+    "description": "Increase monster weapon resistance by X%.",
+    "notes": "Low-Tier gacha gives Monster Tutor and not Monster Guard...",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "???"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0013",
+    "name": "Fire Body",
+    "description": "Increase fire resistance by 25%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0014",
+    "name": "Windy Body",
+    "description": "Increase wind resistance by 25%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0015",
+    "name": "Cool Body",
+    "description": "Increase water resistance by 25%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0016",
+    "name": "Kill with Fire",
+    "description": "Decrease fire resistance for other units on the map by -15%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0017",
+    "name": "Kill with Wind",
+    "description": "Decrease wind resistance for other units on the map by -15%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0018",
+    "name": "Kill with Water",
+    "description": "Decrease water resistance for other units on the map by -15%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0019",
+    "name": "Fire Management",
+    "description": "Nullify fire element damage.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Ultimate Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0020",
+    "name": "Wind Management",
+    "description": "Nullify wind element damage.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Ultimate Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0021",
+    "name": "Water Management",
+    "description": "Nullify water element damage.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Ultimate Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0022",
+    "name": "Fire Blessing",
+    "description": "Increase fire element damage dealt by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0023",
+    "name": "Flame Blessing",
+    "description": "Increase fire element damage dealt by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0024",
+    "name": "Lava Blessing",
+    "description": "Increase fire element damage dealt by 35%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0025",
+    "name": "Scorching Blessing",
+    "description": "Increase fire element damage dealt by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0026",
+    "name": "Cold Blessing",
+    "description": "Increase water element damage dealt by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0027",
+    "name": "Snow Blessing",
+    "description": "Increase water element damage dealt by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0028",
+    "name": "Blizzard Blessing",
+    "description": "Increase water element damage dealt by 35%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0029",
+    "name": "Icic-Hell Blessing",
+    "description": "Increase water element damage dealt by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0030",
+    "name": "Wind Blessing",
+    "description": "Increase wind element damage dealt by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0031",
+    "name": "Gale Blessing",
+    "description": "Increase wind element damage dealt by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0032",
+    "name": "Storm Blessing",
+    "description": "Increase wind element damage dealt by 35%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0033",
+    "name": "Hurricane Blessing",
+    "description": "Increase wind element damage dealt by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0034",
+    "name": "Star Blessing",
+    "description": "Increase star element damage dealt by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0035",
+    "name": "Meteor Blessing",
+    "description": "Increase star element damage dealt by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0036",
+    "name": "Comet Blessing",
+    "description": "Increase star element damage dealt by 35%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Ultimate Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0037",
+    "name": "Stellar Blessing",
+    "description": "Increase star element damage dealt by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0038",
+    "name": "Power Shot",
+    "description": "Increase attack power by 10% when attacking normally.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0039",
+    "name": "Piercing Shot",
+    "description": "Normal attacks deal damage to units between self and target.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0040",
+    "name": "Mana Scarcity",
+    "description": "Set Mana gain to 30%, but increase attack power by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0041",
+    "name": "Opportunist",
+    "description": "Increase damage dealt by 20% on even turns.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0042",
+    "name": "Power Booster",
+    "description": "Increase damage dealt with Unique Skills by 15%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0043",
+    "name": "Magic Booster",
+    "description": "Increase damage dealt with spells by 15%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0044",
+    "name": "Ambush",
+    "description": "Increase attack power by 20% on the turn unit is dispatched.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0045",
+    "name": "No Critical",
+    "description": "Increase attack power by 10%, but disable critical hits.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0046",
+    "name": "Gambler",
+    "description": "Increase critical damage by 100%, but with a 50% chance of dealing 0 damage.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0047",
+    "name": "Bad Trip",
+    "description": "10% chance to inflict Poison, Sleep, and Paralysis when attacking normally.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0048",
+    "name": "Unstable Power",
+    "description": "Increase stats by 50%, but decrease stats by -20% every turn.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Ultimate Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0049",
+    "name": "Convert Force",
+    "description": "Decrease all elemental resistances to -50%, but increase stats by 25%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Ultimate Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0050",
+    "name": "Power of Bowls",
+    "description": "Increase stats by 5% per remaining Evility cost.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Ultimate Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0051",
+    "name": "Counter Contemptor",
+    "description": "Will not counter-attack, but increase stats by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Ultimate Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0058",
+    "name": "Taste of Victory",
+    "description": "Increase stats by 1% per time current stage has been cleared. (Max 100%)",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0059",
+    "name": "Magic Bias",
+    "description": "Decrease Max HP by -50%, but increase Max SP by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0060",
+    "name": "Revitalizing Power",
+    "description": "Increase effects of healing Specials on self by 25%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0061",
+    "name": "Improved Recovery",
+    "description": "Increase effects of healing Specials on self by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0062",
+    "name": "Medical Expertise",
+    "description": "Increase effects of healing Specials on self by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0063",
+    "name": "Treatment Testing",
+    "description": "Increase effects of healing Specials on self by 200%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0064",
+    "name": "Too Flat to Hit",
+    "description": "Increase evasion by 10% if this unit is a flat-chested female.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0065",
+    "name": "Eagle Eye",
+    "description": "Increase accuracy by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0066",
+    "name": "Safety",
+    "description": "When attacked, hits taken will not be critical.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0067",
+    "name": "Enemy Lure",
+    "description": "Increase chance of being the target of enemy attacks.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0068",
+    "name": "Assassin's Soul",
+    "description": "Nullify evasion-increasing effects from target unit Evilities.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0069",
+    "name": "Handicap",
+    "description": "When attacking, lower level targets will survive fatal damage with 1 HP.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0070",
+    "name": "Magical Mini Craft",
+    "description": "Decrease stats by -10%, but movement type becomes Flying.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0071",
+    "name": "Normal Soul",
+    "description": "Set all elemental and weapon resistances to 0%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0072",
+    "name": "Geo Heal",
+    "description": "Reverse damage taken from Geo Effects.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0073",
+    "name": "Stalker Style",
+    "description": "Set movement of Lucky Boards to 1.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0074",
+    "name": "Auto Recovery",
+    "description": "Recover 5% HP at end of turn.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0075",
+    "name": "Gourmet",
+    "description": "Increase effects of recovery items used on unit by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0076",
+    "name": "Hidden Blessing",
+    "description": "Recover 10% HP when attacked from behind.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0077",
+    "name": "Treasure Hunter",
+    "description": "Unit can move again after breaking a treasure chest.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0079",
+    "name": "Image Change",
+    "description": "Switch values of HP & SP, and ATK & INT.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0080",
+    "name": "Seal of Betrayal",
+    "description": "Deathblow ally units when attacking them.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0081",
+    "name": "Counter Knowledge",
+    "description": "Increase number of counter-attacks by 1%.",
+    "notes": "No, this hasn't been corrected yet.",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0173",
+    "name": "Number Padding",
+    "description": "Add 1 to defeated target count when defeating quest targets.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Evility Scholars after 50 battles"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0174",
+    "name": "Gender Bender",
+    "description": "Switch gender of unit.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Evility Scholars after 75 battles"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0175",
+    "name": "Super Jump",
+    "description": "Increase jump power when controlling this unit in the Base.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0176",
+    "name": "Board Killer",
+    "description": "Increase attack power by 50% when attacking Lucky Boards.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0177",
+    "name": "Gum Eater",
+    "description": "Increase recovery effect of Mint Gum by 10000%, though it won't become ABC Gum.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Evility Scholars after 15 battles"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0178",
+    "name": "Damage Reward",
+    "description": "Obtain HL when dealing damage to enemies.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0179",
+    "name": "Life Insurance",
+    "description": "Obtain HL when defeated. (Ally-caused death doesn't count)",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0180",
+    "name": "Alter Sound System",
+    "description": "Change system sounds to this unit's voice when controlling them in the Base.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0181",
+    "name": "Unity",
+    "description": "Set team attack rate to 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Evility Scholars after 5 battles"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0182",
+    "name": "Aggression",
+    "description": "Increase attack power by 75% when attacking normally.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Evility Scholars after 30 battles"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0052",
+    "name": "Red Power",
+    "description": "Increase stats by 20% when on a red Geo Panel.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Quest \"Pop Dem Reds!\""
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0053",
+    "name": "Blue Power",
+    "description": "Increase stats by 20% when on a blue Geo Panel.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Quest \"Pop Dem Blues!\""
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0054",
+    "name": "Yellow Power",
+    "description": "Increase stats by 20% when on a yellow Geo Panel.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Quest \"Pop Dem Yellows!\""
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0055",
+    "name": "Green Power",
+    "description": "Increase stats by 20% when on a green Geo Panel.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Quest \"Pop Dem Greens!\""
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0056",
+    "name": "Purple Power",
+    "description": "Increase stats by 20% when on a purple Geo Panel.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Quest \"Pop Dem Purples!\""
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0057",
+    "name": "Aqua Power",
+    "description": "Increase stats by 20% when on an aqua Geo Panel.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Quest \"Pop Dem Aquas!\""
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0082",
+    "name": "Tough Guy",
+    "description": "Increase HP growth rate by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0083",
+    "name": "Extreme Tough Guy",
+    "description": "Increase HP growth rate by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Mid-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0084",
+    "name": "Intense Tough Guy",
+    "description": "Increase HP growth rate by 40%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "High-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0085",
+    "name": "Super Tough Guy",
+    "description": "Increase HP growth rate by 75%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0086",
+    "name": "Ultimate Tough Guy",
+    "description": "Increase HP growth rate by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0087",
+    "name": "Hyper Guy",
+    "description": "Increase SP growth rate by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0088",
+    "name": "Extreme Hyper Guy",
+    "description": "Increase SP growth rate by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Mid-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0089",
+    "name": "Intense Hyper Guy",
+    "description": "Increase SP growth rate by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "High-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0090",
+    "name": "Super Hyper Guy",
+    "description": "Increase SP growth rate by 40%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0091",
+    "name": "Ultimate Hyper Guy",
+    "description": "Increase SP growth rate by 75%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0092",
+    "name": "Mean Guy",
+    "description": "Increase ATK growth rate by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0093",
+    "name": "Extreme Mean Guy",
+    "description": "Increase ATK growth rate by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Mid-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0094",
+    "name": "Intense Mean Guy",
+    "description": "Increase ATK growth rate by 40%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "High-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0095",
+    "name": "Super Mean Guy",
+    "description": "Increase ATK growth rate by 75%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0096",
+    "name": "Ultimate Mean Guy",
+    "description": "Increase ATK growth rate by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0097",
+    "name": "Dense Guy",
+    "description": "Increase DEF growth rate by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0098",
+    "name": "Extreme Dense Guy",
+    "description": "Increase DEF growth rate by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Mid-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0099",
+    "name": "Intense Dense Guy",
+    "description": "Increase DEF growth rate by 40%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "High-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0100",
+    "name": "Super Dense Guy",
+    "description": "Increase DEF growth rate by 75%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0101",
+    "name": "Ultimate Dense Guy",
+    "description": "Increase DEF growth rate by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0102",
+    "name": "Smart Guy",
+    "description": "Increase INT growth rate by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0103",
+    "name": "Extreme Smart Guy",
+    "description": "Increase INT growth rate by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Mid-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0104",
+    "name": "Intense Smart Guy",
+    "description": "Increase INT growth rate by 40%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "High-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0105",
+    "name": "Super Smart Guy",
+    "description": "Increase INT growth rate by 75%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0106",
+    "name": "Ultimate Smart Guy",
+    "description": "Increase INT growth rate by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0107",
+    "name": "Wise Guy",
+    "description": "Increase RES growth rate by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0108",
+    "name": "Extreme Wise Guy",
+    "description": "Increase RES growth rate by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Mid-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0109",
+    "name": "Intense Wise Guy",
+    "description": "Increase RES growth rate by 40%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "High-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0110",
+    "name": "Super Wise Guy",
+    "description": "Increase RES growth rate by 75%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0111",
+    "name": "Ultimate Wise Guy",
+    "description": "Increase RES growth rate by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0112",
+    "name": "Agile Guy",
+    "description": "Increase HIT growth rate by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0113",
+    "name": "Extreme Agile Guy",
+    "description": "Increase HIT growth rate by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Mid-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0114",
+    "name": "Intense Agile Guy",
+    "description": "Increase HIT growth rate by 40%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "High-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0115",
+    "name": "Super Agile Guy",
+    "description": "Increase HIT growth rate by 75%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0116",
+    "name": "Ultimate Agile Guy",
+    "description": "Increase HIT growth rate by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0117",
+    "name": "Fast Guy",
+    "description": "Increase SPD growth rate by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0118",
+    "name": "Extreme Fast Guy",
+    "description": "Increase SPD growth rate by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Mid-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0119",
+    "name": "Intense Fast Guy",
+    "description": "Increase SPD growth rate by 40%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "High-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0120",
+    "name": "Super Fast Guy",
+    "description": "Increase SPD growth rate by 75%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0121",
+    "name": "Ultimate Fast Guy",
+    "description": "Increase SPD growth rate by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0122",
+    "name": "Study Lover",
+    "description": "Increase EXP gain by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0123",
+    "name": "Study Whiz",
+    "description": "Increase EXP gain by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Mid-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0124",
+    "name": "Study Nerd",
+    "description": "Increase EXP gain by 40%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "High-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0125",
+    "name": "Study Maniac",
+    "description": "Increase EXP gain by 75%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0126",
+    "name": "Genius Studier",
+    "description": "Increase EXP gain by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0127",
+    "name": "Overlord Training",
+    "description": "Decrease stats by X%, but increase EXP gain by Y%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "???"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0128",
+    "name": "Precocious Secret",
+    "description": "Increase EXP gain by 20% when level is below 1000.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0231",
+    "name": "HL Lover",
+    "description": "Increase HL gain by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0232",
+    "name": "HL Maniac",
+    "description": "Increase HL gain by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Mid-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0233",
+    "name": "HL Collector",
+    "description": "Increase HL gain by 200%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "High-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0234",
+    "name": "HL Pro",
+    "description": "Increase HL gain by 300%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0235",
+    "name": "HL Master",
+    "description": "Increase HL gain by 500%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0129",
+    "name": "Mana Lover",
+    "description": "Increase Mana gain by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0130",
+    "name": "Mana Maniac",
+    "description": "Increase Mana gain by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Mid-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0131",
+    "name": "Mana Collector",
+    "description": "Increase Mana gain by 200%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "High-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0132",
+    "name": "Pro Mana Collector",
+    "description": "Increase Mana gain by 300%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0133",
+    "name": "Mana Master",
+    "description": "Increase Mana gain by 500%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0134",
+    "name": "Workshop Intern",
+    "description": "Increase Class Proficiency gain by 10%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0135",
+    "name": "Career Trainee",
+    "description": "Increase Class Proficiency gain by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Mid-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0136",
+    "name": "Class Changer",
+    "description": "Increase Class Proficiency gain by 40%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "High-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0137",
+    "name": "Pro Class Changer",
+    "description": "Increase Class Proficiency gain by 75%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0138",
+    "name": "Career Master",
+    "description": "Increase Class Proficiency gain by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0236",
+    "name": "Fundamentals",
+    "description": "Increase Skill EXP gain by 10%.",
+    "notes": "Formerly \"Increase EXP gain by 10%.\" etc.",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0237",
+    "name": "Applied Practice",
+    "description": "Increase Skill EXP gain by 20%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Mid-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0238",
+    "name": "Spot Training",
+    "description": "Increase Skill EXP gain by 40%.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "High-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0239",
+    "name": "Skill Tour",
+    "description": "Increase Skill EXP gain by 80%.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Ultimate Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0240",
+    "name": "Skill Camp",
+    "description": "Increase Skill EXP gain by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Demon Lord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0139",
+    "name": "Fist Tutor",
+    "description": "Set Weapon Mastery grade for fists to C.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0140",
+    "name": "Fist Coach",
+    "description": "Set Weapon Mastery grade for fists to B.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest \"Knuckle Up\" (only?)"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0141",
+    "name": "Fist Master",
+    "description": "Set Weapon Mastery grade for fists to A.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0142",
+    "name": "Fist Guru",
+    "description": "Set Weapon Mastery grade for fists to S.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0143",
+    "name": "Sword Tutor",
+    "description": "Set Weapon Mastery grade for swords to C.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0144",
+    "name": "Sword Coach",
+    "description": "Set Weapon Mastery grade for swords to B.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest \"Pleasant Swordwork\" (only?)"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0145",
+    "name": "Sword Master",
+    "description": "Set Weapon Mastery grade for swords to A.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0146",
+    "name": "Sword Guru",
+    "description": "Set Weapon Mastery grade for swords to S.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0147",
+    "name": "Spear Tutor",
+    "description": "Set Weapon Mastery grade for spears to C.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0148",
+    "name": "Spear Coach",
+    "description": "Set Weapon Mastery grade for spears to B.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest \"Spear TA\" (only?)"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0149",
+    "name": "Spear Master",
+    "description": "Set Weapon Mastery grade for spears to A.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0150",
+    "name": "Spear Guru",
+    "description": "Set Weapon Mastery grade for spears to S.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0151",
+    "name": "Bow Tutor",
+    "description": "Set Weapon Mastery grade for bows to C.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0152",
+    "name": "Bow Coach",
+    "description": "Set Weapon Mastery grade for bows to B.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest \"Archery Club Regular\" (only?)"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0153",
+    "name": "Bow Master",
+    "description": "Set Weapon Mastery grade for bows to A.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0154",
+    "name": "Bow Guru",
+    "description": "Set Weapon Mastery grade for bows to S.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0155",
+    "name": "Gun Tutor",
+    "description": "Set Weapon Mastery grade for guns to C.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0156",
+    "name": "Gun Coach",
+    "description": "Set Weapon Mastery grade for guns to B.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest \"Tootin' Boy\" (only?)"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0157",
+    "name": "Gun Master",
+    "description": "Set Weapon Mastery grade for guns to A.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0158",
+    "name": "Gun Guru",
+    "description": "Set Weapon Mastery grade for guns to S.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0159",
+    "name": "Staff Tutor",
+    "description": "Set Weapon Mastery grade for staves to C.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0160",
+    "name": "Staff Coach",
+    "description": "Set Weapon Mastery grade for staves to B.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest \"Staff Pro\" (only?)"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0161",
+    "name": "Staff Master",
+    "description": "Set Weapon Mastery grade for staves to A.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0162",
+    "name": "Staff Guru",
+    "description": "Set Weapon Mastery grade for staves to S.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0163",
+    "name": "Axe Tutor",
+    "description": "Set Weapon Mastery grade for axes to C.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0164",
+    "name": "Axe Coach",
+    "description": "Set Weapon Mastery grade for axes to B.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest \"Axes Are Amazing\" (only?)"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0165",
+    "name": "Axe Master",
+    "description": "Set Weapon Mastery grade for axes to A.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0166",
+    "name": "Axe Guru",
+    "description": "Set Weapon Mastery grade for axes to S.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0167",
+    "name": "Armor Tutor",
+    "description": "Set Weapon Mastery grade for armor to C.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Learnable by default"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0168",
+    "name": "Armor Coach",
+    "description": "Set Weapon Mastery grade for armor to B.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest \"Mom's Suggestion\" (only?)"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0169",
+    "name": "Armor Master",
+    "description": "Set Weapon Mastery grade for armor to A.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0170",
+    "name": "Armor Guru",
+    "description": "Set Weapon Mastery grade for armor to S.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0227",
+    "name": "Monster Tutor",
+    "description": "Set Weapon Mastery grade for monster weapons to C.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Low-Tier Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0228",
+    "name": "Monster Coach",
+    "description": "Set Weapon Mastery grade for monster weapons to B.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest \"Monster Mage Acolyte\" (only?)"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0229",
+    "name": "Monster Master",
+    "description": "Set Weapon Mastery grade for monster weapons to A.",
+    "notes": "",
+    "unique": false,
+    "cost": 3,
+    "enemyOnly": false,
+    "unlock": "Super Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0230",
+    "name": "Monster Guru",
+    "description": "Set Weapon Mastery grade for monster weapons to S.",
+    "notes": "",
+    "unique": false,
+    "cost": 4,
+    "enemyOnly": false,
+    "unlock": "Supreme Overlord Gacha"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0171",
+    "name": "Archeologist",
+    "description": "Find rare items more easily when researching Item Worlds.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "???"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0172",
+    "name": "Invader",
+    "description": "Increase stats by X% when researching Item Worlds.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "???"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0183",
+    "name": "Warrior Slayer",
+    "description": "Increase damage dealt to Warriors/Valkyries by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0184",
+    "name": "Witch Hunter",
+    "description": "Increase damage dealt to Magicians/Witches by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0185",
+    "name": "Martial Nemesis",
+    "description": "Increase damage dealt to Martial Artists by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0186",
+    "name": "Heretic",
+    "description": "Increase damage dealt to Clergy/Clerics by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0187",
+    "name": "Private Eye",
+    "description": "Increase damage dealt to Bandits/Thieves by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0188",
+    "name": "Arch-Enemy",
+    "description": "Increase damage dealt to Rangers/Archers by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0189",
+    "name": "Deputy Sheriff",
+    "description": "Increase damage dealt to Gunners/Gunslingers by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0190",
+    "name": "Counterninja",
+    "description": "Increase damage dealt to Ninjas/Kunoichis by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0191",
+    "name": "Samurai Subduer",
+    "description": "Increase damage dealt to Samurai by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0192",
+    "name": "Knight Vanquisher",
+    "description": "Increase damage dealt to Armor Knights by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0193",
+    "name": "Curse Breaker",
+    "description": "Increase damage dealt to Sorcerers by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0194",
+    "name": "Maiko-manager",
+    "description": "Increase damage dealt to Maiko by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0195",
+    "name": "Sword in the Stone",
+    "description": "Increase damage dealt to Magic Knights by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0196",
+    "name": "Illusion Breaker",
+    "description": "Increase damage dealt to Psychics by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0197",
+    "name": "Rival Researcher",
+    "description": "Increase damage dealt to Professors by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0198",
+    "name": "High-Grade Oxidizer",
+    "description": "Increase damage dealt to Mecha Girls by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0199",
+    "name": "Blasphemer",
+    "description": "Increase damage dealt to Celestial Hostesses by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0200",
+    "name": "Prinny Poacher",
+    "description": "Increase damage dealt to Prinnies by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0201",
+    "name": "Orc Chopper",
+    "description": "Increase damage dealt to Orcs by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0202",
+    "name": "Cat Hater",
+    "description": "Increase damage dealt to Slumber Cats by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0203",
+    "name": "Exorcist",
+    "description": "Increase damage dealt to Spirits by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0204",
+    "name": "Exterminator",
+    "description": "Increase damage dealt to Winged Warriors by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0205",
+    "name": "Zombie Hunter",
+    "description": "Increase damage dealt to Undead by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0206",
+    "name": "Forager",
+    "description": "Increase damage dealt to Shrooms by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0207",
+    "name": "Animal Control",
+    "description": "Increase damage dealt to Felynns by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0208",
+    "name": "Fisherman",
+    "description": "Increase damage dealt to Sea Angels by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0209",
+    "name": "Gardener",
+    "description": "Increase damage dealt to Flora Beasts by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0210",
+    "name": "Occultist",
+    "description": "Increase damage dealt to Zombie Maidens by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0211",
+    "name": "Womanizer",
+    "description": "Increase damage dealt to Succubi by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0212",
+    "name": "Got Beef",
+    "description": "Increase damage dealt to Evil Eyes by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0213",
+    "name": "Glue Factory",
+    "description": "Increase damage dealt to Horsemen by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0214",
+    "name": "Dragon Slayer",
+    "description": "Increase damage dealt to Dragons by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0215",
+    "name": "Crab Caterer",
+    "description": "Increase damage dealt to Pincer Shells by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0216",
+    "name": "License Inspector",
+    "description": "Increase damage dealt to Rifle Demons by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0217",
+    "name": "Melon Baller",
+    "description": "Increase damage dealt to Big Eyes by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 2,
+    "enemyOnly": false,
+    "unlock": "Quest"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0218",
+    "name": "Board Freak",
+    "description": "Increase bonus from defeating Lucky Boards by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Evility Scholars after 150 battles"
+  },
+  {
+    "id": "EVILITY_ID_GENERIC_0219",
+    "name": "Buxom Bulwark",
+    "description": "Increase defense power by X% if this unit is bodaciously busty.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "???"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0001",
+    "name": "Can't Fool Me",
+    "description": "Cannot be lifted. Nullify damage from all sources except attacks.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0002",
+    "name": "Theft Prevention",
+    "description": "Equipped items cannot be stolen.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0003",
+    "name": "Extremely Healthy",
+    "description": "Nullify ailments and stat drops.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0004",
+    "name": "Like a Boss",
+    "description": "Gain Boss element and nullify deathblows.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0005",
+    "name": "Poison Proof Lv 1",
+    "description": "Set damage taken from Poison to X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0006",
+    "name": "Poison Proof Lv 2",
+    "description": "Set damage taken from Poison to X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0007",
+    "name": "Poison Proof Lv 3",
+    "description": "Set damage taken from Poison to X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0008",
+    "name": "Poison Proof Lv 4",
+    "description": "Set damage taken from Poison to X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0009",
+    "name": "Paralysis Proof Lv 1",
+    "description": "Reduce SPD penalty from Paralysis to X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0010",
+    "name": "Paralysis Proof Lv 2",
+    "description": "Reduce SPD penalty from Paralysis to X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0011",
+    "name": "Paralysis Proof Lv 3",
+    "description": "Reduce SPD penalty from Paralysis to X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0012",
+    "name": "Paralysis Proof Lv 4",
+    "description": "Reduce SPD penalty from Paralysis to X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0013",
+    "name": "Weaken Proof Lv 1",
+    "description": "Reduce stat penalty from Weaken to X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0014",
+    "name": "Weaken Proof Lv 2",
+    "description": "Reduce stat penalty from Weaken to X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0015",
+    "name": "Weaken Proof Lv 3",
+    "description": "Reduce stat penalty from Weaken to X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0016",
+    "name": "Weaken Proof Lv 4",
+    "description": "Reduce stat penalty from Weaken to X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0017",
+    "name": "Boss Lv 1",
+    "description": "Gain Boss element, nullify deathblows, and reduce effects of Poison/Paralysis/Weaken.",
+    "notes": "Gives +90% resistance; reduces poison damage to 60%, paralysis SPD drop to 60%, and weaken to 15%.",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0018",
+    "name": "Boss Lv 2",
+    "description": "Gain Boss element, nullify deathblows, and considerably reduce effects of Poison/Paralysis/Weaken.",
+    "notes": "Gives +80% resistance; reduces poison damage to 80%, paralysis SPD drop to 80%, and weaken to 20%.",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0019",
+    "name": "Boss Lv 3",
+    "description": "Gain Boss element, nullify deathblows, and greatly reduce effects of Poison/Paralysis/Weaken.",
+    "notes": "Gives +95% resistance; reduces poison damage to 40%, paralysis SPD drop to 40%, and weaken to 10%.",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0020",
+    "name": "Boss Lv 4",
+    "description": "Gain Boss element, nullify deathblows, and virtually nullify effects of Poison/Paralysis/Weaken.",
+    "notes": "Gives +98% resistance; reduces poison damage to 20%, paralysis SPD drop to 20%, and weaken to 5%.",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0021",
+    "name": "Carnage Lv 1",
+    "description": "Increase damage dealt by 50%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0022",
+    "name": "Carnage Lv 2",
+    "description": "Increase damage dealt by 100%.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0023",
+    "name": "Carnage Lv 3",
+    "description": "Increase damage dealt by X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0024",
+    "name": "Carnage Lv 4",
+    "description": "Increase damage dealt by X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0025",
+    "name": "Carnage Lv 5",
+    "description": "Increase damage dealt by X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0026",
+    "name": "Carnage Lv 6",
+    "description": "Increase damage dealt by X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0027",
+    "name": "Carnage Lv 7",
+    "description": "Increase damage dealt by X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0028",
+    "name": "Carnage Lv 8",
+    "description": "Increase damage dealt by X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0029",
+    "name": "Carnage Lv 9",
+    "description": "Increase damage dealt by X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0030",
+    "name": "Carnage Lv 10",
+    "description": "Increase damage dealt by X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0031",
+    "name": "Carnage Lv 11",
+    "description": "Increase damage dealt by X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0032",
+    "name": "Carnage Lv 12",
+    "description": "Increase damage dealt by X%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "",
+    "name": "Status Guard",
+    "description": "Ally units' stats cannot fall below 75%",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "",
+    "name": "Hang Tough",
+    "description": "Stats cannot fall below 90%.",
+    "notes": "",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0033",
+    "name": "Trap Card",
+    "description": "Upon dying, revive Jumbified.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0034",
+    "name": "Demon Shogi Pawn",
+    "description": "Can’t enter base panel and can't change equipment.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Chapter 5 unit exclusive"
+  },
+  {
+    "id": "EVILITY_ID_VICE_COMPLETE_01",
+    "name": "Infernal Corrosion",
+    "description": "When attacking an enemy, obtain Extract equal to its stats.",
+    "notes": "Cannot create a Secret Scroll of this; you get 1/100 000 of stats, i.e. up to 999 per enemy.",
+    "unique": false,
+    "cost": 5,
+    "enemyOnly": false,
+    "unlock": "Evility Scholars after 300 battles"
+  },
+  {
+    "id": "EVILITY_ID_VICE_COMPLETE_02",
+    "name": "Seal of Power",
+    "description": "When defeating a Boss unit in an Item World, permanently gain a portion of its stats.",
+    "notes": "",
+    "unique": false,
+    "cost": 1,
+    "enemyOnly": false,
+    "unlock": "Defeat Carnage 15 boss"
+  },
+  {
+    "id": "",
+    "name": "S.O. Seal",
+    "description": "???",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": false,
+    "unlock": "Defeat Carnage Baal"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0035",
+    "name": "Absolute Power",
+    "description": "Cannot be lifted, nullify knockback, and stats cannot be reduced below Z%.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive?"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_0036",
+    "name": "No Counter",
+    "description": "Does not counter-attack when attacked.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive?"
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_ADD_0001",
+    "name": "No Explosion Day",
+    "description": "Nullify own explosion.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive?"
+  }
+]
