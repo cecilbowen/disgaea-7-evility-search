@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import './App.css';
 import EvilityTable from './components/EvilityTable';
 import EVILITIES from './data/evilities.json';
@@ -139,6 +140,7 @@ const App = () => {
           References:&nbsp;
           <a href="https://gamefaqs.gamespot.com/boards/378248-disgaea-7-vows-of-the-virtueless/80587648">one</a>&nbsp;
           <a href="https://gamefaqs.gamespot.com/boards/378250-disgaea-7-vows-of-the-virtueless/80592079">two</a>&nbsp;
+          <a href="https://docs.google.com/spreadsheets/d/14HQrRhglcYtVkY6Uk4-XgqtUVMq6qmBQYtjJ6Ro-_WA/edit#gid=2122935455">three</a>
         </small>
       </div>
     </div>
