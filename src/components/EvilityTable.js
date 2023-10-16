@@ -30,7 +30,12 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 }));
 
 const EvilityTable = ({ evilities, textFilter, filters, searchCriteria }) => {
-  let filteredEvilities = [ ...evilities ];
+  let filteredEvilities = [ ...evilities ].map(x => {
+    return {
+      ...x,
+      category: x.category || "None"
+    };
+  });
 
   if (filters) {
     filteredEvilities = filteredEvilities.filter(x => {
@@ -39,7 +44,8 @@ const EvilityTable = ({ evilities, textFilter, filters, searchCriteria }) => {
             (filters.learnable || x.enemyOnly) &&
             (filters.enemy || !x.enemyOnly) &&
             (filters.baseGame || x.dlc) &&
-            (filters.dlc || !x.dlc);
+            (filters.dlc || !x.dlc) &&
+            filters.categories.includes(x.category);
     });
   }
 
@@ -71,48 +77,57 @@ const EvilityTable = ({ evilities, textFilter, filters, searchCriteria }) => {
   };
 
   return (
-    <TableContainer component={Paper} sx={{ maxHeight: "80vh", overflowY: "auto" }}>
-      <Table sx={{ minWidth: 450 }} size="small" stickyHeader>
-        <TableHead>
-          <TableRow>
-            <StyledTableCell sx={{ width: '12em' }}>Name</StyledTableCell>
-            <StyledTableCell align="left">Description</StyledTableCell>
-            <StyledTableCell align="center">Cost</StyledTableCell>
-            <StyledTableCell align="left">Type</StyledTableCell>
-            <StyledTableCell align="left">Source</StyledTableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {filteredEvilities.map(evility => {
-            let nameStyle = { ...style };
-            if (evility.enemyOnly) {
-                nameStyle = { ...nameStyle, ...enemyOnlyStyle };
+    <div style={{ margin: "1em" }}>
+      <TableContainer component={Paper} sx={{ maxHeight: "75vh", overflowY: "auto" }}>
+        <Table sx={{ minWidth: 450 }} size="small" stickyHeader>
+          <TableHead>
+            <TableRow>
+              <StyledTableCell sx={{ width: '12em' }}>Name</StyledTableCell>
+              <StyledTableCell align="center">Category</StyledTableCell>
+              <StyledTableCell align="left">Description</StyledTableCell>
+              <StyledTableCell align="center">Cost</StyledTableCell>
+              <StyledTableCell align="left">Type</StyledTableCell>
+              <StyledTableCell align="left">Source</StyledTableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {filteredEvilities.map(evility => {
+              let nameStyle = { ...style };
+              if (evility.enemyOnly) {
+                  nameStyle = { ...nameStyle, ...enemyOnlyStyle };
+              }
+
+              if (evility.dlc) {
+                  nameStyle = { ...nameStyle, ...dlcStyle };
+              }
+
+              const typeStyle = evility.unique ? { fontWeight: "bold", textDecoration: "underline" } : {};
+
+              return <StyledTableRow
+                key={evility.id || evility.name}
+                title={evility.notes}
+                sx={
+                  evility.enemyOnly ? { backgroundColor: '#8000802e !important' } :
+                  { '&:last-child td, &:last-child th': { border: 0 } }
+                }
+              >
+                <StyledTableCell component="th" scope="row" sx={ nameStyle }>
+                  {evility.name}
+                </StyledTableCell>
+                <StyledTableCell align="center" sx={{ lineHeight: 0 }}><img title={evility.category}
+                  src={`images/evility_categories/${evility.category || "None"}.png`} /></StyledTableCell>
+                <StyledTableCell align="left">{evility.description}</StyledTableCell>
+                <StyledTableCell align="center">{evility.cost ? evility.cost : '-'}</StyledTableCell>
+                <StyledTableCell align="left" sx={ typeStyle }>{evility.unique ? "Unique" : "Generic"}</StyledTableCell>
+                <StyledTableCell align="left">{evility.unlock}</StyledTableCell>
+              </StyledTableRow>;
             }
 
-            if (evility.dlc) {
-                nameStyle = { ...nameStyle, ...dlcStyle };
-            }
-
-            const typeStyle = evility.unique ? { fontWeight: "bold", textDecoration: "underline" } : {};
-
-            return <StyledTableRow
-              key={evility.id || evility.name}
-              sx={ evility.enemyOnly ? { backgroundColor: '#8000802e !important' } : { '&:last-child td, &:last-child th': { border: 0 } }}
-            >
-              <StyledTableCell component="th" scope="row" sx={ nameStyle }>
-                {evility.name}
-              </StyledTableCell>
-              <StyledTableCell align="left">{evility.description}</StyledTableCell>
-              <StyledTableCell align="center">{evility.cost ? evility.cost : '-'}</StyledTableCell>
-              <StyledTableCell align="left" sx={ typeStyle }>{evility.unique ? "Unique" : "Generic"}</StyledTableCell>
-              <StyledTableCell align="left">{evility.unlock}</StyledTableCell>
-            </StyledTableRow>;
-          }
-
-          )}
-        </TableBody>
-      </Table>
-    </TableContainer>
+            )}
+          </TableBody>
+        </Table>
+      </TableContainer>
+    </div>
   );
 };
 

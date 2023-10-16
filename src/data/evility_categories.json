@@ -1,9 +1,10 @@
 {
+    "None": "None",
     "Offensive": "Offensive",
     "Defensive": "Defensive",
-    "Accuracy": "Precision",
+    "Precision": "Precision",
     "Evasion": "Evasion",
-    "Stat Boost": "Stat Boosting",
+    "Stat Boosting": "Stat Boosting",
     "HP": "HP",
     "SP": "SP",
     "Critical": "Critical",
@@ -13,5 +14,5 @@
     "Debuffs": "Debuffs",
     "Item": "Item",
     "Cheat": "Cheat",
-    "Miscellaneous": "Growth/Miscellaneous"
+    "Miscellaneous": "Miscellaneous"
 }
