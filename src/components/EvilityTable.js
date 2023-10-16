@@ -115,7 +115,8 @@ const EvilityTable = ({ evilities, textFilter, filters, searchCriteria }) => {
                   {evility.name}
                 </StyledTableCell>
                 <StyledTableCell align="center" sx={{ lineHeight: 0 }}><img title={evility.category}
-                  src={`./disagea-7-evility-search/images/evility_categories/${evility.category || "None"}.png`} /></StyledTableCell>
+                  src={`images/evility_categories/${evility.category || "None"}.png`} />
+                </StyledTableCell>
                 <StyledTableCell align="left">{evility.description}</StyledTableCell>
                 <StyledTableCell align="center">{evility.cost ? evility.cost : '-'}</StyledTableCell>
                 <StyledTableCell align="left" sx={ typeStyle }>{evility.unique ? "Unique" : "Generic"}</StyledTableCell>

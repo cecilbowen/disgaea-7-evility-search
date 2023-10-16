@@ -1,7 +1,7 @@
 {
   "name": "disgaea-7-evility-search",
   "version": "0.1.0",
-  "homepage": "https://cecilbowen.github.io/disagea-7-evility-search",
+  "homepage": ".",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
