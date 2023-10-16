@@ -170,7 +170,7 @@ const CategoryEditor = ({ evilities }) => {
     return <StyledTableCell align="center" key={k}
       title={v}
       style={{ width: 'fit-content', lineHeight: 0, backgroundColor: hoverColumn === k ? 'lightblue' : 'black' }}>
-        <img src={`images/evility_categories/${k}.png`} />
+        <img src={`./disagea-7-evility-search/images/evility_categories/${k}.png`} />
     </StyledTableCell>;
   };
 
@@ -189,7 +189,7 @@ const CategoryEditor = ({ evilities }) => {
             size="small"
             sx={{ opacity: !showImages || k === EVILITY_CATEGORIES.None && checked ? 1 : 0 }}
         />
-        {showImages && <img src={`images/evility_categories/${k}.png`}
+        {showImages && <img src={`./disagea-7-evility-search/images/evility_categories/${k}.png`}
           style={{ opacity: checked ? 1 : 0.5, position: 'absolute', pointerEvents: 'none',
             left: 'calc(50% - 15.5px)', top: 'calc(50% - 15.5px)' }} />}
     </StyledTableCell>;

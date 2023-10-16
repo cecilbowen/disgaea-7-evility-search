@@ -76,7 +76,7 @@ const App = () => {
           setActiveCats(tempActiveCats);
           console.log("cats", tempActiveCats);
         }} />
-      <img src={`images/evility_categories/${k}.png`}
+      <img src={`./disagea-7-evility-search/images/evility_categories/${k}.png`}
         style={{ objectFit: 'contain', position: 'absolute',
         opacity: isChecked ? 1 : 0.5,
         left: '5.5px', top: '5.5px', pointerEvents: 'none' }} />
