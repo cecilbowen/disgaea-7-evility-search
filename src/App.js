@@ -12,6 +12,8 @@ import RadioGroup from '@mui/material/RadioGroup';
 import CategoryEditor from './components/CategoryEditor';
 import EVILITY_CATEGORIES from './data/evility_categories.json';
 import debounce from 'lodash/debounce';
+import BuildList from './components/BuildList';
+import Switch from '@mui/material/Switch';
 
 const CATEGORY_EDITOR = false;
 
@@ -26,6 +28,8 @@ const App = () => {
   const [filterDlc, setFilterDlc] = useState(true);
   const [searchCriteria, setSearchCriteria] = useState("both");
   const [activeCats, setActiveCats] = useState(Object.values(EVILITY_CATEGORIES));
+  const [builderActive, setBuilderActive] = useState(false);
+  const [buildEvilities, setBuildEvilities] = useState([]);
 
   useEffect(() => {
     if (evilities.length === 0) {
@@ -39,6 +43,13 @@ const App = () => {
           })]);
         }
       }
+
+      // set unique, but also short, ids
+      for (let i = 0; i < tempEvilities.length; i++) {
+        const e = tempEvilities[i];
+        e.number = i + 1;
+      }
+
       setEvilities(tempEvilities);
     }
   }, []);
@@ -57,6 +68,22 @@ const App = () => {
       </div>
     );
   }
+
+  const addEvilityToBuild = evility => {
+    if (!builderActive) { return; }
+    const newBuildEvilities = [...buildEvilities];
+    const has = newBuildEvilities.filter(x => x.id === evility.id)[0];
+    if (!has) {
+      newBuildEvilities.push(evility);
+    }
+    setBuildEvilities(newBuildEvilities);
+  };
+
+  const removeEvilityFromBuild = evility => {
+    if (!builderActive) { return; }
+    const newBuildEvilities = [...buildEvilities].filter(x => x.id !== evility.id);
+    setBuildEvilities(newBuildEvilities);
+  };
 
   const debouncedOnChange = debounce(ev => {
     setSearchText(ev.target.value);
@@ -118,23 +145,34 @@ const App = () => {
           onChange={ev => setFilterBaseGame(ev.target.checked)} />
         <FormControlLabel control={<Checkbox defaultChecked />} label="DLC" sx={{ fontStyle: 'italic' }}
           onChange={ev => setFilterDlc(ev.target.checked)} />
+        <FormControlLabel control={<Switch />} label="Toggle Builder"
+          onChange={ev => setBuilderActive(ev.target.checked)} />
       </div>
 
       <div style={{ display: "flex", flexWrap: 'wrap', margin: "0em 0.6em" }}>
         {Object.entries(EVILITY_CATEGORIES).map(x => renderEvCatCheckbox(x))}
       </div>
 
-      <EvilityTable evilities={evilities} textFilter={searchText} filters={{
-        unique: filterUnique,
-        generic: filterGeneric,
-        learnable: filterLearnable,
-        enemy: filterEnemy,
-        baseGame: filterBaseGame,
-        dlc: filterDlc,
-        categories: activeCats
-      }}
-      searchCriteria={searchCriteria} />
-      <div style={{ }}>
+      <div style={{ display: 'flex' }}>
+        <EvilityTable evilities={evilities} addEvilityToBuild={addEvilityToBuild}
+          textFilter={searchText}
+          searchCriteria={searchCriteria}
+          filters={{
+            unique: filterUnique,
+            generic: filterGeneric,
+            learnable: filterLearnable,
+            enemy: filterEnemy,
+            baseGame: filterBaseGame,
+            dlc: filterDlc,
+            categories: activeCats
+          }}
+          width={builderActive ? '75vw' : undefined}
+          building={builderActive}
+        />
+        {builderActive && <BuildList evilities={buildEvilities} removeEvilityFromBuild={removeEvilityFromBuild} />}
+      </div>
+
+      <div>
         <small>
         <a href="https://github.com/cecilbowen/disgaea-7-evility-search">Source Code</a>&nbsp;
           References:&nbsp;

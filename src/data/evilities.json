@@ -8,7 +8,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Fuji exclusive",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false,
+    "fixed": "Fuji"
   },
   {
     "id": "EVILITY_ID_FUJI_FIX_2",
@@ -19,7 +21,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Fuji exclusive (reach chapter ???)",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false,
+    "fixed": "Fuji"
   },
   {
     "id": "EVILITY_ID_FUJI_GENERIC_1",
@@ -30,7 +34,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Fuji at Level 1",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FUJI_GENERIC_2",
@@ -41,7 +46,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Fuji at Level 10",
-    "category": "SP"
+    "category": "SP",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FUJI_GENERIC_3",
@@ -52,7 +58,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Fuji at Level 30",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FUJI_GENERIC_4",
@@ -63,7 +70,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Fuji at Level 60",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FUJI_GENERIC_5",
@@ -74,7 +82,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Fuji at Level 100",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PIRIRIKA_FIX_1",
@@ -85,7 +94,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Pirilika exclusive",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false,
+    "fixed": "Pirilika"
   },
   {
     "id": "EVILITY_ID_PIRIRIKA_FIX_2",
@@ -96,7 +107,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Pirilika exclusive (reach chapter 14-5)",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false,
+    "fixed": "Pirilika"
   },
   {
     "id": "EVILITY_ID_PIRIRIKA_GENERIC_1",
@@ -107,7 +120,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Pirilika at Level 1",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PIRIRIKA_GENERIC_2",
@@ -118,7 +132,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Pirilika at Level 10",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PIRIRIKA_GENERIC_3",
@@ -129,7 +144,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Pirilika at Level 30",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PIRIRIKA_GENERIC_4",
@@ -140,7 +156,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Pirilika at Level 60",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PIRIRIKA_GENERIC_5",
@@ -151,7 +168,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Pirilika at Level 100",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WEIYASU_FIX_1",
@@ -162,7 +180,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Yeyasu exclusive",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false,
+    "fixed": "Yeyasu"
   },
   {
     "id": "EVILITY_ID_WEIYASU_FIX_2",
@@ -173,7 +193,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Yeyasu exclusive (reach chapter ???)",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false,
+    "fixed": "Yeyasu"
   },
   {
     "id": "EVILITY_ID_WEIYASU_GENERIC_1",
@@ -184,7 +206,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Yeyasu at Level 1",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WEIYASU_GENERIC_2",
@@ -195,7 +218,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Yeyasu at Level 10",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WEIYASU_GENERIC_3",
@@ -206,7 +230,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Yeyasu at Level 30",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WEIYASU_GENERIC_4",
@@ -217,7 +242,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Yeyasu at Level 60",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WEIYASU_GENERIC_5",
@@ -228,7 +254,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Yeyasu at Level 100",
-    "category": "Evasion"
+    "category": "Evasion",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SIFOU_FIX_1",
@@ -239,7 +266,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Ceefore exclusive",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false,
+    "fixed": "Ceefore"
   },
   {
     "id": "EVILITY_ID_SIFOU_FIX_2",
@@ -250,7 +279,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Ceefore exclusive (reach chapter 10-5)",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false,
+    "fixed": "Ceefore"
   },
   {
     "id": "EVILITY_ID_SIFOU_GENERIC_1",
@@ -261,7 +292,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Ceefore at Level 1",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SIFOU_GENERIC_2",
@@ -272,7 +304,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Ceefore at Level 10",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SIFOU_GENERIC_3",
@@ -283,7 +316,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Ceefore at Level 30",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SIFOU_GENERIC_4",
@@ -294,7 +328,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Ceefore at Level 60",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SIFOU_GENERIC_5",
@@ -305,7 +340,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ceefore at Level 100",
-    "category": "Precision"
+    "category": "Precision",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HIGAN_FIX_1",
@@ -316,7 +352,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Higan exclusive (up to chapter 12-5)",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false,
+    "fixed": "Higan"
   },
   {
     "id": "EVILITY_ID_HIGAN_FIX_2",
@@ -327,7 +365,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Higan exclusive (reach chapter 12-5)",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false,
+    "fixed": "Higan"
   },
   {
     "id": "EVILITY_ID_HIGAN_FIX_3",
@@ -338,7 +378,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Higan exclusive (reach chapter 12-5)",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false,
+    "fixed": "Higan"
   },
   {
     "id": "EVILITY_ID_HIGAN_GENERIC_1",
@@ -349,7 +391,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Higan at Level 1",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HIGAN_GENERIC_2",
@@ -360,7 +403,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Higan at Level 10",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HIGAN_GENERIC_3",
@@ -371,7 +415,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Higan at Level 30",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HIGAN_GENERIC_4",
@@ -382,7 +427,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Higan at Level 60",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HIGAN_GENERIC_5",
@@ -393,7 +439,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Higan at Level 100",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SUISEN_FIX_1",
@@ -404,7 +451,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Suisen exclusive",
-    "category": "Precision"
+    "category": "Precision",
+    "dlc": false,
+    "fixed": "Suisen"
   },
   {
     "id": "EVILITY_ID_SUISEN_FIX_2",
@@ -415,7 +464,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Suisen exclusive (reach chapter ???)",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false,
+    "fixed": "Suisen"
   },
   {
     "id": "EVILITY_ID_SUISEN_FIX_3",
@@ -426,7 +477,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Suisen exclusive (chapters 9-3 to 9-5)",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false,
+    "fixed": "Suisen"
   },
   {
     "id": "EVILITY_ID_SUISEN_GENERIC_1",
@@ -437,7 +490,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Suisen at Level 1",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SUISEN_GENERIC_2",
@@ -448,7 +502,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Suisen at Level 10",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SUISEN_GENERIC_3",
@@ -459,7 +514,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Suisen at Level 30",
-    "category": "HP"
+    "category": "HP",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SUISEN_GENERIC_4",
@@ -470,7 +526,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Suisen at Level 60",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SUISEN_GENERIC_5",
@@ -481,7 +538,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Suisen at Level 100",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_AO_FIX_1",
@@ -492,7 +550,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Ao exclusive",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false,
+    "fixed": "Ao"
   },
   {
     "id": "EVILITY_ID_AO_FIX_2",
@@ -503,7 +563,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Ao exclusive",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false,
+    "fixed": "Ao"
   },
   {
     "id": "EVILITY_ID_AO_GENERIC_1",
@@ -514,7 +576,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Ao at Level 1",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_AO_GENERIC_2",
@@ -525,7 +588,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Ao at Level 10",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_AO_GENERIC_3",
@@ -536,7 +600,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Ao at Level 30",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_AO_GENERIC_4",
@@ -547,7 +612,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ao at Level 60",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_AO_GENERIC_5",
@@ -558,7 +624,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ao at Level 100",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SOROFUNE_FIX_1",
@@ -568,7 +635,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy Shirofune exclusive"
+    "unlock": "Enemy Shirofune exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_KUROFUNE_FIX_1",
@@ -578,7 +646,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy Kurofune exclusive"
+    "unlock": "Enemy Kurofune exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NITRA_FIX_1",
@@ -589,7 +658,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Nitra exlusive",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NITRA_FIX_2",
@@ -600,7 +670,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Nitra exlusive",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NITRA_GENERIC_1",
@@ -611,7 +682,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Nitra at Level 1",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NITRA_GENERIC_2",
@@ -622,7 +694,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Nitra at Level 10",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NITRA_GENERIC_3",
@@ -633,7 +706,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Nitra at Level 30",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NITRA_GENERIC_4",
@@ -644,7 +718,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Nitra at Level 60",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NITRA_GENERIC_5",
@@ -655,7 +730,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Nitra at Level 100",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_OPENER_FIX_1",
@@ -666,7 +742,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Opener exclusive",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false,
+    "fixed": "Opener"
   },
   {
     "id": "EVILITY_ID_OPENER_GENERIC_1",
@@ -677,7 +755,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Opener at Level 1",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_OPENER_GENERIC_2",
@@ -688,7 +767,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Opener at Level 10",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_OPENER_GENERIC_3",
@@ -699,7 +779,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Opener at Level 30",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_OPENER_GENERIC_4",
@@ -710,7 +791,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Opener at Level 60",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_OPENER_GENERIC_5",
@@ -721,7 +803,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Opener at Level 100",
-    "category": "Evasion"
+    "category": "Evasion",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_MUGAI_FIX_1",
@@ -731,7 +814,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_MUGAI_GOD_FIX_1",
@@ -741,7 +825,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_BIG_BULL_FIX_1",
@@ -751,7 +836,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_THE_AGAIN_FIX_1",
@@ -761,7 +847,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SPICES_FIX_1",
@@ -771,7 +858,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CIRCULAR_FIX_1",
@@ -781,7 +869,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_YAYAKA_FIX_1",
@@ -791,7 +880,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_TENBAIA_FIX_1",
@@ -801,7 +891,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_YUVANA_FIX_1",
@@ -811,7 +902,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_AKUMA_FIX_1",
@@ -821,7 +913,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PARIPIYASU_FIX_1",
@@ -831,7 +924,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_JOEDO_FIX_1",
@@ -841,7 +935,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GACHIYASU_FIX_1",
@@ -851,7 +946,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HADO_ZESSHOSAI_FIX_1",
@@ -861,7 +957,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_KAZAN_ZESSHOSAI_FIX_1",
@@ -871,7 +968,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PAPURICA_ZESSHOSAI_FIX_1",
@@ -881,7 +979,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_IXA_ZESSHOSAI_FIX_1",
@@ -891,7 +990,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_MAARU_ZESSHOSAI_FIX_1",
@@ -901,7 +1001,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HAO_ZESSHOSAI_FIX_1",
@@ -911,7 +1012,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_MITSUKI_ZESSHOSAI_FIX_1",
@@ -921,7 +1023,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_MUSASHI_ZESSHOSAI_FIX_1",
@@ -931,7 +1034,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_DODO_ZESSHOSAI_FIX_1",
@@ -941,7 +1045,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAIKA_ZESSHOSAI_FIX_1",
@@ -951,7 +1056,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHIKI_ZESSHOSAI_FIX_1",
@@ -961,7 +1067,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAZAN_ZESSHOSAI_FIX_1",
@@ -971,7 +1078,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_JIRO_ZESSHOSAI_FIX_1",
@@ -981,7 +1089,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_REKKA_ZESSHOSAI_FIX_1",
@@ -991,7 +1100,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHODAI_ZESSHOSAI_FIX_1",
@@ -1001,7 +1111,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CUSTOM_1",
@@ -1011,7 +1122,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CUSTOM_2",
@@ -1021,7 +1133,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CUSTOM_3",
@@ -1031,7 +1144,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CUSTOM_4",
@@ -1041,7 +1155,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CUSTOM_5",
@@ -1051,7 +1166,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CUSTOM_6",
@@ -1061,7 +1177,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy-only"
+    "unlock": "Enemy-only",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WARRIOR_MALE_FIX_1",
@@ -1072,7 +1189,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Warrior to 6 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WARRIOR_MALE_GENERIC_1",
@@ -1083,7 +1201,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Warrior to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WARRIOR_MALE_GENERIC_2",
@@ -1094,7 +1213,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Warrior to 2 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WARRIOR_MALE_GENERIC_3",
@@ -1105,7 +1225,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Warrior to 3 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WARRIOR_MALE_GENERIC_4",
@@ -1116,7 +1237,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Warrior to 4 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WARRIOR_MALE_GENERIC_5",
@@ -1127,7 +1249,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Warrior to 5 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WARRIOR_FEMALE_FIX_1",
@@ -1138,7 +1261,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Valkyrie to 6 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WARRIOR_FEMALE_GENERIC_1",
@@ -1149,7 +1273,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Valkyrie to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WARRIOR_FEMALE_GENERIC_2",
@@ -1160,7 +1285,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Valkyrie to 2 stars",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WARRIOR_FEMALE_GENERIC_3",
@@ -1171,7 +1297,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Valkyrie to 3 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WARRIOR_FEMALE_GENERIC_4",
@@ -1182,7 +1309,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Valkyrie to 4 stars",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WARRIOR_FEMALE_GENERIC_5",
@@ -1193,7 +1321,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Valkyrie to 5 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WIZARD_MALE_FIX_1",
@@ -1204,7 +1333,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Magician to 6 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WIZARD_MALE_GENERIC_1",
@@ -1215,7 +1345,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Magician to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WIZARD_MALE_GENERIC_2",
@@ -1226,7 +1357,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Magician to 2 stars",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WIZARD_MALE_GENERIC_3",
@@ -1237,7 +1369,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Magician to 3 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WIZARD_MALE_GENERIC_4",
@@ -1248,7 +1381,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Magician to 4 stars",
-    "category": "SP"
+    "category": "SP",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WIZARD_MALE_GENERIC_5",
@@ -1259,7 +1393,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Magician to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WIZARD_FEMALE_FIX_1",
@@ -1270,7 +1405,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Witch to 6 stars",
-    "category": "SP"
+    "category": "SP",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WIZARD_FEMALE_GENERIC_1",
@@ -1281,7 +1417,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Witch to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WIZARD_FEMALE_GENERIC_2",
@@ -1292,7 +1429,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Witch to 2 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WIZARD_FEMALE_GENERIC_3",
@@ -1303,7 +1441,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Witch to 3 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WIZARD_FEMALE_GENERIC_4",
@@ -1314,7 +1453,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Witch to 4 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WIZARD_FEMALE_GENERIC_5",
@@ -1325,7 +1465,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Witch to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FIGHTER_MALE_FIX_1",
@@ -1336,7 +1477,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Martial Artist to 6 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FIGHTER_MALE_GENERIC_1",
@@ -1347,7 +1489,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Martial Artist to 1 star",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FIGHTER_MALE_GENERIC_2",
@@ -1358,7 +1501,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Martial Artist to 2 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FIGHTER_MALE_GENERIC_3",
@@ -1369,7 +1513,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Martial Artist to 3 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FIGHTER_MALE_GENERIC_4",
@@ -1380,7 +1525,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Martial Artist to 4 stars",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FIGHTER_MALE_GENERIC_5",
@@ -1391,7 +1537,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Martial Artist to 5 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FIGHTER_FEMALE_FIX_1",
@@ -1402,7 +1549,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Fight Mistress to 6 stars",
-    "category": "Evasion"
+    "category": "Evasion",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FIGHTER_FEMALE_GENERIC_1",
@@ -1413,7 +1561,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Fight Mistress to 1 star",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FIGHTER_FEMALE_GENERIC_2",
@@ -1424,7 +1573,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Fight Mistress to 2 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FIGHTER_FEMALE_GENERIC_3",
@@ -1435,7 +1585,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Fight Mistress to 3 stars",
-    "category": "Precision"
+    "category": "Precision",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FIGHTER_FEMALE_GENERIC_4",
@@ -1446,7 +1597,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Fight Mistress to 4 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FIGHTER_FEMALE_GENERIC_5",
@@ -1457,7 +1609,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Fight Mistress to 5 stars",
-    "category": "Evasion"
+    "category": "Evasion",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLERIC_MALE_FIX_1",
@@ -1468,7 +1621,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Clergy to 6 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLERIC_MALE_GENERIC_1",
@@ -1479,7 +1633,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Clergy to 1 star",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLERIC_MALE_GENERIC_2",
@@ -1490,7 +1645,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Clergy to 2 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLERIC_MALE_GENERIC_3",
@@ -1501,7 +1657,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Clergy to 3 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLERIC_MALE_GENERIC_4",
@@ -1512,7 +1669,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Clergy to 4 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLERIC_MALE_GENERIC_5",
@@ -1523,7 +1681,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Clergy to 5 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLERIC_FEMALE_FIX_1",
@@ -1534,7 +1693,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Cleric to 6 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLERIC_FEMALE_GENERIC_1",
@@ -1545,7 +1705,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Cleric to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLERIC_FEMALE_GENERIC_2",
@@ -1556,7 +1717,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Cleric to 2 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLERIC_FEMALE_GENERIC_3",
@@ -1567,7 +1729,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Cleric to 3 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLERIC_FEMALE_GENERIC_4",
@@ -1578,7 +1741,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Cleric to 4 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLERIC_FEMALE_GENERIC_5",
@@ -1589,7 +1753,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Cleric to 5 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_THIEF_MALE_FIX_1",
@@ -1600,7 +1765,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Bandit to 6 stars",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_THIEF_MALE_GENERIC_1",
@@ -1611,7 +1777,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Bandit to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_THIEF_MALE_GENERIC_2",
@@ -1622,7 +1789,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Bandit to 2 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_THIEF_MALE_GENERIC_3",
@@ -1633,7 +1801,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Bandit to 3 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_THIEF_MALE_GENERIC_4",
@@ -1644,7 +1813,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Bandit to 4 stars",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_THIEF_MALE_GENERIC_5",
@@ -1655,7 +1825,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Bandit to 5 stars",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_THIEF_FEMALE_FIX_1",
@@ -1666,7 +1837,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Thief to 6 stars",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_THIEF_FEMALE_GENERIC_1",
@@ -1677,7 +1849,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Thief to 1 star",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_THIEF_FEMALE_GENERIC_2",
@@ -1688,7 +1861,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Thief to 2 stars",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_THIEF_FEMALE_GENERIC_3",
@@ -1699,7 +1873,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Thief to 3 stars",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_THIEF_FEMALE_GENERIC_4",
@@ -1710,7 +1885,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Thief to 4 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_THIEF_FEMALE_GENERIC_5",
@@ -1721,7 +1897,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Thief to 5 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ARCHER_MALE_FIX_1",
@@ -1732,7 +1909,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Ranger to 6 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ARCHER_MALE_GENERIC_1",
@@ -1743,7 +1921,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ranger to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ARCHER_MALE_GENERIC_2",
@@ -1754,7 +1933,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Ranger to 2 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ARCHER_MALE_GENERIC_3",
@@ -1765,7 +1945,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ranger to 3 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ARCHER_MALE_GENERIC_4",
@@ -1776,7 +1957,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Ranger to 4 stars",
-    "category": "Precision"
+    "category": "Precision",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ARCHER_MALE_GENERIC_5",
@@ -1787,7 +1969,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ranger to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ARCHER_FEMALE_FIX_1",
@@ -1798,7 +1981,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Archer to 6 stars",
-    "category": "Ally"
+    "category": "Ally",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ARCHER_FEMALE_GENERIC_1",
@@ -1809,7 +1993,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Archer to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ARCHER_FEMALE_GENERIC_2",
@@ -1820,7 +2005,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Archer to 2 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ARCHER_FEMALE_GENERIC_3",
@@ -1831,7 +2017,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Archer to 3 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ARCHER_FEMALE_GENERIC_4",
@@ -1842,7 +2029,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Archer to 4 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ARCHER_FEMALE_GENERIC_5",
@@ -1853,7 +2041,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Archer to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GUNNER_MALE_FIX_1",
@@ -1864,7 +2053,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Gunner to 6 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GUNNER_MALE_GENERIC_1",
@@ -1875,7 +2065,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Gunner to 1 star",
-    "category": "Precision"
+    "category": "Precision",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GUNNER_MALE_GENERIC_2",
@@ -1886,7 +2077,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Gunner to 2 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GUNNER_MALE_GENERIC_3",
@@ -1897,7 +2089,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Gunner to 3 stars",
-    "category": "Precision"
+    "category": "Precision",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GUNNER_MALE_GENERIC_4",
@@ -1908,7 +2101,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Gunner to 4 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GUNNER_MALE_GENERIC_5",
@@ -1919,7 +2113,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Gunner to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GUNNER_FEMALE_FIX_1",
@@ -1930,7 +2125,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Gunslinger to 6 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GUNNER_FEMALE_GENERIC_1",
@@ -1941,7 +2137,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Gunslinger to 1 star",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GUNNER_FEMALE_GENERIC_2",
@@ -1952,7 +2149,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Gunslinger to 2 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GUNNER_FEMALE_GENERIC_3",
@@ -1963,7 +2161,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Gunslinger to 3 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GUNNER_FEMALE_GENERIC_4",
@@ -1974,7 +2173,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Gunslinger to 4 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GUNNER_FEMALE_GENERIC_5",
@@ -1985,7 +2185,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Gunslinger to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NINJA_MALE_FIX_1",
@@ -1996,7 +2197,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Ninja to 6 stars",
-    "category": "Evasion"
+    "category": "Evasion",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NINJA_MALE_GENERIC_1",
@@ -2007,7 +2209,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Ninja to 1 star",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NINJA_MALE_GENERIC_2",
@@ -2018,7 +2221,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Ninja to 2 stars",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NINJA_MALE_GENERIC_3",
@@ -2029,7 +2233,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ninja to 3 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NINJA_MALE_GENERIC_4",
@@ -2040,7 +2245,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ninja to 4 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NINJA_MALE_GENERIC_5",
@@ -2051,7 +2257,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ninja to 5 stars",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NINJA_FEMALE_FIX_1",
@@ -2062,7 +2269,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Kunoichi to 6 stars",
-    "category": "Evasion"
+    "category": "Evasion",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NINJA_FEMALE_GENERIC_1",
@@ -2073,7 +2281,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Kunoichi to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NINJA_FEMALE_GENERIC_2",
@@ -2084,7 +2293,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Kunoichi to 2 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NINJA_FEMALE_GENERIC_3",
@@ -2095,7 +2305,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Kunoichi to 3 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NINJA_FEMALE_GENERIC_4",
@@ -2106,7 +2317,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Kunoichi to 4 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_NINJA_FEMALE_GENERIC_5",
@@ -2117,7 +2329,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Kunoichi to 5 stars",
-    "category": "Evasion"
+    "category": "Evasion",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAMURAI_MALE_FIX_1",
@@ -2128,7 +2341,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Male Samurai to 6 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAMURAI_MALE_GENERIC_1",
@@ -2139,7 +2353,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Male Samurai to 1 star",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAMURAI_MALE_GENERIC_2",
@@ -2150,7 +2365,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Male Samurai to 2 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAMURAI_MALE_GENERIC_3",
@@ -2161,7 +2377,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Male Samurai to 3 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAMURAI_MALE_GENERIC_4",
@@ -2172,7 +2389,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Male Samurai to 4 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAMURAI_MALE_GENERIC_5",
@@ -2183,7 +2401,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Male Samurai to 5 stars",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAMURAI_FEMALE_FIX_1",
@@ -2194,7 +2413,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Lady Samurai to 6 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAMURAI_FEMALE_GENERIC_1",
@@ -2205,7 +2425,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Lady Samurai to 1 star",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAMURAI_FEMALE_GENERIC_2",
@@ -2216,7 +2437,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Lady Samurai to 2 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAMURAI_FEMALE_GENERIC_3",
@@ -2227,7 +2449,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Lady Samurai to 3 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAMURAI_FEMALE_GENERIC_4",
@@ -2238,7 +2461,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Lady Samurai to 4 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SAMURAI_FEMALE_GENERIC_5",
@@ -2249,7 +2473,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Lady Samurai to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HEAVYKNIGHT_MALE_FIX_1",
@@ -2260,7 +2485,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Male Armor Knight to 6 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HEAVYKNIGHT_MALE_GENERIC_1",
@@ -2271,7 +2497,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Male Armor Knight to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HEAVYKNIGHT_MALE_GENERIC_2",
@@ -2282,7 +2509,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Male Armor Knight to 2 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HEAVYKNIGHT_MALE_GENERIC_3",
@@ -2293,7 +2521,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Male Armor Knight to 3 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HEAVYKNIGHT_MALE_GENERIC_4",
@@ -2304,7 +2533,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Male Armor Knight to 4 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HEAVYKNIGHT_MALE_GENERIC_5",
@@ -2315,7 +2545,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Male Armor Knight to 5 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HEAVYKNIGHT_FEMALE_FIX_1",
@@ -2326,7 +2557,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Female Armor Knight to 6 stars",
-    "category": "Ally"
+    "category": "Ally",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HEAVYKNIGHT_FEMALE_GENERIC_1",
@@ -2337,7 +2569,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Female Armor Knight to 1 star",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HEAVYKNIGHT_FEMALE_GENERIC_2",
@@ -2348,7 +2581,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Female Armor Knight to 2 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HEAVYKNIGHT_FEMALE_GENERIC_3",
@@ -2359,7 +2593,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Female Armor Knight to 3 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HEAVYKNIGHT_FEMALE_GENERIC_4",
@@ -2370,7 +2605,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Female Armor Knight to 4 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_HEAVYKNIGHT_FEMALE_GENERIC_5",
@@ -2381,7 +2617,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Female Armor Knight to 5 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHAMAN_MALE_FIX_1",
@@ -2392,7 +2629,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Sorcerer to 6 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHAMAN_MALE_GENERIC_1",
@@ -2403,7 +2641,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Sorcerer to 1 star",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHAMAN_MALE_GENERIC_2",
@@ -2414,7 +2653,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Sorcerer to 2 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHAMAN_MALE_GENERIC_3",
@@ -2425,7 +2665,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Sorcerer to 3 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHAMAN_MALE_GENERIC_4",
@@ -2436,7 +2677,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Sorcerer to 4 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHAMAN_MALE_GENERIC_5",
@@ -2447,7 +2689,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Sorcerer to 5 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_DANCER_FEMALE_FIX_1",
@@ -2458,7 +2701,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Maiko to 6 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_DANCER_FEMALE_GENERIC_1",
@@ -2469,7 +2713,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Maiko to 1 star",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_DANCER_FEMALE_GENERIC_2",
@@ -2480,7 +2725,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Maiko to 2 stars",
-    "category": "Item"
+    "category": "Item",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_DANCER_FEMALE_GENERIC_3",
@@ -2491,7 +2737,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Maiko to 3 stars",
-    "category": "Item"
+    "category": "Item",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_DANCER_FEMALE_GENERIC_4",
@@ -2502,7 +2749,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Maiko to 4 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_DANCER_FEMALE_GENERIC_5",
@@ -2513,7 +2761,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Maiko to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_MAGICSWORDMAN_FEMALE_FIX_1",
@@ -2524,7 +2773,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Magic Knight to 6 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_MAGICSWORDMAN_FEMALE_GENERIC_1",
@@ -2535,7 +2785,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Magic Knight to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_MAGICSWORDMAN_FEMALE_GENERIC_2",
@@ -2546,7 +2797,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Magic Knight to 2 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_MAGICSWORDMAN_FEMALE_GENERIC_3",
@@ -2557,7 +2809,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Magic Knight to 3 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_MAGICSWORDMAN_FEMALE_GENERIC_4",
@@ -2568,7 +2821,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Magic Knight to 4 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_MAGICSWORDMAN_FEMALE_GENERIC_5",
@@ -2579,7 +2833,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Magic Knight to 5 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PSYCHIC_MALE_FIX_1",
@@ -2590,7 +2845,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Psychic to 6 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PSYCHIC_MALE_GENERIC_1",
@@ -2601,7 +2857,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Psychic to 1 star",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PSYCHIC_MALE_GENERIC_2",
@@ -2612,7 +2869,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Psychic to 2 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PSYCHIC_MALE_GENERIC_3",
@@ -2623,7 +2881,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Psychic to 3 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PSYCHIC_MALE_GENERIC_4",
@@ -2634,7 +2893,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Psychic to 4 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PSYCHIC_MALE_GENERIC_5",
@@ -2645,7 +2905,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Psychic to 5 stars",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PROFESSOR_FEMALE_FIX_1",
@@ -2656,7 +2917,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Professor to 6 stars",
-    "category": "Ally"
+    "category": "Ally",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PROFESSOR_FEMALE_GENERIC_1",
@@ -2667,7 +2929,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Professor to 1 star",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PROFESSOR_FEMALE_GENERIC_2",
@@ -2678,7 +2941,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Professor to 2 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PROFESSOR_FEMALE_GENERIC_3",
@@ -2689,7 +2953,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Professor to 3 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PROFESSOR_FEMALE_GENERIC_4",
@@ -2700,7 +2965,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Professor to 4 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PROFESSOR_FEMALE_GENERIC_5",
@@ -2711,7 +2977,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Professor to 5 stars",
-    "category": "Item"
+    "category": "Item",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ROBOT_FEMALE_FIX_1",
@@ -2722,7 +2989,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Mecha Girl to 6 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ROBOT_FEMALE_GENERIC_1",
@@ -2733,7 +3001,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Mecha Girl to 1 star",
-    "category": "Precision"
+    "category": "Precision",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ROBOT_FEMALE_GENERIC_2",
@@ -2744,7 +3013,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Mecha Girl to 2 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ROBOT_FEMALE_GENERIC_3",
@@ -2755,7 +3025,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Mecha Girl to 3 stars",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ROBOT_FEMALE_GENERIC_4",
@@ -2766,7 +3037,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Mecha Girl to 4 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ROBOT_FEMALE_GENERIC_5",
@@ -2777,7 +3049,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Mecha Girl to 5 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ANGEL_FEMALE_FIX_1",
@@ -2788,7 +3061,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Celestial Hostess to 6 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ANGEL_FEMALE_GENERIC_1",
@@ -2799,7 +3073,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Celestial Hostess to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ANGEL_FEMALE_GENERIC_2",
@@ -2810,7 +3085,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Celestial Hostess to 2 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ANGEL_FEMALE_GENERIC_3",
@@ -2821,7 +3097,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Celestial Hostess to 3 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ANGEL_FEMALE_GENERIC_4",
@@ -2832,7 +3109,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Celestial Hostess to 4 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ANGEL_FEMALE_GENERIC_5",
@@ -2843,7 +3121,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Celestial Hostess to 5 stars",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PRINY_FIX_1",
@@ -2854,7 +3133,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Prinny to 6 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PRINY_GENERIC_1",
@@ -2865,7 +3145,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Prinny to 1 star",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PRINY_GENERIC_2",
@@ -2876,7 +3157,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Prinny to 2 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PRINY_GENERIC_3",
@@ -2887,7 +3169,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Prinny to 3 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PRINY_GENERIC_4",
@@ -2898,7 +3181,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Prinny to 4 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_PRINY_GENERIC_5",
@@ -2909,7 +3193,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Prinny to 5 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ORC_FIX_1",
@@ -2920,7 +3205,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Orc to 6 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ORC_GENERIC_1",
@@ -2931,7 +3217,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Orc to 1 star",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ORC_GENERIC_2",
@@ -2942,7 +3229,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Orc to 2 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ORC_GENERIC_3",
@@ -2953,7 +3241,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Orc to 3 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ORC_GENERIC_4",
@@ -2964,7 +3253,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Orc to 4 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ORC_GENERIC_5",
@@ -2975,7 +3265,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Orc to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SLUMBER_CAT_FIX_1",
@@ -2986,7 +3277,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Slumber Cat to 6 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SLUMBER_CAT_GENERIC_1",
@@ -2997,7 +3289,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Slumber Cat to 1 star",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SLUMBER_CAT_GENERIC_2",
@@ -3008,7 +3301,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Slumber Cat to 2 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SLUMBER_CAT_GENERIC_3",
@@ -3019,7 +3313,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Slumber Cat to 3 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SLUMBER_CAT_GENERIC_4",
@@ -3030,7 +3325,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Slumber Cat to 4 stars",
-    "category": "Evasion"
+    "category": "Evasion",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SLUMBER_CAT_GENERIC_5",
@@ -3041,7 +3337,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Slumber Cat to 5 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SPIRIT_FIX_1",
@@ -3052,7 +3349,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Spirit to 6 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SPIRIT_GENERIC_1",
@@ -3063,7 +3361,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Spirit to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SPIRIT_GENERIC_2",
@@ -3074,7 +3373,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Spirit to 2 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SPIRIT_GENERIC_3",
@@ -3085,7 +3385,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Spirit to 3 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SPIRIT_GENERIC_4",
@@ -3096,7 +3397,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Spirit to 4 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SPIRIT_GENERIC_5",
@@ -3107,7 +3409,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Spirit to 5 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WINGED_WARRIOR_FIX_1",
@@ -3118,7 +3421,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Winged Warrior to 6 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WINGED_WARRIOR_GENERIC_1",
@@ -3129,7 +3433,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Winged Warrior to 1 star",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WINGED_WARRIOR_GENERIC_2",
@@ -3140,7 +3445,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Winged Warrior to 2 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WINGED_WARRIOR_GENERIC_3",
@@ -3151,7 +3457,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Winged Warrior to 3 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WINGED_WARRIOR_GENERIC_4",
@@ -3162,7 +3469,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Winged Warrior to 4 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_WINGED_WARRIOR_GENERIC_5",
@@ -3173,7 +3481,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Winged Warrior to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ZOMBIE_FIX_1",
@@ -3184,7 +3493,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Undead to 6 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ZOMBIE_GENERIC_1",
@@ -3195,7 +3505,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Undead to 1 star",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ZOMBIE_GENERIC_2",
@@ -3206,7 +3517,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Undead to 2 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ZOMBIE_GENERIC_3",
@@ -3217,7 +3529,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Undead to 3 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ZOMBIE_GENERIC_4",
@@ -3228,7 +3541,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Undead to 4 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ZOMBIE_GENERIC_5",
@@ -3239,7 +3553,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Undead to 5 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHROOM_FIX_1",
@@ -3250,7 +3565,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Shroom to 6 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHROOM_GENERIC_1",
@@ -3261,7 +3577,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Shroom to 1 star",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHROOM_GENERIC_2",
@@ -3272,7 +3589,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Shroom to 2 stars",
-    "category": "SP"
+    "category": "SP",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHROOM_GENERIC_3",
@@ -3283,7 +3601,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Shroom to 3 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHROOM_GENERIC_4",
@@ -3294,7 +3613,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Shroom to 4 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SHROOM_GENERIC_5",
@@ -3305,7 +3625,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Shroom to 5 stars",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_KIT_CAT_FIX_1",
@@ -3316,7 +3637,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Felynn to 6 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_KIT_CAT_GENERIC_1",
@@ -3327,7 +3649,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Felynn to 1 star",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_KIT_CAT_GENERIC_2",
@@ -3338,7 +3661,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Felynn to 2 stars",
-    "category": "Ally"
+    "category": "Ally",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_KIT_CAT_GENERIC_3",
@@ -3349,7 +3673,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Felynn to 3 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_KIT_CAT_GENERIC_4",
@@ -3360,7 +3685,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Felynn to 4 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_KIT_CAT_GENERIC_5",
@@ -3371,7 +3697,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Felynn to 5 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLIONE_FIX_1",
@@ -3382,7 +3709,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Sea Angel to 6 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLIONE_GENERIC_1",
@@ -3393,7 +3721,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Sea Angel to 1 star",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLIONE_GENERIC_2",
@@ -3404,7 +3733,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Sea Angel to 2 stars",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLIONE_GENERIC_3",
@@ -3415,7 +3745,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Sea Angel to 3 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLIONE_GENERIC_4",
@@ -3426,7 +3757,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Sea Angel to 4 stars",
-    "category": "Ally"
+    "category": "Ally",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CLIONE_GENERIC_5",
@@ -3437,7 +3769,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Sea Angel to 5 stars",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FLORA_BEAST_FIX_1",
@@ -3448,7 +3781,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Flora Beast to 6 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FLORA_BEAST_GENERIC_1",
@@ -3459,7 +3793,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Flora Beast to 1 star",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FLORA_BEAST_GENERIC_2",
@@ -3470,7 +3805,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Flora Beast to 2 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FLORA_BEAST_GENERIC_3",
@@ -3481,7 +3817,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Flora Beast to 3 stars",
-    "category": "SP"
+    "category": "SP",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FLORA_BEAST_GENERIC_4",
@@ -3492,7 +3829,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Flora Beast to 4 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_FLORA_BEAST_GENERIC_5",
@@ -3503,7 +3841,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Flora Beast to 5 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_UNDEAD_FIX_1",
@@ -3514,7 +3853,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Zombie Maiden to 6 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_UNDEAD_GENERIC_1",
@@ -3525,7 +3865,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Zombie Maiden to 1 star",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_UNDEAD_GENERIC_2",
@@ -3536,7 +3877,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Zombie Maiden to 2 stars",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_UNDEAD_GENERIC_3",
@@ -3547,7 +3889,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Zombie Maiden to 3 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_UNDEAD_GENERIC_4",
@@ -3558,7 +3901,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Zombie Maiden to 4 stars",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_UNDEAD_GENERIC_5",
@@ -3569,7 +3913,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Zombie Maiden to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SUCCUBUS_FIX_1",
@@ -3580,7 +3925,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Succubus to 6 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SUCCUBUS_GENERIC_1",
@@ -3591,7 +3937,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Succubus to 1 star",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SUCCUBUS_GENERIC_2",
@@ -3602,7 +3949,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Succubus to 2 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SUCCUBUS_GENERIC_3",
@@ -3613,7 +3961,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Succubus to 3 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SUCCUBUS_GENERIC_4",
@@ -3624,7 +3973,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Succubus to 4 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_SUCCUBUS_GENERIC_5",
@@ -3635,7 +3985,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Succubus to 5 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CATOBLEPAS_FIX_1",
@@ -3646,7 +3997,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Evil Eye to 6 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CATOBLEPAS_GENERIC_1",
@@ -3657,7 +4009,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Evil Eye to 1 star",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CATOBLEPAS_GENERIC_2",
@@ -3668,7 +4021,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Evil Eye to 2 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CATOBLEPAS_GENERIC_3",
@@ -3679,7 +4033,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Evil Eye to 3 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CATOBLEPAS_GENERIC_4",
@@ -3690,7 +4045,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Evil Eye to 4 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CATOBLEPAS_GENERIC_5",
@@ -3701,7 +4057,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Evil Eye to 5 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CAVALRY_DEVIL_FIX_1",
@@ -3712,7 +4069,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Horseman to 6 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CAVALRY_DEVIL_GENERIC_1",
@@ -3723,7 +4081,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Horseman to 1 star",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CAVALRY_DEVIL_GENERIC_2",
@@ -3734,7 +4093,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Horseman to 2 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CAVALRY_DEVIL_GENERIC_3",
@@ -3745,7 +4105,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Horseman to 3 stars",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CAVALRY_DEVIL_GENERIC_4",
@@ -3756,7 +4117,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Horseman to 4 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CAVALRY_DEVIL_GENERIC_5",
@@ -3767,7 +4129,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Horseman to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_DRAGON_FIX_1",
@@ -3778,7 +4141,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Dragon to 6 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_DRAGON_GENERIC_1",
@@ -3789,7 +4153,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Dragon to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_DRAGON_GENERIC_2",
@@ -3800,7 +4165,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Dragon to 2 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_DRAGON_GENERIC_3",
@@ -3811,7 +4177,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Dragon to 3 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_DRAGON_GENERIC_4",
@@ -3822,7 +4189,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Dragon to 4 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_DRAGON_GENERIC_5",
@@ -3833,7 +4201,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Dragon to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CRABKING_FIX_1",
@@ -3844,7 +4213,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Pincer Shell to 6 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CRABKING_GENERIC_1",
@@ -3855,7 +4225,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Pincer Shell to 1 star",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CRABKING_GENERIC_2",
@@ -3866,7 +4237,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Pincer Shell to 2 stars",
-    "category": "Evasion"
+    "category": "Evasion",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CRABKING_GENERIC_3",
@@ -3877,7 +4249,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Pincer Shell to 3 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CRABKING_GENERIC_4",
@@ -3888,7 +4261,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Pincer Shell to 4 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CRABKING_GENERIC_5",
@@ -3899,7 +4273,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Pincer Shell to 5 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_RIFLE_DEMON_FIX_1",
@@ -3910,7 +4285,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Rifle Demon to 6 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_RIFLE_DEMON_GENERIC_1",
@@ -3921,7 +4297,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Rifle Demon to 1 star",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_RIFLE_DEMON_GENERIC_2",
@@ -3932,7 +4309,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Rifle Demon to 2 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_RIFLE_DEMON_GENERIC_3",
@@ -3943,7 +4321,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Rifle Demon to 3 stars",
-    "category": "Precision"
+    "category": "Precision",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_RIFLE_DEMON_GENERIC_4",
@@ -3954,7 +4333,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Rifle Demon to 4 stars",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_RIFLE_DEMON_GENERIC_5",
@@ -3965,7 +4345,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Rifle Demon to 5 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_BIG_EYE_FIX_1",
@@ -3976,7 +4357,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Giant Eye to 6 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_BIG_EYE_GENERIC_1",
@@ -3987,7 +4369,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Giant Eye to 1 star",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_BIG_EYE_GENERIC_2",
@@ -3998,7 +4381,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Giant Eye to 2 stars",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_BIG_EYE_GENERIC_3",
@@ -4009,7 +4393,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Giant Eye to 3 stars",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_BIG_EYE_GENERIC_4",
@@ -4020,7 +4405,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Giant Eye to 4 stars",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_BIG_EYE_GENERIC_5",
@@ -4031,7 +4417,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Giant Eye to 5 stars",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_LUCKYBOARD_FIX_1",
@@ -4041,7 +4428,8 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Lucky Board exclusive"
+    "unlock": "Lucky Board exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0001",
@@ -4052,7 +4440,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0002",
@@ -4063,7 +4452,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0003",
@@ -4074,7 +4464,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0004",
@@ -4085,7 +4476,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0005",
@@ -4096,7 +4488,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0006",
@@ -4107,7 +4500,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0007",
@@ -4118,7 +4512,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0008",
@@ -4129,7 +4524,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0009",
@@ -4140,7 +4536,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0010",
@@ -4151,7 +4548,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0011",
@@ -4162,7 +4560,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0012",
@@ -4173,7 +4572,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0220",
@@ -4184,7 +4584,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0221",
@@ -4195,7 +4596,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0222",
@@ -4206,7 +4608,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0223",
@@ -4217,7 +4620,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0224",
@@ -4228,7 +4632,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0225",
@@ -4239,7 +4644,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0226",
@@ -4250,7 +4656,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0241",
@@ -4261,7 +4668,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "???",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0013",
@@ -4272,7 +4680,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0014",
@@ -4283,7 +4692,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0015",
@@ -4294,7 +4704,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0016",
@@ -4305,7 +4716,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0017",
@@ -4316,7 +4728,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0018",
@@ -4327,7 +4740,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0019",
@@ -4338,7 +4752,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Ultimate Overlord Gacha",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0020",
@@ -4349,7 +4764,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Ultimate Overlord Gacha",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0021",
@@ -4360,7 +4776,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Ultimate Overlord Gacha",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0022",
@@ -4371,7 +4788,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0023",
@@ -4382,7 +4800,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0024",
@@ -4393,7 +4812,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0025",
@@ -4404,7 +4824,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Overlord Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0026",
@@ -4415,7 +4836,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0027",
@@ -4426,7 +4848,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0028",
@@ -4437,7 +4860,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0029",
@@ -4448,7 +4872,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Overlord Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0030",
@@ -4459,7 +4884,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0031",
@@ -4470,7 +4896,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0032",
@@ -4481,7 +4908,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0033",
@@ -4492,7 +4920,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Overlord Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0034",
@@ -4503,7 +4932,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0035",
@@ -4514,7 +4944,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0036",
@@ -4525,7 +4956,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Ultimate Overlord Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0037",
@@ -4536,7 +4968,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Overlord Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0038",
@@ -4547,7 +4980,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0039",
@@ -4558,7 +4992,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0040",
@@ -4569,7 +5004,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0041",
@@ -4580,7 +5016,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0042",
@@ -4591,7 +5028,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0043",
@@ -4602,7 +5040,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0044",
@@ -4613,7 +5052,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0045",
@@ -4624,7 +5064,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0046",
@@ -4635,7 +5076,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0047",
@@ -4646,7 +5088,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0048",
@@ -4657,7 +5100,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Ultimate Overlord Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0049",
@@ -4668,7 +5112,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Ultimate Overlord Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0050",
@@ -4679,7 +5124,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Ultimate Overlord Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0051",
@@ -4690,7 +5136,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Ultimate Overlord Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0058",
@@ -4701,7 +5148,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0059",
@@ -4712,7 +5160,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "SP"
+    "category": "SP",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0060",
@@ -4723,7 +5172,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0061",
@@ -4734,7 +5184,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0062",
@@ -4745,7 +5196,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0063",
@@ -4756,7 +5208,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0064",
@@ -4767,7 +5220,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Evasion"
+    "category": "Evasion",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0065",
@@ -4778,7 +5232,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Precision"
+    "category": "Precision",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0066",
@@ -4789,7 +5244,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0067",
@@ -4800,7 +5256,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0068",
@@ -4811,7 +5268,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "Precision"
+    "category": "Precision",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0069",
@@ -4822,7 +5280,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0070",
@@ -4833,7 +5292,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0071",
@@ -4844,7 +5304,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0072",
@@ -4855,7 +5316,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0073",
@@ -4866,7 +5328,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0074",
@@ -4877,7 +5340,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0075",
@@ -4888,7 +5352,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Item"
+    "category": "Item",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0076",
@@ -4899,7 +5364,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0077",
@@ -4910,7 +5376,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0079",
@@ -4921,7 +5388,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0080",
@@ -4932,7 +5400,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0081",
@@ -4943,7 +5412,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Overlord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0173",
@@ -4954,7 +5424,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Evility Scholars after 50 battles",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0174",
@@ -4965,7 +5436,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Evility Scholars after 75 battles",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0175",
@@ -4976,7 +5448,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0176",
@@ -4987,7 +5460,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0177",
@@ -4998,7 +5472,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Evility Scholars after 15 battles",
-    "category": "Item"
+    "category": "Item",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0178",
@@ -5009,7 +5484,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0179",
@@ -5020,7 +5496,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0180",
@@ -5031,7 +5508,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0181",
@@ -5042,7 +5520,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Evility Scholars after 5 battles",
-    "category": "Ally"
+    "category": "Ally",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0182",
@@ -5053,7 +5532,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Evility Scholars after 30 battles",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0052",
@@ -5064,7 +5544,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Quest \"Pop Dem Reds!\"",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0053",
@@ -5075,7 +5556,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Quest \"Pop Dem Blues!\"",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0054",
@@ -5086,7 +5568,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Quest \"Pop Dem Yellows!\"",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0055",
@@ -5097,7 +5580,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Quest \"Pop Dem Greens!\"",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0056",
@@ -5108,7 +5592,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Quest \"Pop Dem Purples!\"",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0057",
@@ -5119,7 +5604,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Quest \"Pop Dem Aquas!\"",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0082",
@@ -5130,7 +5616,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0083",
@@ -5141,7 +5628,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Mid-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0084",
@@ -5152,7 +5640,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "High-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0085",
@@ -5163,7 +5652,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0086",
@@ -5174,7 +5664,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0087",
@@ -5185,7 +5676,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0088",
@@ -5196,7 +5688,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Mid-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0089",
@@ -5207,7 +5700,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "High-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0090",
@@ -5218,7 +5712,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0091",
@@ -5229,7 +5724,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0092",
@@ -5240,7 +5736,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0093",
@@ -5251,7 +5748,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Mid-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0094",
@@ -5262,7 +5760,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "High-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0095",
@@ -5273,7 +5772,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0096",
@@ -5284,7 +5784,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0097",
@@ -5295,7 +5796,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0098",
@@ -5306,7 +5808,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Mid-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0099",
@@ -5317,7 +5820,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "High-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0100",
@@ -5328,7 +5832,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0101",
@@ -5339,7 +5844,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0102",
@@ -5350,7 +5856,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0103",
@@ -5361,7 +5868,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Mid-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0104",
@@ -5372,7 +5880,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "High-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0105",
@@ -5383,7 +5892,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0106",
@@ -5394,7 +5904,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0107",
@@ -5405,7 +5916,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0108",
@@ -5416,7 +5928,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Mid-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0109",
@@ -5427,7 +5940,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "High-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0110",
@@ -5438,7 +5952,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0111",
@@ -5449,7 +5964,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0112",
@@ -5460,7 +5976,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0113",
@@ -5471,7 +5988,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Mid-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0114",
@@ -5482,7 +6000,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "High-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0115",
@@ -5493,7 +6012,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0116",
@@ -5504,7 +6024,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0117",
@@ -5515,7 +6036,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0118",
@@ -5526,7 +6048,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Mid-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0119",
@@ -5537,7 +6060,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "High-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0120",
@@ -5548,7 +6072,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0121",
@@ -5559,7 +6084,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0122",
@@ -5570,7 +6096,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0123",
@@ -5581,7 +6108,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Mid-Tier Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0124",
@@ -5592,7 +6120,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "High-Tier Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0125",
@@ -5603,7 +6132,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0126",
@@ -5614,7 +6144,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0127",
@@ -5625,7 +6156,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "???",
-    "category": "None"
+    "category": "None",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0128",
@@ -5636,7 +6168,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0231",
@@ -5647,7 +6180,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0232",
@@ -5658,7 +6192,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Mid-Tier Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0233",
@@ -5669,7 +6204,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "High-Tier Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0234",
@@ -5680,7 +6216,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0235",
@@ -5691,7 +6228,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0129",
@@ -5702,7 +6240,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0130",
@@ -5713,7 +6252,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Mid-Tier Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0131",
@@ -5724,7 +6264,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "High-Tier Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0132",
@@ -5735,7 +6276,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0133",
@@ -5746,7 +6288,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0134",
@@ -5757,7 +6300,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0135",
@@ -5768,7 +6312,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Mid-Tier Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0136",
@@ -5779,7 +6324,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "High-Tier Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0137",
@@ -5790,7 +6336,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0138",
@@ -5801,7 +6348,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0236",
@@ -5812,7 +6360,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0237",
@@ -5823,7 +6372,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Mid-Tier Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0238",
@@ -5834,7 +6384,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "High-Tier Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0239",
@@ -5845,7 +6396,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Ultimate Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0240",
@@ -5856,7 +6408,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Demon Lord Gacha",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0139",
@@ -5867,7 +6420,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0140",
@@ -5878,7 +6432,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest \"Knuckle Up\" (only?)",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0141",
@@ -5889,7 +6444,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0142",
@@ -5900,7 +6456,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0143",
@@ -5911,7 +6468,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0144",
@@ -5922,7 +6480,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest \"Pleasant Swordwork\" (only?)",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0145",
@@ -5933,7 +6492,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0146",
@@ -5944,7 +6504,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0147",
@@ -5955,7 +6516,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0148",
@@ -5966,7 +6528,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest \"Spear TA\" (only?)",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0149",
@@ -5977,7 +6540,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0150",
@@ -5988,7 +6552,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0151",
@@ -5999,7 +6564,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0152",
@@ -6010,7 +6576,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest \"Archery Club Regular\" (only?)",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0153",
@@ -6021,7 +6588,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0154",
@@ -6032,7 +6600,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0155",
@@ -6043,7 +6612,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0156",
@@ -6054,7 +6624,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest \"Tootin' Boy\" (only?)",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0157",
@@ -6065,7 +6636,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0158",
@@ -6076,7 +6648,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0159",
@@ -6087,7 +6660,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0160",
@@ -6098,7 +6672,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest \"Staff Pro\" (only?)",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0161",
@@ -6109,7 +6684,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0162",
@@ -6120,7 +6696,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0163",
@@ -6131,7 +6708,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0164",
@@ -6142,7 +6720,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest \"Axes Are Amazing\" (only?)",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0165",
@@ -6153,7 +6732,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0166",
@@ -6164,7 +6744,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0167",
@@ -6175,7 +6756,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Learnable by default",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0168",
@@ -6186,7 +6768,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest \"Mom's Suggestion\" (only?)",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0169",
@@ -6197,7 +6780,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0170",
@@ -6208,7 +6792,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0227",
@@ -6219,7 +6804,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Low-Tier Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0228",
@@ -6230,7 +6816,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest \"Monster Mage Acolyte\" (only?)",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0229",
@@ -6241,7 +6828,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Super Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0230",
@@ -6252,7 +6840,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Supreme Overlord Gacha",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0171",
@@ -6263,7 +6852,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "???",
-    "category": "None"
+    "category": "None",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0172",
@@ -6274,7 +6864,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "???",
-    "category": "None"
+    "category": "None",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0183",
@@ -6285,7 +6876,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0184",
@@ -6296,7 +6888,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0185",
@@ -6307,7 +6900,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0186",
@@ -6318,7 +6912,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0187",
@@ -6329,7 +6924,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0188",
@@ -6340,7 +6936,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0189",
@@ -6351,7 +6948,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0190",
@@ -6362,7 +6960,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0191",
@@ -6373,7 +6972,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0192",
@@ -6384,7 +6984,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0193",
@@ -6395,7 +6996,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0194",
@@ -6406,7 +7008,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0195",
@@ -6417,7 +7020,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0196",
@@ -6428,7 +7032,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0197",
@@ -6439,7 +7044,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0198",
@@ -6450,7 +7056,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0199",
@@ -6461,7 +7068,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0200",
@@ -6472,7 +7080,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0201",
@@ -6483,7 +7092,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0202",
@@ -6494,7 +7104,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0203",
@@ -6505,7 +7116,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0204",
@@ -6516,7 +7128,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0205",
@@ -6527,7 +7140,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0206",
@@ -6538,7 +7152,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0207",
@@ -6549,7 +7164,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0208",
@@ -6560,7 +7176,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0209",
@@ -6571,7 +7188,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0210",
@@ -6582,7 +7200,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0211",
@@ -6593,7 +7212,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0212",
@@ -6604,7 +7224,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0213",
@@ -6615,7 +7236,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0214",
@@ -6626,7 +7248,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0215",
@@ -6637,7 +7260,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0216",
@@ -6648,7 +7272,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0217",
@@ -6659,7 +7284,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Quest",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0218",
@@ -6670,7 +7296,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Evility Scholars after 150 battles",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_GENERIC_0219",
@@ -6681,7 +7308,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "???",
-    "category": "None"
+    "category": "None",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0001",
@@ -6691,7 +7319,8 @@
     "unique": false,
     "cost": 1,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0002",
@@ -6701,7 +7330,8 @@
     "unique": false,
     "cost": 1,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0003",
@@ -6711,7 +7341,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0004",
@@ -6721,7 +7352,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0005",
@@ -6731,7 +7363,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0006",
@@ -6741,7 +7374,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0007",
@@ -6751,7 +7385,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0008",
@@ -6761,7 +7396,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0009",
@@ -6771,7 +7407,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0010",
@@ -6781,7 +7418,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0011",
@@ -6791,7 +7429,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0012",
@@ -6801,7 +7440,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0013",
@@ -6811,7 +7451,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0014",
@@ -6821,7 +7462,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0015",
@@ -6831,7 +7473,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0016",
@@ -6841,7 +7484,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0017",
@@ -6851,7 +7495,8 @@
     "unique": false,
     "cost": 1,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0018",
@@ -6861,7 +7506,8 @@
     "unique": false,
     "cost": 1,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0019",
@@ -6871,7 +7517,8 @@
     "unique": false,
     "cost": 1,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0020",
@@ -6881,7 +7528,8 @@
     "unique": false,
     "cost": 1,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0021",
@@ -6891,7 +7539,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0022",
@@ -6901,7 +7550,8 @@
     "unique": false,
     "cost": 1,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0023",
@@ -6911,7 +7561,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0024",
@@ -6921,7 +7572,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0025",
@@ -6931,7 +7583,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0026",
@@ -6941,7 +7594,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0027",
@@ -6951,7 +7605,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0028",
@@ -6961,7 +7616,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0029",
@@ -6971,7 +7627,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0030",
@@ -6981,7 +7638,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0031",
@@ -6991,7 +7649,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0032",
@@ -7001,7 +7660,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CUSTOM_7",
@@ -7011,7 +7671,8 @@
     "unique": false,
     "cost": 5,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CUSTOM_8",
@@ -7021,7 +7682,8 @@
     "unique": false,
     "cost": 5,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0033",
@@ -7031,7 +7693,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive"
+    "unlock": "Enemy exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0034",
@@ -7041,7 +7704,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Chapter 5 unit exclusive"
+    "unlock": "Chapter 5 unit exclusive",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_VICE_COMPLETE_01",
@@ -7052,7 +7716,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Evility Scholars after 300 battles",
-    "category": "None"
+    "category": "Miscellaneous",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_VICE_COMPLETE_02",
@@ -7063,7 +7728,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Defeat Carnage 15 boss",
-    "category": "None"
+    "category": "None",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_CUSTOM_9",
@@ -7074,7 +7740,8 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Defeat Carnage Baal",
-    "category": "None"
+    "category": "None",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0035",
@@ -7084,7 +7751,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive?"
+    "unlock": "Enemy exclusive?",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0036",
@@ -7094,7 +7762,8 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive?"
+    "unlock": "Enemy exclusive?",
+    "dlc": false
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_ADD_0001",
@@ -7104,6 +7773,7 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive?"
+    "unlock": "Enemy exclusive?",
+    "dlc": false
   }
 ]

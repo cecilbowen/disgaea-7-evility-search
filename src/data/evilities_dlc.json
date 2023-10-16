@@ -8,7 +8,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Plenair",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true,
+    "fixed": "Plenair"
   },
   {
     "id": "EVILITY_ID_DLC_PLENAIR_GENERIC_1",
@@ -19,7 +21,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Plenair",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_PLENAIR_GENERIC_2",
@@ -30,7 +33,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Plenair",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_PLENAIR_GENERIC_3",
@@ -41,7 +45,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Plenair",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_PLENAIR_GENERIC_4",
@@ -52,7 +57,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Plenair",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_PLENAIR_GENERIC_5",
@@ -63,7 +69,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Plenair",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_LAHARL_FIX_1",
@@ -74,7 +81,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Laharl",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true,
+    "fixed": "Laharl"
   },
   {
     "id": "EVILITY_ID_DLC_LAHARL_GENERIC_1",
@@ -85,7 +94,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Laharl",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_LAHARL_GENERIC_2",
@@ -96,7 +106,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Laharl",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_LAHARL_GENERIC_3",
@@ -107,7 +118,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Laharl",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_LAHARL_GENERIC_4",
@@ -118,7 +130,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Laharl",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_LAHARL_GENERIC_5",
@@ -129,7 +142,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Laharl",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ETNA_FIX_1",
@@ -140,7 +154,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Etna",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true,
+    "fixed": "Etna"
   },
   {
     "id": "EVILITY_ID_DLC_ETNA_GENERIC_1",
@@ -151,7 +167,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Etna",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ETNA_GENERIC_2",
@@ -162,7 +179,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Etna",
-    "category": "Ally"
+    "category": "Ally",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ETNA_GENERIC_3",
@@ -173,7 +191,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Etna",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ETNA_GENERIC_4",
@@ -184,7 +203,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Etna",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ETNA_GENERIC_5",
@@ -195,7 +215,8 @@
     "cost": 6,
     "enemyOnly": false,
     "unlock": "Etna",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ROZALIN_FIX_1",
@@ -206,7 +227,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Rozalin",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true,
+    "fixed": "Rozalin"
   },
   {
     "id": "EVILITY_ID_DLC_ROZALIN_GENERIC_1",
@@ -217,7 +240,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Rozalin",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ROZALIN_GENERIC_2",
@@ -228,7 +252,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Rozalin",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ROZALIN_GENERIC_3",
@@ -239,7 +264,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Rozalin",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ROZALIN_GENERIC_4",
@@ -250,7 +276,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Rozalin",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ROZALIN_GENERIC_5",
@@ -261,7 +288,8 @@
     "cost": 6,
     "enemyOnly": false,
     "unlock": "Rozalin",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ADELL_FIX_1",
@@ -272,7 +300,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Adell",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true,
+    "fixed": "Adell"
   },
   {
     "id": "EVILITY_ID_DLC_ADELL_GENERIC_1",
@@ -283,7 +313,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Adell",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ADELL_GENERIC_2",
@@ -294,7 +325,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Adell",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ADELL_GENERIC_3",
@@ -305,7 +337,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Adell",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ADELL_GENERIC_4",
@@ -316,7 +349,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Adell",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ADELL_GENERIC_5",
@@ -327,7 +361,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Adell",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FUKA_FIX_1",
@@ -338,7 +373,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Fuka",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true,
+    "fixed": "Fuka"
   },
   {
     "id": "EVILITY_ID_DLC_FUKA_GENERIC_1",
@@ -349,7 +386,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Fuka",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FUKA_GENERIC_2",
@@ -360,7 +398,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Fuka",
-    "category": "Item"
+    "category": "Item",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FUKA_GENERIC_3",
@@ -371,7 +410,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Fuka",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FUKA_GENERIC_4",
@@ -382,7 +422,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Fuka",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FUKA_GENERIC_5",
@@ -393,7 +434,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Fuka",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_SERAPHINA_FIX_1",
@@ -404,7 +446,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Seraphina",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true,
+    "fixed": "Seraphina"
   },
   {
     "id": "EVILITY_ID_DLC_SERAPHINA_GENERIC_1",
@@ -415,7 +459,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Seraphina",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_SERAPHINA_GENERIC_2",
@@ -426,7 +471,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Seraphina",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_SERAPHINA_GENERIC_3",
@@ -437,7 +483,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Seraphina",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_SERAPHINA_GENERIC_4",
@@ -448,7 +495,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Seraphina",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_SERAPHINA_GENERIC_5",
@@ -459,7 +507,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Seraphina",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_MAO_FIX_1",
@@ -470,7 +519,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Mao",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true,
+    "fixed": "Mao"
   },
   {
     "id": "EVILITY_ID_DLC_MAO_GENERIC_1",
@@ -481,7 +532,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Mao",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_MAO_GENERIC_2",
@@ -492,7 +544,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Mao",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_MAO_GENERIC_3",
@@ -503,7 +556,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Mao",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_MAO_GENERIC_4",
@@ -514,7 +568,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Mao",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_MAO_GENERIC_5",
@@ -525,7 +580,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Mao",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_AXEL_FIX_1",
@@ -536,7 +592,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Axel",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true,
+    "fixed": "Axel"
   },
   {
     "id": "EVILITY_ID_DLC_AXEL_GENERIC_1",
@@ -547,7 +605,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Axel",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_AXEL_GENERIC_2",
@@ -558,7 +617,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Axel",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_AXEL_GENERIC_3",
@@ -569,7 +629,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Axel",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_AXEL_GENERIC_4",
@@ -580,7 +641,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Axel",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_AXEL_GENERIC_5",
@@ -591,7 +653,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Axel",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_DESCO_FIX_1",
@@ -602,7 +665,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Desco",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true,
+    "fixed": "Desco"
   },
   {
     "id": "EVILITY_ID_DLC_DESCO_GENERIC_1",
@@ -613,7 +678,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Desco",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_DESCO_GENERIC_2",
@@ -624,7 +690,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Desco",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_DESCO_GENERIC_3",
@@ -635,7 +702,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Desco",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_DESCO_GENERIC_4",
@@ -646,7 +714,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Desco",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_DESCO_GENERIC_5",
@@ -657,7 +726,8 @@
     "cost": 6,
     "enemyOnly": false,
     "unlock": "Desco",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_VALVATOREZ_FIX_1",
@@ -668,7 +738,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Valvatorez",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true,
+    "fixed": "Valvatorez"
   },
   {
     "id": "EVILITY_ID_DLC_VALVATOREZ_GENERIC_1",
@@ -679,7 +751,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Valvatorez",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_VALVATOREZ_GENERIC_2",
@@ -690,7 +763,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Valvatorez",
-    "category": "Item"
+    "category": "Item",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_VALVATOREZ_GENERIC_3",
@@ -701,7 +775,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Valvatorez",
-    "category": "Item"
+    "category": "Item",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_VALVATOREZ_GENERIC_4",
@@ -712,7 +787,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Valvatorez",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_VALVATOREZ_GENERIC_5",
@@ -723,7 +799,8 @@
     "cost": 6,
     "enemyOnly": false,
     "unlock": "Valvatorez",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FLONNE_FIX_1",
@@ -734,7 +811,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Flonne",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true,
+    "fixed": "Flonne"
   },
   {
     "id": "EVILITY_ID_DLC_FLONNE_GENERIC_1",
@@ -745,7 +824,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Flonne",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FLONNE_GENERIC_2",
@@ -756,7 +836,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Flonne",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FLONNE_GENERIC_3",
@@ -767,7 +848,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Flonne",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FLONNE_GENERIC_4",
@@ -778,7 +860,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Flonne",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FLONNE_GENERIC_5",
@@ -789,7 +872,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Flonne",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FENRICH_FIX_1",
@@ -800,7 +884,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Fenrich",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true,
+    "fixed": "Fenrich"
   },
   {
     "id": "EVILITY_ID_DLC_FENRICH_GENERIC_1",
@@ -811,7 +897,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Fenrich",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FENRICH_GENERIC_2",
@@ -822,7 +909,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Fenrich",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FENRICH_GENERIC_3",
@@ -833,7 +921,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Fenrich",
-    "category": "Ally"
+    "category": "Ally",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FENRICH_GENERIC_4",
@@ -844,7 +933,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Fenrich",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_FENRICH_GENERIC_5",
@@ -855,7 +945,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Fenrich",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_KILLIA_FIX_1",
@@ -866,7 +957,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Killia",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true,
+    "fixed": "Killia"
   },
   {
     "id": "EVILITY_ID_DLC_KILLIA_GENERIC_1",
@@ -877,7 +970,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Killia",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_KILLIA_GENERIC_2",
@@ -888,7 +982,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Killia",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_KILLIA_GENERIC_3",
@@ -899,7 +994,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Killia",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_KILLIA_GENERIC_4",
@@ -910,7 +1006,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Killia",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_KILLIA_GENERIC_5",
@@ -921,7 +1018,8 @@
     "cost": 6,
     "enemyOnly": false,
     "unlock": "Killia",
-    "category": "Critical"
+    "category": "Critical",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ARTINA_FIX_1",
@@ -932,7 +1030,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Artina",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true,
+    "fixed": "Artina"
   },
   {
     "id": "EVILITY_ID_DLC_ARTINA_GENERIC_1",
@@ -943,7 +1043,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Artina",
-    "category": "HP"
+    "category": "HP",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ARTINA_GENERIC_2",
@@ -954,7 +1055,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Artina",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ARTINA_GENERIC_3",
@@ -965,7 +1067,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Artina",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ARTINA_GENERIC_4",
@@ -976,7 +1079,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Artina",
-    "category": "Cheat"
+    "category": "Cheat",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ARTINA_GENERIC_5",
@@ -987,7 +1091,8 @@
     "cost": 6,
     "enemyOnly": false,
     "unlock": "Artina",
-    "category": "Healing"
+    "category": "Healing",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_MELODIA_FIX_1",
@@ -998,7 +1103,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Melodia",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true,
+    "fixed": "Melodia"
   },
   {
     "id": "EVILITY_ID_DLC_MELODIA_GENERIC_1",
@@ -1009,7 +1116,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Melodia",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_MELODIA_GENERIC_2",
@@ -1020,7 +1128,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Melodia",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_MELODIA_GENERIC_3",
@@ -1031,7 +1140,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Melodia",
-    "category": "SP"
+    "category": "SP",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_MELODIA_GENERIC_4",
@@ -1042,7 +1152,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Melodia",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_MELODIA_GENERIC_5",
@@ -1053,7 +1164,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Melodia",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ZED_FIX_1",
@@ -1064,7 +1176,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Zed",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true,
+    "fixed": "Zed"
   },
   {
     "id": "EVILITY_ID_DLC_ZED_GENERIC_1",
@@ -1075,7 +1189,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Zed",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ZED_GENERIC_2",
@@ -1086,7 +1201,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Zed",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ZED_GENERIC_3",
@@ -1097,7 +1213,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Zed",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ZED_GENERIC_4",
@@ -1108,7 +1225,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Zed",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_ZED_GENERIC_5",
@@ -1119,7 +1237,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Zed",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_SICILY_FIX_1",
@@ -1130,7 +1249,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Sicily",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true,
+    "fixed": "Sicily"
   },
   {
     "id": "EVILITY_ID_DLC_SICILY_GENERIC_1",
@@ -1141,7 +1262,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Sicily",
-    "category": "Ally"
+    "category": "Ally",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_SICILY_GENERIC_2",
@@ -1152,7 +1274,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Sicily",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_SICILY_GENERIC_3",
@@ -1163,7 +1286,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Sicily",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_SICILY_GENERIC_4",
@@ -1174,7 +1298,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Sicily",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_SICILY_GENERIC_5",
@@ -1185,7 +1310,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Sicily",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_BIEKO_FIX_1",
@@ -1196,7 +1322,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Bieko",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true,
+    "fixed": "Bieko"
   },
   {
     "id": "EVILITY_ID_DLC_BIEKO_GENERIC_1",
@@ -1207,7 +1335,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Bieko",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_BIEKO_GENERIC_2",
@@ -1218,7 +1347,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Bieko",
-    "category": "Movement"
+    "category": "Movement",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_BIEKO_GENERIC_3",
@@ -1229,7 +1359,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Bieko",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_BIEKO_GENERIC_4",
@@ -1240,7 +1371,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Bieko",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_BIEKO_GENERIC_5",
@@ -1251,7 +1383,8 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Bieko",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_GIRL_LAHARL_FIX_1",
@@ -1262,7 +1395,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Girl Laharl",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true,
+    "fixed": "Girl Laharl"
   },
   {
     "id": "EVILITY_ID_DLC_GIRL_LAHARL_GENERIC_1",
@@ -1273,7 +1408,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Girl Laharl",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_GIRL_LAHARL_GENERIC_2",
@@ -1284,7 +1420,8 @@
     "cost": 20,
     "enemyOnly": false,
     "unlock": "Girl Laharl",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_GIRL_LAHARL_GENERIC_3",
@@ -1295,7 +1432,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Girl Laharl",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_GIRL_LAHARL_GENERIC_4",
@@ -1306,7 +1444,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Girl Laharl",
-    "category": "Debuffs"
+    "category": "Debuffs",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_GIRL_LAHARL_GENERIC_5",
@@ -1317,7 +1456,8 @@
     "cost": 6,
     "enemyOnly": false,
     "unlock": "Girl Laharl",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_RASBERYL_FIX_1",
@@ -1328,7 +1468,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Rasberyl",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true,
+    "fixed": "Rasberyl"
   },
   {
     "id": "EVILITY_ID_DLC_RASBERYL_GENERIC_1",
@@ -1339,7 +1481,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Rasberyl",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_RASBERYL_GENERIC_2",
@@ -1350,7 +1493,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Rasberyl",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_RASBERYL_GENERIC_3",
@@ -1361,7 +1505,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Rasberyl",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_RASBERYL_GENERIC_4",
@@ -1372,7 +1517,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Rasberyl",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_RASBERYL_GENERIC_5",
@@ -1383,7 +1529,8 @@
     "cost": 3,
     "enemyOnly": false,
     "unlock": "Rasberyl",
-    "category": "Offensive"
+    "category": "Offensive",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_USALIA_FIX_1",
@@ -1394,7 +1541,9 @@
     "cost": 0,
     "enemyOnly": false,
     "unlock": "Usalia",
-    "category": "Defensive"
+    "category": "Defensive",
+    "dlc": true,
+    "fixed": "Usalia"
   },
   {
     "id": "EVILITY_ID_DLC_USALIA_GENERIC_1",
@@ -1405,7 +1554,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Usalia",
-    "category": "Item"
+    "category": "Item",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_USALIA_GENERIC_2",
@@ -1416,7 +1566,8 @@
     "cost": 2,
     "enemyOnly": false,
     "unlock": "Usalia",
-    "category": "Stat Boosting"
+    "category": "Stat Boosting",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_USALIA_GENERIC_3",
@@ -1427,7 +1578,8 @@
     "cost": 4,
     "enemyOnly": false,
     "unlock": "Usalia",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_USALIA_GENERIC_4",
@@ -1438,7 +1590,8 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Usalia",
-    "category": "Evasion"
+    "category": "Evasion",
+    "dlc": true
   },
   {
     "id": "EVILITY_ID_DLC_USALIA_GENERIC_5",
@@ -1449,6 +1602,7 @@
     "cost": 5,
     "enemyOnly": false,
     "unlock": "Usalia",
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "dlc": true
   }
 ]

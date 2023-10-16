@@ -8,6 +8,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { styled } from '@mui/material/styles';
 import PropTypes from 'prop-types';
+import LockIcon from '@mui/icons-material/Lock';
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -27,9 +28,12 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   '&:last-child td, &:last-child th': {
     border: 0,
   },
+  '&:hover': {
+    backgroundColor: 'lightblue',
+  }
 }));
 
-const EvilityTable = ({ evilities, textFilter, filters, searchCriteria }) => {
+const EvilityTable = ({ evilities, textFilter, filters, searchCriteria, width, addEvilityToBuild, building }) => {
   let filteredEvilities = [ ...evilities ].map(x => {
     return {
       ...x,
@@ -76,9 +80,11 @@ const EvilityTable = ({ evilities, textFilter, filters, searchCriteria }) => {
     fontStyle: 'italic',
   };
 
+  width = width || "100%";
+
   return (
-    <div style={{ margin: "1em" }}>
-      <TableContainer component={Paper} sx={{ maxHeight: "75vh", overflowY: "auto" }}>
+    <div style={{ margin: "1em", width }}>
+      <TableContainer component={Paper} sx={{ maxHeight: "75vh", overflowY: "auto", width }}>
         <Table sx={{ minWidth: 450 }} size="small" stickyHeader>
           <TableHead>
             <TableRow>
@@ -101,6 +107,10 @@ const EvilityTable = ({ evilities, textFilter, filters, searchCriteria }) => {
                   nameStyle = { ...nameStyle, ...dlcStyle };
               }
 
+              if (evility.fixed) {
+                nameStyle = { ...nameStyle, position: 'relative' };
+              }
+
               const typeStyle = evility.unique ? { fontWeight: "bold", textDecoration: "underline" } : {};
 
               return <StyledTableRow
@@ -110,9 +120,12 @@ const EvilityTable = ({ evilities, textFilter, filters, searchCriteria }) => {
                   evility.enemyOnly ? { backgroundColor: '#8000802e !important' } :
                   { '&:last-child td, &:last-child th': { border: 0 } }
                 }
+                onClick={() => addEvilityToBuild(evility)}
               >
-                <StyledTableCell component="th" scope="row" sx={ nameStyle }>
-                  {evility.name}
+                <StyledTableCell component="th" scope="row" sx={ nameStyle } title={`Exclusive to ${evility.fixed}`}>
+                  {evility.name}{evility.fixed && <LockIcon
+                    sx={{ position: 'absolute', width: '15px', cursor: 'pointer',
+                      color: 'blue', top: 'calc(50% - 12px)', marginLeft: '4px' }} />}
                 </StyledTableCell>
                 <StyledTableCell align="center" sx={{ lineHeight: 0 }}><img title={evility.category}
                   src={`images/evility_categories/${evility.category || "None"}.png`} />
@@ -133,9 +146,12 @@ const EvilityTable = ({ evilities, textFilter, filters, searchCriteria }) => {
 };
 
 EvilityTable.propTypes = {
-    evilities: PropTypes.array.isRequired,
-    textFilter: PropTypes.string,
-    filters: PropTypes.object,
-    searchCriteria: PropTypes.string
+  addEvilityToBuild: PropTypes.func.isRequired,
+  evilities: PropTypes.array.isRequired,
+  textFilter: PropTypes.string,
+  filters: PropTypes.object,
+  searchCriteria: PropTypes.string,
+  width: PropTypes.string,
+  building: PropTypes.bool
 };
 export default EvilityTable;
