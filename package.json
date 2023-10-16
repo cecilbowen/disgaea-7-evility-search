@@ -1,6 +1,7 @@
 {
   "name": "disgaea-7-evility-search",
   "version": "0.1.0",
+  "homepage": "https://cecilbowen.github.io/disagea-7-evility-search",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
