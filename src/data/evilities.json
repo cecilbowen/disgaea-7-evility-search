@@ -657,9 +657,10 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": false,
-    "unlock": "Nitra exlusive",
+    "unlock": "Nitra exclusive",
     "category": "Defensive",
-    "dlc": false
+    "dlc": false,
+    "fixed": "Nitra"
   },
   {
     "id": "EVILITY_ID_NITRA_FIX_2",
@@ -669,9 +670,10 @@
     "unique": true,
     "cost": 0,
     "enemyOnly": false,
-    "unlock": "Nitra exlusive",
+    "unlock": "Nitra exclusive",
     "category": "Miscellaneous",
-    "dlc": false
+    "dlc": false,
+    "fixed": "Nitra"
   },
   {
     "id": "EVILITY_ID_NITRA_GENERIC_1",

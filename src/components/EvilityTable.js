@@ -33,7 +33,8 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   }
 }));
 
-const EvilityTable = ({ evilities, textFilter, filters, searchCriteria, width, addEvilityToBuild, building }) => {
+const EvilityTable = ({ evilities, textFilter, filters, searchCriteria,
+    width, addEvilityToBuild, building, fixed }) => {
   let filteredEvilities = [ ...evilities ].map(x => {
     return {
       ...x,
@@ -80,12 +81,12 @@ const EvilityTable = ({ evilities, textFilter, filters, searchCriteria, width, a
     fontStyle: 'italic',
   };
 
-  width = width || "100%";
+  const flex = building ? '1 0 55%' : '1';
 
   return (
-    <div style={{ margin: "1em", width }}>
-      <TableContainer component={Paper} sx={{ maxHeight: "75vh", overflowY: "auto", width }}>
-        <Table sx={{ minWidth: 450 }} size="small" stickyHeader>
+    <div id="main1" style={{ margin: "1em", flex, order: '1', overflow: 'auto' }}>
+      <TableContainer component={Paper} sx={{ maxHeight: "75vh", overflowY: "auto", width: '100%' }}>
+        <Table size="small" stickyHeader>
           <TableHead>
             <TableRow>
               <StyledTableCell sx={{ width: '12em' }}>Name</StyledTableCell>
@@ -99,8 +100,12 @@ const EvilityTable = ({ evilities, textFilter, filters, searchCriteria, width, a
           <TableBody>
             {filteredEvilities.map(evility => {
               let nameStyle = { ...style };
+              let rowStyle = {};
               if (evility.enemyOnly) {
                   nameStyle = { ...nameStyle, ...enemyOnlyStyle };
+                  rowStyle = { ...rowStyle, ...{ backgroundColor: '#8000802e !important' } };
+              } else {
+                rowStyle = { ...rowStyle, ...{ '&:last-child td, &:last-child th': { border: 0 } } };
               }
 
               if (evility.dlc) {
@@ -111,21 +116,30 @@ const EvilityTable = ({ evilities, textFilter, filters, searchCriteria, width, a
                 nameStyle = { ...nameStyle, position: 'relative' };
               }
 
+              let cantAdd = false;
+              if (fixed && building && fixed !== "Prinny" &&
+                evility.fixed && evility.fixed !== fixed) {
+                cantAdd = true;
+                rowStyle = { ...rowStyle, textDecoration: 'line-through', opacity: '0.5' };
+              }
+
+              if (fixed && building && fixed !== "Prinny" &&
+                evility.fixed && evility.fixed === fixed) {
+                  rowStyle = { ...rowStyle, backgroundColor: 'lightyellow !important', outline: '2px dotted yellow' };
+                }
+
               const typeStyle = evility.unique ? { fontWeight: "bold", textDecoration: "underline" } : {};
 
               return <StyledTableRow
                 key={evility.id || evility.name}
                 title={evility.notes}
-                sx={
-                  evility.enemyOnly ? { backgroundColor: '#8000802e !important' } :
-                  { '&:last-child td, &:last-child th': { border: 0 } }
-                }
-                onClick={() => addEvilityToBuild(evility)}
+                sx={rowStyle}
+                onClick={() => !cantAdd && addEvilityToBuild(evility)}
               >
                 <StyledTableCell component="th" scope="row" sx={ nameStyle } title={`Exclusive to ${evility.fixed}`}>
                   {evility.name}{evility.fixed && <LockIcon
-                    sx={{ position: 'absolute', width: '15px', cursor: 'pointer',
-                      color: 'blue', top: 'calc(50% - 12px)', marginLeft: '4px' }} />}
+                    sx={{ width: '15px', cursor: 'pointer', verticalAlign: 'middle', marginTop: '-2px',
+                      color: 'blue', marginLeft: '4px' }} />}
                 </StyledTableCell>
                 <StyledTableCell align="center" sx={{ lineHeight: 0 }}><img title={evility.category}
                   src={`images/evility_categories/${evility.category || "None"}.png`} />
@@ -152,6 +166,7 @@ EvilityTable.propTypes = {
   filters: PropTypes.object,
   searchCriteria: PropTypes.string,
   width: PropTypes.string,
-  building: PropTypes.bool
+  building: PropTypes.bool,
+  fixed: PropTypes.string
 };
 export default EvilityTable;

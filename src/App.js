@@ -14,6 +14,7 @@ import EVILITY_CATEGORIES from './data/evility_categories.json';
 import debounce from 'lodash/debounce';
 import BuildList from './components/BuildList';
 import Switch from '@mui/material/Switch';
+import { getBuildFromString } from './util';
 
 const CATEGORY_EDITOR = false;
 
@@ -30,6 +31,7 @@ const App = () => {
   const [activeCats, setActiveCats] = useState(Object.values(EVILITY_CATEGORIES));
   const [builderActive, setBuilderActive] = useState(false);
   const [buildEvilities, setBuildEvilities] = useState([]);
+  const [fixedClass, setFixedClass] = useState("Prinny");
 
   useEffect(() => {
     if (evilities.length === 0) {
@@ -47,10 +49,22 @@ const App = () => {
       // set unique, but also short, ids
       for (let i = 0; i < tempEvilities.length; i++) {
         const e = tempEvilities[i];
+        e.cost = e.unique ? 1 : e.cost;
         e.number = i + 1;
       }
 
       setEvilities(tempEvilities);
+
+      // now check to see if we have a build to load
+      const url = new URL(window.location);
+      const build = url.searchParams.get("build");
+      if (build) {
+        const newBuildEvilities = getBuildFromString(build, tempEvilities);
+        if (newBuildEvilities.length > 0) {
+          setBuilderActive(true);
+          setBuildEvilities(newBuildEvilities);
+        }
+      }
     }
   }, []);
 
@@ -88,6 +102,10 @@ const App = () => {
   const debouncedOnChange = debounce(ev => {
     setSearchText(ev.target.value);
   }, 300);
+
+  const passFixedClass = cls => {
+    setFixedClass(cls);
+  };
 
   const renderEvCatCheckbox = ([k, v]) => {
     const isChecked = activeCats.includes(v);
@@ -137,7 +155,7 @@ const App = () => {
           onChange={ev => setFilterUnique(ev.target.checked)} />
         <FormControlLabel control={<Checkbox defaultChecked />} label="Generic"
           onChange={ev => setFilterGeneric(ev.target.checked)} />
-        <FormControlLabel control={<Checkbox defaultChecked />} label="Learnable"
+        <FormControlLabel control={<Checkbox defaultChecked />} label="Player"
           onChange={ev => setFilterLearnable(ev.target.checked)} />
         <FormControlLabel control={<Checkbox />} label="Enemy" sx={{ color: 'purple' }}
           onChange={ev => setFilterEnemy(ev.target.checked)} />
@@ -145,7 +163,7 @@ const App = () => {
           onChange={ev => setFilterBaseGame(ev.target.checked)} />
         <FormControlLabel control={<Checkbox defaultChecked />} label="DLC" sx={{ fontStyle: 'italic' }}
           onChange={ev => setFilterDlc(ev.target.checked)} />
-        <FormControlLabel control={<Switch />} label="Toggle Builder"
+        <FormControlLabel control={<Switch defaultChecked={builderActive} />} label="Toggle Builder"
           onChange={ev => setBuilderActive(ev.target.checked)} />
       </div>
 
@@ -153,7 +171,7 @@ const App = () => {
         {Object.entries(EVILITY_CATEGORIES).map(x => renderEvCatCheckbox(x))}
       </div>
 
-      <div style={{ display: 'flex' }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'row' }}>
         <EvilityTable evilities={evilities} addEvilityToBuild={addEvilityToBuild}
           textFilter={searchText}
           searchCriteria={searchCriteria}
@@ -166,10 +184,13 @@ const App = () => {
             dlc: filterDlc,
             categories: activeCats
           }}
-          width={builderActive ? '75vw' : undefined}
+          width={builderActive ? '55vw' : undefined}
           building={builderActive}
+          fixed={fixedClass}
         />
-        {builderActive && <BuildList evilities={buildEvilities} removeEvilityFromBuild={removeEvilityFromBuild} />}
+        {builderActive && <BuildList evilities={buildEvilities}
+          passFixedClass={passFixedClass}
+          removeEvilityFromBuild={removeEvilityFromBuild} />}
       </div>
 
       <div>
