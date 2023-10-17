@@ -154,7 +154,10 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
     }
   }
   const uniqueCostSum = evilities.filter(x => x.unique).length;
-  const maxUniqueCost = 3 + evilities.filter(x => x.fixed && x.fixed === charClass).length;
+  let maxUniqueCost = 3 + evilities.filter(x => x.fixed && x.fixed === charClass).length;
+  if (evilities.filter(x => x.fixed).length === 0) {
+    maxUniqueCost = 4;
+  }
 
   const errorCost = <Tooltip title={"Cost exceeded!"} placement="right">
     <ErrorOutlineIcon sx={{ verticalAlign: 'middle', width: '20px', cursor: 'pointer' }} color="error" />
