@@ -147,7 +147,7 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
   };
 
   let costSum = 0;
-  for (const e of evilities) {
+  for (const e of evilities.filter(x => !x.unique)) {
     const parsed = parseInt(e.cost, 10);
     if (!isNaN(parsed)) {
         costSum += parsed;
