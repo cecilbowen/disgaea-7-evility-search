@@ -160,7 +160,7 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
   }
 
   const errorCost = <Tooltip title={"Cost exceeded!"} placement="right">
-    <ErrorOutlineIcon sx={{ verticalAlign: 'middle', width: '20px', cursor: 'pointer' }} color="error" />
+    <ErrorOutlineIcon sx={{ verticalAlign: 'middle', width: '16px', cursor: 'pointer', marginLeft: '6px' }} color="error" />
   </Tooltip>;
 
   const getBuildString = () => {
@@ -347,10 +347,10 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
               fontFamily: 'monospace', fontSize: '24px' }}>
               {charClass === "Prinny" ? "Generic Class" : charClass}
             </Typography>
-            <Typography align="left" sx={{ fontWeight: 'bold', fontFamily: 'monospace', fontSize: '16px' }}>
+            <Typography align="left" sx={{ fontWeight: 'bold', fontFamily: 'monospace', fontSize: '16px', display: 'flex' }}>
               Unique Cost: {uniqueCostSum} / {maxUniqueCost} {uniqueCostSum > maxUniqueCost && errorCost}
             </Typography>
-            <Typography align="left" sx={{ fontWeight: 'bold', fontFamily: 'monospace', fontSize: '16px' }}>
+            <Typography align="left" sx={{ fontWeight: 'bold', fontFamily: 'monospace', fontSize: '16px', display: 'flex' }}>
               Common Cost: {costSum} / {24} {costSum > 24 && errorCost}
             </Typography>
             <Grid container direction="row">
