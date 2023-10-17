@@ -33,6 +33,15 @@ const App = () => {
   const [buildEvilities, setBuildEvilities] = useState([]);
   const [fixedClass, setFixedClass] = useState("Prinny");
 
+  const loadBuild = (build, evs) => {
+    evs = evs || evilities;
+    const newBuildEvilities = getBuildFromString(build, evs);
+    if (newBuildEvilities.length > 0) {
+      setBuilderActive(true);
+      setBuildEvilities(newBuildEvilities);
+    }
+  };
+
   useEffect(() => {
     if (evilities.length === 0) {
       const tempEvilities = [];
@@ -59,11 +68,7 @@ const App = () => {
       const url = new URL(window.location);
       const build = url.searchParams.get("build");
       if (build) {
-        const newBuildEvilities = getBuildFromString(build, tempEvilities);
-        if (newBuildEvilities.length > 0) {
-          setBuilderActive(true);
-          setBuildEvilities(newBuildEvilities);
-        }
+        loadBuild(build, tempEvilities);
       }
     }
   }, []);
@@ -163,7 +168,7 @@ const App = () => {
           onChange={ev => setFilterBaseGame(ev.target.checked)} />
         <FormControlLabel control={<Checkbox defaultChecked />} label="DLC" sx={{ fontStyle: 'italic' }}
           onChange={ev => setFilterDlc(ev.target.checked)} />
-        <FormControlLabel control={<Switch defaultChecked={builderActive} />} label="Toggle Builder"
+        <FormControlLabel control={<Switch checked={builderActive} />} label="Toggle Builder"
           onChange={ev => setBuilderActive(ev.target.checked)} />
       </div>
 
@@ -190,6 +195,7 @@ const App = () => {
         />
         {builderActive && <BuildList evilities={buildEvilities}
           passFixedClass={passFixedClass}
+          loadBuild={loadBuild}
           removeEvilityFromBuild={removeEvilityFromBuild} />}
       </div>
 

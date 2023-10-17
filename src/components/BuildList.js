@@ -11,12 +11,27 @@ import { styled } from '@mui/material/styles';
 import PropTypes from 'prop-types';
 import Grid from '@mui/material/Grid';
 import ShareIcon from '@mui/icons-material/Share';
+import SaveIcon from '@mui/icons-material/Save';
+import LoadIcon from '@mui/icons-material/FolderOpen';
 import Button from '@mui/material/Button';
 import LockIcon from '@mui/icons-material/Lock';
 import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
 import Tooltip from '@mui/material/Tooltip';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
+import Backdrop from '@mui/material/Backdrop';
+import Box from '@mui/material/Box';
+import Modal from '@mui/material/Modal';
+import Fade from '@mui/material/Fade';
+import TextField from '@mui/material/TextField';
+import { generateRandomName } from '../util';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import IconButton from '@mui/material/IconButton';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -41,11 +56,37 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   }
 }));
 
-const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass }) => {
+const modalStyle = {
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: 300,
+  bgcolor: 'background.paper',
+  border: '2px solid #000',
+  boxShadow: 24,
+  p: 4,
+};
+
+const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuild }) => {
   const [charClass, setCharClass] = useState("Prinny");
   const [tooManyFixedEvilities, setTooManyFixedEvilities] = useState(false);
   const [successOpen, setSuccessOpen] = useState(false);
   const [errorOpen, setErrorOpen] = useState(false);
+  const [buildName, setBuildName] = useState(generateRandomName());
+  const [modalOpen, setModalOpen] = React.useState(false);
+  const [modalOpenL, setModalOpenL] = React.useState(false);
+  const [stashedBuilds, setStashedBuilds] = useState([]);
+  const [buildToLoad, setBuildToLoad] = useState();
+
+  const handleModalOpen = () => setModalOpen(true);
+  const handleModalClose = () => setModalOpen(false);
+  const handleModalOpenL = () => setModalOpenL(true);
+  const handleModalCloseL = () => {
+    setModalOpenL(false);
+    setBuildToLoad(undefined);
+    setStashedBuilds([]);
+  };
 
   useEffect(() => {
     // determines class based on fixed evilities
@@ -68,6 +109,12 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass }) => {
   useEffect(() => {
     passFixedClass(charClass);
   }, [charClass]);
+
+  useEffect(() => {
+    if (stashedBuilds.length > 0 && !modalOpenL) {
+      handleModalOpenL();
+    }
+  }, [stashedBuilds]);
 
   // group unique evilities together
   evilities.sort((a, b) => {
@@ -113,19 +160,51 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass }) => {
     <ErrorOutlineIcon sx={{ verticalAlign: 'middle', width: '20px', cursor: 'pointer' }} color="error" />
   </Tooltip>;
 
+  const getBuildString = () => {
+    return evilities.map(x => x.number).join("_");
+  };
+
   const createBuildUrl = () => {
     if (evilities.length === 0) {
       // alert error
       return;
     }
 
-    const buildText = `https://cecilbowen.github.io/disgaea-7-evility-search/?build=${evilities.map(x => x.number).join("_")}`;
+    const buildText = `https://cecilbowen.github.io/disgaea-7-evility-search/?build=${getBuildString()}`;
     console.log(buildText);
     navigator.clipboard.writeText(buildText);
 
     if (window.isSecureContext) {
       setSuccessOpen(true);
     }
+  };
+
+  const saveBuild = () => {
+    setBuildName(generateRandomName());
+    handleModalOpen();
+  };
+
+  const finalizeSave = () => {
+    const buildsExist = localStorage.getItem("d7-builds");
+    const savedBuilds = JSON.parse(buildsExist || 0) || [];
+    savedBuilds.sort((a, b) => b.id - a.id); // sort by id desc
+    const id = (savedBuilds[0]?.id || 0) + 1;
+    savedBuilds.push({
+      id,
+      name: buildName,
+      build: getBuildString(),
+      charClass,
+    });
+
+    localStorage.setItem("d7-builds", JSON.stringify(savedBuilds));
+    handleModalClose();
+  };
+
+  const preloadBuild = () => {
+    const buildsExist = localStorage.getItem("d7-builds");
+    const savedBuilds = JSON.parse(buildsExist || 0) || [];
+    console.log('sav', savedBuilds);
+    setStashedBuilds(savedBuilds);
   };
 
   const handleSuccessClose = () => {
@@ -136,7 +215,122 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass }) => {
     setErrorOpen(false);
   };
 
+  const queueDelete = build => {
+    if (buildToLoad && buildToLoad.id === build.id) {
+      setBuildToLoad(undefined);
+    }
+
+    const newStash = [...stashedBuilds].filter(x => x.id !== build.id);
+    console.log('newStash', newStash);
+    setStashedBuilds(newStash);
+  };
+
+  const queueLoad = build => {
+    setBuildToLoad(build);
+  };
+
+  const finalizeLoad = () => {
+    localStorage.setItem("d7-builds", JSON.stringify(stashedBuilds));
+
+    if (buildToLoad) {
+      loadBuild(buildToLoad.build);
+    }
+
+    setStashedBuilds([]);
+    handleModalCloseL();
+  };
+
   const helperText = "Click on evilities to add/remove them to/from the current build.";
+
+  const renderSaveModal = () => {
+    return <Modal
+    aria-labelledby="transition-modal-title"
+    aria-describedby="transition-modal-description"
+    open={modalOpen}
+    onClose={handleModalClose}
+    closeAfterTransition
+    slots={{ backdrop: Backdrop }}
+    slotProps={{
+      backdrop: {
+        timeout: 500,
+      },
+    }}
+  >
+    <Fade in={modalOpen}>
+      <Box sx={modalStyle}>
+        <Typography id="transition-modal-title" variant="h6" component="h2" sx={{ marginBottom: '1em' }}>
+          Saving Custom Build
+        </Typography>
+        <Grid container direction="column">
+          <TextField label="Build Name" variant="outlined" value={buildName}
+            size="small" sx={{ marginBottom: '1em' }}
+            onChange={ev => setBuildName(ev.target.value)} />
+            <Grid container direction="row">
+              <Button variant="outlined" color="success" onClick={finalizeSave} sx={{ marginRight: '1em' }}>
+                Save
+              </Button>
+              <Button variant="outlined" color="info" onClick={handleModalClose}>Cancel</Button>
+            </Grid>
+        </Grid>
+      </Box>
+    </Fade>
+  </Modal>;
+  };
+
+  const renderLoadModal = () => {
+    return <Modal
+    aria-labelledby="transition-modal-title2"
+    aria-describedby="transition-modal-description2"
+    open={modalOpenL}
+    onClose={handleModalCloseL}
+    closeAfterTransition
+    slots={{ backdrop: Backdrop }}
+    slotProps={{
+      backdrop: {
+        timeout: 500,
+      },
+    }}
+  >
+    <Fade in={modalOpenL}>
+      <Box sx={modalStyle}>
+        <Typography id="transition-modal-title2" variant="h6" component="h2" sx={{ marginBottom: '1em' }}>
+          Loading Build: {buildToLoad?.name || ""}
+        </Typography>
+        <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper', maxHeight: '30em', overflowY: 'auto' }}>
+      {stashedBuilds.map(value => {
+        const labelId = `checkbox-list-label-${value}`;
+
+        return (
+          <ListItem
+            key={value.id}
+            secondaryAction={
+              <IconButton edge="end" aria-label="delete" onClick={() => queueDelete(value)} title="Delete Build">
+                <DeleteIcon color="error" />
+              </IconButton>
+            }
+            disablePadding
+            sx={{ borderBottom: '1px solid black' }}
+          >
+            <ListItemButton role={undefined} onClick={() => queueLoad(value)} dense>
+              <ListItemIcon>
+                <img src={`images/portraits/${value.charClass}.png`} style={{ width: '38px' }} />
+              </ListItemIcon>
+              <ListItemText id={labelId} primary={value.name} />
+            </ListItemButton>
+          </ListItem>
+        );
+      })}
+    </List>
+    <Grid container direction="row">
+        <Button variant="outlined" color="success" onClick={finalizeLoad} sx={{ marginRight: '1em' }}>
+          Apply Changes
+        </Button>
+        <Button variant="outlined" color="info" onClick={handleModalCloseL}>Cancel</Button>
+      </Grid>
+      </Box>
+    </Fade>
+  </Modal>;
+  };
 
   return (
     <div id="main2" style={{ margin: "1em", flex: '1 auto', order: '2' }}>
@@ -156,10 +350,21 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass }) => {
             <Typography align="left" sx={{ fontWeight: 'bold', fontFamily: 'monospace', fontSize: '16px' }}>
               Common Cost: {costSum} / {24} {costSum > 24 && errorCost}
             </Typography>
-            <Button variant="outlined" sx={{ display: 'flex' }} disabled={evilities.length === 0}
-              startIcon={<ShareIcon />} onClick={createBuildUrl} size="small">
-              Share Build
-            </Button>
+            <Grid container direction="row">
+              <Button variant="outlined" sx={{ display: 'flex' }} disabled={evilities.length === 0}
+                startIcon={<ShareIcon />} onClick={createBuildUrl} size="small">
+                Share
+              </Button>
+              <Button variant="outlined" sx={{ display: 'flex', marginLeft: '1em' }} disabled={evilities.length === 0}
+                color="success"
+                startIcon={<SaveIcon />} onClick={saveBuild} size="small">
+                Save
+              </Button>
+              <Button variant="outlined" sx={{ display: 'flex', marginLeft: '1em' }}
+                startIcon={<LoadIcon />} onClick={preloadBuild} size="small">
+                Load
+              </Button>
+            </Grid>
           </Grid>
         </Grid>
         <Grid item>
@@ -215,11 +420,14 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass }) => {
           </Paper>
         </Grid>
       </Grid>
-      <Snackbar open={successOpen} autoHideDuration={6000} onClose={handleSuccessClose}>
+      <Snackbar open={successOpen} autoHideDuration={6000} onClose={handleSuccessClose}
+        anchorOrigin={{ vertical: "bottom", horizontal: "right" }}>
         <Alert onClose={handleSuccessClose} severity="success" sx={{ width: '100%' }}>
           Copied build URL to clipboard.
         </Alert>
       </Snackbar>
+      {renderSaveModal()}
+      {renderLoadModal()}
     </div>
   );
 };
@@ -228,5 +436,6 @@ BuildList.propTypes = {
     evilities: PropTypes.array.isRequired,
     removeEvilityFromBuild: PropTypes.func.isRequired,
     passFixedClass: PropTypes.func.isRequired,
+    loadBuild: PropTypes.func.isRequired,
 };
 export default BuildList;
