@@ -32,6 +32,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import IconButton from '@mui/material/IconButton';
 import DeleteIcon from '@mui/icons-material/Delete';
+import DeleteSweepIcon from '@mui/icons-material/DeleteSweep';
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -68,7 +69,7 @@ const modalStyle = {
   p: 4,
 };
 
-const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuild }) => {
+const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuild, clearBuild }) => {
   const [charClass, setCharClass] = useState("Prinny");
   const [tooManyFixedEvilities, setTooManyFixedEvilities] = useState(false);
   const [successOpen, setSuccessOpen] = useState(false);
@@ -206,7 +207,6 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
   const preloadBuild = () => {
     const buildsExist = localStorage.getItem("d7-builds");
     const savedBuilds = JSON.parse(buildsExist || 0) || [];
-    console.log('sav', savedBuilds);
     setStashedBuilds(savedBuilds);
   };
 
@@ -224,7 +224,6 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
     }
 
     const newStash = [...stashedBuilds].filter(x => x.id !== build.id);
-    console.log('newStash', newStash);
     setStashedBuilds(newStash);
   };
 
@@ -247,18 +246,18 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
 
   const renderSaveModal = () => {
     return <Modal
-    aria-labelledby="transition-modal-title"
-    aria-describedby="transition-modal-description"
-    open={modalOpen}
-    onClose={handleModalClose}
-    closeAfterTransition
-    slots={{ backdrop: Backdrop }}
-    slotProps={{
-      backdrop: {
-        timeout: 500,
-      },
-    }}
-  >
+      aria-labelledby="transition-modal-title"
+      aria-describedby="transition-modal-description"
+      open={modalOpen}
+      onClose={handleModalClose}
+      closeAfterTransition
+      slots={{ backdrop: Backdrop }}
+      slotProps={{
+        backdrop: {
+          timeout: 500,
+        },
+      }}
+    >
     <Fade in={modalOpen}>
       <Box sx={modalStyle}>
         <Typography id="transition-modal-title" variant="h6" component="h2" sx={{ marginBottom: '1em' }}>
@@ -282,57 +281,56 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
 
   const renderLoadModal = () => {
     return <Modal
-    aria-labelledby="transition-modal-title2"
-    aria-describedby="transition-modal-description2"
-    open={modalOpenL}
-    onClose={handleModalCloseL}
-    closeAfterTransition
-    slots={{ backdrop: Backdrop }}
-    slotProps={{
-      backdrop: {
-        timeout: 500,
-      },
-    }}
-  >
-    <Fade in={modalOpenL}>
-      <Box sx={modalStyle}>
-        <Typography id="transition-modal-title2" variant="h6" component="h2" sx={{ marginBottom: '1em' }}>
-          Loading Build: {buildToLoad?.name || ""}
-        </Typography>
-        <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper', maxHeight: '30em', overflowY: 'auto' }}>
-      {stashedBuilds.map(value => {
-        const labelId = `checkbox-list-label-${value}`;
+      aria-labelledby="transition-modal-title2"
+      aria-describedby="transition-modal-description2"
+      open={modalOpenL}
+      onClose={handleModalCloseL}
+      closeAfterTransition
+      slots={{ backdrop: Backdrop }}
+      slotProps={{
+        backdrop: {
+          timeout: 500,
+        },
+      }}>
+      <Fade in={modalOpenL}>
+        <Box sx={modalStyle}>
+          <Typography id="transition-modal-title2" variant="h6" component="h2" sx={{ marginBottom: '1em' }}>
+            Loading Build: {buildToLoad?.name || ""}
+          </Typography>
+          <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper', maxHeight: '30em', overflowY: 'auto' }}>
+            {stashedBuilds.map(value => {
+              const labelId = `checkbox-list-label-${value}`;
 
-        return (
-          <ListItem
-            key={value.id}
-            secondaryAction={
-              <IconButton edge="end" aria-label="delete" onClick={() => queueDelete(value)} title="Delete Build">
-                <DeleteIcon color="error" />
-              </IconButton>
-            }
-            disablePadding
-            sx={{ borderBottom: '1px solid black' }}
-          >
-            <ListItemButton role={undefined} onClick={() => queueLoad(value)} dense>
-              <ListItemIcon>
-                <img src={`images/portraits/${value.charClass}.png`} style={{ width: '38px' }} />
-              </ListItemIcon>
-              <ListItemText id={labelId} primary={value.name} />
-            </ListItemButton>
-          </ListItem>
-        );
-      })}
-    </List>
-    <Grid container direction="row">
-        <Button variant="outlined" color="success" onClick={finalizeLoad} sx={{ marginRight: '1em' }}>
-          Apply Changes
-        </Button>
-        <Button variant="outlined" color="info" onClick={handleModalCloseL}>Cancel</Button>
-      </Grid>
-      </Box>
-    </Fade>
-  </Modal>;
+              return (
+                <ListItem
+                  key={value.id}
+                  secondaryAction={
+                    <IconButton edge="end" aria-label="delete" onClick={() => queueDelete(value)} title="Delete Build">
+                      <DeleteIcon color="error" />
+                    </IconButton>
+                  }
+                  disablePadding
+                  sx={{ borderBottom: '1px solid black' }}
+                >
+                  <ListItemButton role={undefined} onClick={() => queueLoad(value)} dense>
+                    <ListItemIcon>
+                      <img src={`images/portraits/${value.charClass}.png`} style={{ width: '38px' }} />
+                    </ListItemIcon>
+                    <ListItemText id={labelId} primary={value.name} />
+                  </ListItemButton>
+                </ListItem>
+              );
+            })}
+          </List>
+          <Grid container direction="row">
+            <Button variant="outlined" color="success" onClick={finalizeLoad} sx={{ marginRight: '1em' }}>
+              Apply Changes
+            </Button>
+            <Button variant="outlined" color="info" onClick={handleModalCloseL}>Cancel</Button>
+          </Grid>
+        </Box>
+      </Fade>
+    </Modal>;
   };
 
   return (
@@ -375,7 +373,13 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
           <Table size="small" stickyHeader>
             <TableHead>
               <TableRow>
-                <StyledTableCell align="center" sx={{ width: '1em' }}></StyledTableCell>
+                <StyledTableCell align="center" sx={{ width: '1em' }}>
+                  <IconButton aria-label="clear"
+                    sx={{ position: 'absolute', top: '-2px', left: '12px' }}
+                    onClick={clearBuild} title="Clear Build" disabled={evilities.length === 0}>
+                    <DeleteSweepIcon color="error" sx={{ display: evilities.length > 0 ? '' : 'none' }} />
+                  </IconButton>
+                </StyledTableCell>
                 <StyledTableCell align="left" sx={{ width: '12em' }}>
                   Evility
                 </StyledTableCell>
@@ -386,8 +390,12 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
             <TableBody>
               {evilities.map(evility => {
                 let nameStyle = { ...style, width: '12em', position: 'relative' };
+                let rowStyle = { cursor: 'pointer' };
                 if (evility.dlc) {
                     nameStyle = { ...nameStyle, ...dlcStyle };
+                }
+                if (evility.unique) {
+                  rowStyle = { ...rowStyle, backgroundColor: '#8000802e !important' };
                 }
 
                 return <StyledTableRow
@@ -395,17 +403,15 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
                   title={evility.notes}
                   hover
                   onClick={() => removeEvilityFromBuild(evility)}
-                  sx={
-                    evility.unique ? { backgroundColor: '#8000802e !important', cursor: 'pointer' } :
-                    { '&:last-child td, &:last-child th': { border: 0, cursor: 'pointer' } }
-                  }
+                  sx={rowStyle}
                 >
-                  <StyledTableCell align="center" sx={{ display: 'flex', alignItems: 'center', justifyContent: "center" }}>
+                  <StyledTableCell align="center" title={evility.category}
+                    sx={{ display: 'flex', alignItems: 'center', justifyContent: "center" }}>
                     <img src={`images/evility_categories/${evility.category}.png`}
                       style={{ objectFit: 'contain' }} />
                   </StyledTableCell>
                   <StyledTableCell align="left" sx={nameStyle}>{evility.name}{evility.fixed && <LockIcon
-                      sx={{ width: '15px', cursor: 'pointer', verticalAlign: 'middle', marginTop: '-2px',
+                      sx={{ width: '15px', verticalAlign: 'middle', marginTop: '-2px',
                         color: 'blue', marginLeft: '4px' }} />}</StyledTableCell>
                   <StyledTableCell align="left" sx={evility.unique && uniqueStyle}>
                     {evility.unique ? "Unique" : "Generic"}
@@ -440,5 +446,6 @@ BuildList.propTypes = {
     removeEvilityFromBuild: PropTypes.func.isRequired,
     passFixedClass: PropTypes.func.isRequired,
     loadBuild: PropTypes.func.isRequired,
+    clearBuild: PropTypes.func.isRequired
 };
 export default BuildList;

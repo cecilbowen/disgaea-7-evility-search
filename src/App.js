@@ -42,6 +42,10 @@ const App = () => {
     }
   };
 
+  const clearBuild = () => {
+    setBuildEvilities([]);
+  };
+
   useEffect(() => {
     if (evilities.length === 0) {
       const tempEvilities = [];
@@ -112,12 +116,46 @@ const App = () => {
     setFixedClass(cls);
   };
 
+  const renderEvAll = () => {
+    const allCategoriesActive = activeCats.length === Object.values(EVILITY_CATEGORIES).length;
+
+    return <div style={{
+        display: 'flex', cursor: 'pointer',
+        position: 'relative'
+      }}>
+      <Checkbox defaultChecked sx={{ opacity: 0 }}
+        title="Toggle All"
+        onContextMenu={ev => {
+          ev.preventDefault();
+          const tempActiveCats = Object.values(EVILITY_CATEGORIES);
+          setActiveCats(tempActiveCats);
+        }}
+        onClick={() => {
+          let tempActiveCats = Object.values(EVILITY_CATEGORIES);
+          if (allCategoriesActive) {
+            tempActiveCats = [];
+          }
+
+          setActiveCats(tempActiveCats);
+        }} />
+      <img src={`images/evility_categories/All.png`}
+        style={{ objectFit: 'contain', position: 'absolute',
+        opacity: allCategoriesActive ? 1 : 0.5,
+        left: '5.5px', top: '5.5px', pointerEvents: 'none' }} />
+    </div>;
+  };
+
   const renderEvCatCheckbox = ([k, v]) => {
     const isChecked = activeCats.includes(v);
 
     return <div style={{ display: 'flex', cursor: 'pointer', position: 'relative' }} key={k}>
-      <Checkbox defaultChecked sx={{ opacity: 0 }}
+      <Checkbox checked={isChecked} sx={{ opacity: 0 }}
         title={v}
+        onContextMenu={ev => {
+          ev.preventDefault();
+          const tempActiveCats = [v];
+          setActiveCats(tempActiveCats);
+        }}
         onChange={ev => {
           const checked = ev.target.checked;
           const tempActiveCats = [ ...activeCats ].filter(x => x !== v);
@@ -125,7 +163,6 @@ const App = () => {
             tempActiveCats.push(v);
           }
           setActiveCats(tempActiveCats);
-          console.log("cats", tempActiveCats);
         }} />
       <img src={`images/evility_categories/${k}.png`}
         style={{ objectFit: 'contain', position: 'absolute',
@@ -173,6 +210,7 @@ const App = () => {
       </div>
 
       <div style={{ display: "flex", flexWrap: 'wrap', margin: "0em 0.6em" }}>
+        {renderEvAll()}
         {Object.entries(EVILITY_CATEGORIES).map(x => renderEvCatCheckbox(x))}
       </div>
 
@@ -189,13 +227,13 @@ const App = () => {
             dlc: filterDlc,
             categories: activeCats
           }}
-          width={builderActive ? '55vw' : undefined}
           building={builderActive}
           fixed={fixedClass}
         />
         {builderActive && <BuildList evilities={buildEvilities}
           passFixedClass={passFixedClass}
           loadBuild={loadBuild}
+          clearBuild={clearBuild}
           removeEvilityFromBuild={removeEvilityFromBuild} />}
       </div>
 

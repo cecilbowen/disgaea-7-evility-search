@@ -7775,7 +7775,29 @@
     "unique": false,
     "cost": 0,
     "enemyOnly": true,
-    "unlock": "Enemy exclusive?",
+    "unlock": "Enemy exclusive (for example Carnage Baal 2)",
+    "dlc": false
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_ADD_0002",
+    "name": "S.O. Tyrant",
+    "description": "Increase damage dealt by 5% per strength level of Cheat Shop enemies.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive (every Carnage Baal)",
+    "dlc": false
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_ADD_0003",
+    "name": "S.O. Dignity",
+    "description": "Reduce damage taken by 2% per strength level of Cheat Shop enemies.",
+    "notes": "",
+    "unique": false,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy exclusive (every Carnage Baal)",
     "dlc": false
   }
 ]
