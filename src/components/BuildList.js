@@ -33,6 +33,7 @@ import ListItemText from '@mui/material/ListItemText';
 import IconButton from '@mui/material/IconButton';
 import DeleteIcon from '@mui/icons-material/Delete';
 import DeleteSweepIcon from '@mui/icons-material/DeleteSweep';
+import SwapIcon from '@mui/icons-material/SwapHoriz';
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -79,6 +80,7 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
   const [modalOpenL, setModalOpenL] = React.useState(false);
   const [stashedBuilds, setStashedBuilds] = useState([]);
   const [buildToLoad, setBuildToLoad] = useState();
+  const [showDesc, setShowDesc] = useState(false);
 
   const handleModalOpen = () => setModalOpen(true);
   const handleModalClose = () => setModalOpen(false);
@@ -369,7 +371,7 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
           </Grid>
         </Grid>
         <Grid item>
-          <TableContainer component={Paper} sx={{ maxHeight: "53.7vh", overflowY: "auto" }}>
+          <TableContainer component={Paper} sx={{ maxHeight: "53.7vh", overflowY: "auto", overflowX: 'hidden' }}>
           <Table size="small" stickyHeader>
             <TableHead>
               <TableRow>
@@ -383,19 +385,31 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
                 <StyledTableCell align="left" sx={{ width: '12em' }}>
                   Evility
                 </StyledTableCell>
-                <StyledTableCell align="left">Type</StyledTableCell>
+                <StyledTableCell align="left" sx={{ display: 'flex' }}
+                  title={"Toggle between Type/Description"}
+                  onClick={() => setShowDesc(!showDesc)}>
+                  {showDesc ? "Description" : "Type"}
+                  <SwapIcon sx={{ marginLeft: '4px', cursor: 'pointer' }} />
+                </StyledTableCell>
                 <StyledTableCell align="center" sx={{ width: '6em' }}>Cost</StyledTableCell>
               </TableRow>
             </TableHead>
             <TableBody>
               {evilities.map(evility => {
+                const type = evility.unique ? "Unique" : "Generic";
                 let nameStyle = { ...style, width: '12em', position: 'relative' };
                 let rowStyle = { cursor: 'pointer' };
+                let colStyle = {};
+                const descStyle = { overflowX: 'hidden', textOverflow: 'ellipsis', maxWidth: '0px', whiteSpace: 'nowrap' };
                 if (evility.dlc) {
                     nameStyle = { ...nameStyle, ...dlcStyle };
                 }
                 if (evility.unique) {
                   rowStyle = { ...rowStyle, backgroundColor: '#8000802e !important' };
+                  colStyle = { ...colStyle, ...uniqueStyle };
+                }
+                if (showDesc) {
+                  colStyle = { ...descStyle };
                 }
 
                 return <StyledTableRow
@@ -406,15 +420,15 @@ const BuildList = ({ evilities, removeEvilityFromBuild, passFixedClass, loadBuil
                   sx={rowStyle}
                 >
                   <StyledTableCell align="center" title={evility.category}
-                    sx={{ display: 'flex', alignItems: 'center', justifyContent: "center" }}>
+                    sx={{ display: 'table-cell', verticalAlign: 'middle', paddingBottom: '0px' }}>
                     <img src={`images/evility_categories/${evility.category}.png`}
                       style={{ objectFit: 'contain' }} />
                   </StyledTableCell>
                   <StyledTableCell align="left" sx={nameStyle}>{evility.name}{evility.fixed && <LockIcon
                       sx={{ width: '15px', verticalAlign: 'middle', marginTop: '-2px',
                         color: 'blue', marginLeft: '4px' }} />}</StyledTableCell>
-                  <StyledTableCell align="left" sx={evility.unique && uniqueStyle}>
-                    {evility.unique ? "Unique" : "Generic"}
+                  <StyledTableCell align="left" sx={colStyle} title={evility.description}>
+                    {showDesc ? evility.description : type}
                   </StyledTableCell>
                   <StyledTableCell align="center" sx={{ width: '6em' }}>{evility.cost}</StyledTableCell>
                 </StyledTableRow>;

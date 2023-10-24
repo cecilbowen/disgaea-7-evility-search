@@ -42,9 +42,11 @@ const PaginationBox = styled(Box)`
 
 const EvilityTable = ({
     evilities, textFilter, filters, searchCriteria,
-    addEvilityToBuild, building, fixed
+    addEvilityToBuild, building, fixed,
+    showNumbers
   }) => {
     const [filteredEvilities, setFilteredEvilities] = useState([]);
+    const [noTextFilterEvilities, setNoTextFilterEvilities] = useState([]);
     const pageOptions = [
       { label: '30', value: 30 },
       { label: '50', value: 50 },
@@ -59,7 +61,10 @@ const EvilityTable = ({
     useEffect(() => {
       const rpp = localStorage.getItem('d7-rpp') || rowsPerPage;
       if (rpp !== rowsPerPage) {
-        setRowsPerPage(rpp);
+        const int = parseInt(rpp, 10);
+        if (!isNaN(int)) {
+          setRowsPerPage(int);
+        }
       }
     }, []);
 
@@ -79,9 +84,11 @@ const EvilityTable = ({
               (filters.enemy || !x.enemyOnly) &&
               (filters.baseGame || x.dlc) &&
               (filters.dlc || !x.dlc) &&
-              filters.categories.includes(x.category);
+              filters.categories.includes(x.category) &&
+              !x.notInGame;
         });
       }
+      setNoTextFilterEvilities(tempFilteredEvilities);
 
       if (textFilter && textFilter.length > 0) {
         tempFilteredEvilities = tempFilteredEvilities.filter(x => {
@@ -123,6 +130,22 @@ const EvilityTable = ({
       localStorage.setItem('d7-rpp', rpp);
     };
 
+    // returns the list number of the evility, where the
+    // list is either the list of all generic or all unique evilities
+    // in-game (with appropriate filters applied)
+    const getListNumber = evility => {
+      const list = [...noTextFilterEvilities].filter(x => evility.unique === x.unique && !x.fixed &&
+        !x.enemyOnly);
+      for (let i = 0; i < list.length; i++) {
+        const ev = list[i];
+        if (ev.id === evility.id) {
+          return i + 1;
+        }
+      }
+
+      return 0;
+    };
+
     const style = {
       fontWeight: 'bold'
     };
@@ -137,12 +160,17 @@ const EvilityTable = ({
 
     const flex = building ? '1 0 55%' : '1';
 
+    const numberExplanation = "Number displayed in your evility list (assuming you have all evilities unlocked on the character)";
+
     return (
       <Paper id="main1" style={{ margin: "1em", flex, order: '1', overflow: 'auto', height: 'fit-content' }}>
         <TableContainer sx={{ maxHeight: "69vh", overflowY: "auto", width: '100%' }}>
           <Table size="small" stickyHeader>
             <TableHead>
               <TableRow>
+                {showNumbers && <StyledTableCell align="center" sx={{ width: '1em' }} title={numberExplanation}>
+                  No.
+                </StyledTableCell>}
                 <StyledTableCell sx={{ width: '12em' }}>Name</StyledTableCell>
                 <StyledTableCell align="center">Category</StyledTableCell>
                 <StyledTableCell align="left">Description</StyledTableCell>
@@ -154,6 +182,7 @@ const EvilityTable = ({
             <TableBody>
               {(rowsPerPage > 0 ? filteredEvilities.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage) : filteredEvilities)
                 .map(evility => {
+                  const listNumber = getListNumber(evility);
                   let nameStyle = { ...style };
                   let rowStyle = {};
                   if (evility.enemyOnly) {
@@ -192,10 +221,15 @@ const EvilityTable = ({
                     sx={rowStyle}
                     onClick={() => !cantAdd && addEvilityToBuild(evility)}
                   >
+                    {showNumbers && <StyledTableCell align="center">
+                      {listNumber || '-'}
+                    </StyledTableCell>}
                     <StyledTableCell component="th" scope="row" sx={ nameStyle } title={title}>
                       {evility.name}{evility.fixed && <LockIcon
                         sx={{ width: '15px', cursor: 'pointer', verticalAlign: 'middle', marginTop: '-2px',
-                          color: 'blue', marginLeft: '4px' }} />}
+                          color: 'blue', marginLeft: '4px' }} />}{evility.notScrollable && <img
+                            style={{ transform: 'translateY(3px)', marginLeft: '4px', cursor: 'pointer', width: '15px' }}
+                            title={"Can't be turned into a scroll"} src={`images/NoScroll.png`} />}
                     </StyledTableCell>
                     <StyledTableCell align="center" sx={{ lineHeight: 0 }}><img title={evility.category}
                       src={`images/evility_categories/${evility.category || "None"}.png`} />
@@ -242,6 +276,7 @@ EvilityTable.propTypes = {
   filters: PropTypes.object,
   searchCriteria: PropTypes.string,
   building: PropTypes.bool,
-  fixed: PropTypes.string
+  fixed: PropTypes.string,
+  showNumbers: PropTypes.bool
 };
 export default EvilityTable;

@@ -1064,7 +1064,7 @@
   {
     "id": "EVILITY_ID_SHIKI_ZESSHOSAI_FIX_1",
     "name": "Shiki",
-    "description": "When an ally dies, revive with 20% to stats (1 time max for each unit).",
+    "description": "When an ally dies, revive the ally with stats increased by 20% (1 time max for each unit).",
     "notes": "Even once Shiki Zesshosai dies, enemies still have the revive saved up...",
     "unique": true,
     "cost": 0,
@@ -4671,7 +4671,8 @@
     "enemyOnly": false,
     "unlock": "???",
     "category": "Stat Boosting",
-    "dlc": false
+    "dlc": false,
+    "notInGame": true
   },
   {
     "id": "EVILITY_ID_GENERIC_0013",
@@ -6159,7 +6160,8 @@
     "enemyOnly": false,
     "unlock": "???",
     "category": "None",
-    "dlc": false
+    "dlc": false,
+    "notInGame": true
   },
   {
     "id": "EVILITY_ID_GENERIC_0128",
@@ -6855,7 +6857,8 @@
     "enemyOnly": false,
     "unlock": "???",
     "category": "None",
-    "dlc": false
+    "dlc": false,
+    "notInGame": true
   },
   {
     "id": "EVILITY_ID_GENERIC_0172",
@@ -6867,7 +6870,8 @@
     "enemyOnly": false,
     "unlock": "???",
     "category": "None",
-    "dlc": false
+    "dlc": false,
+    "notInGame": true
   },
   {
     "id": "EVILITY_ID_GENERIC_0183",
@@ -7311,7 +7315,8 @@
     "enemyOnly": false,
     "unlock": "???",
     "category": "None",
-    "dlc": false
+    "dlc": false,
+    "notInGame": true
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0001",
@@ -7719,7 +7724,8 @@
     "enemyOnly": false,
     "unlock": "Evility Scholars after 300 battles",
     "category": "Miscellaneous",
-    "dlc": false
+    "dlc": false,
+    "notScrollable": true
   },
   {
     "id": "EVILITY_ID_VICE_COMPLETE_02",
@@ -7730,8 +7736,9 @@
     "cost": 1,
     "enemyOnly": false,
     "unlock": "Defeat Carnage 15 boss",
-    "category": "None",
-    "dlc": false
+    "category": "Miscellaneous",
+    "dlc": false,
+    "notScrollable": true
   },
   {
     "id": "EVILITY_ID_CUSTOM_9",
@@ -7739,11 +7746,12 @@
     "description": "Multiply own Seal of Power stat gain effect by 10.",
     "notes": "",
     "unique": false,
-    "cost": 0,
+    "cost": 1,
     "enemyOnly": false,
     "unlock": "Defeat Carnage Baal",
-    "category": "None",
-    "dlc": false
+    "category": "Miscellaneous",
+    "dlc": false,
+    "notScrollable": true
   },
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0035",

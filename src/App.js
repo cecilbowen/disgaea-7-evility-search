@@ -32,6 +32,7 @@ const App = () => {
   const [builderActive, setBuilderActive] = useState(false);
   const [buildEvilities, setBuildEvilities] = useState([]);
   const [fixedClass, setFixedClass] = useState("Prinny");
+  const [showNumbers, setShowNumbers] = useState(false);
 
   const loadBuild = (build, evs) => {
     evs = evs || evilities;
@@ -229,6 +230,7 @@ const App = () => {
           }}
           building={builderActive}
           fixed={fixedClass}
+          showNumbers={showNumbers}
         />
         {builderActive && <BuildList evilities={buildEvilities}
           passFixedClass={passFixedClass}
@@ -239,11 +241,12 @@ const App = () => {
 
       <div>
         <small>
-        <a href="https://github.com/cecilbowen/disgaea-7-evility-search">Source Code</a>&nbsp;
+          <span onClick={() => setShowNumbers(!showNumbers)} title="Toggle Numbers" style={{ cursor: 'pointer' }}>{showNumbers ? '★' : '☆'}</span> |&nbsp;
+          <a href="https://github.com/cecilbowen/disgaea-7-evility-search">Source Code</a> |
           References:&nbsp;
-          <a href="https://gamefaqs.gamespot.com/boards/378248-disgaea-7-vows-of-the-virtueless/80587648">one</a>&nbsp;
-          <a href="https://gamefaqs.gamespot.com/boards/378250-disgaea-7-vows-of-the-virtueless/80592079">two</a>&nbsp;
-          <a href="https://docs.google.com/spreadsheets/d/14HQrRhglcYtVkY6Uk4-XgqtUVMq6qmBQYtjJ6Ro-_WA/edit#gid=2122935455">three</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://gamefaqs.gamespot.com/boards/378248-disgaea-7-vows-of-the-virtueless/80587648">one</a>&nbsp;
+          <a target="_blank" rel="noopener noreferrer" href="https://gamefaqs.gamespot.com/boards/378250-disgaea-7-vows-of-the-virtueless/80592079">two</a>&nbsp;
+          <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/14HQrRhglcYtVkY6Uk4-XgqtUVMq6qmBQYtjJ6Ro-_WA/edit#gid=2122935455">three</a>
         </small>
       </div>
     </div>

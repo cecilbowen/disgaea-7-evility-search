@@ -586,7 +586,7 @@
   {
     "id": "EVILITY_ID_DLC_AXEL_FIX_1",
     "name": "Obvious Tendency",
-    "description": "Increases stats by% per female unit on the map.",
+    "description": "Increases stats by 5% per female unit on the map.",
     "notes": "",
     "unique": true,
     "cost": 0,
