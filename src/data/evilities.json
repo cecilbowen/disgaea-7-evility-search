@@ -1845,7 +1845,7 @@
   {
     "id": "EVILITY_ID_THIEF_FEMALE_GENERIC_1",
     "name": "Heart Catch",
-    "description": "Gain extra 10% EXP of unit attacked during a successful steal.",
+    "description": "Gain 10% of target's EXP value in addition to the item from a successful steal.",
     "notes": "",
     "unique": false,
     "cost": 3,
