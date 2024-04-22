@@ -7,8 +7,6 @@ import { TextField } from '@mui/material';
 import React, { useEffect, useState } from "react";
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import Radio from '@mui/material/Radio';
-import RadioGroup from '@mui/material/RadioGroup';
 import CategoryEditor from './components/CategoryEditor';
 import EVILITY_CATEGORIES from './data/evility_categories.json';
 import debounce from 'lodash/debounce';
@@ -27,7 +25,9 @@ const App = () => {
   const [filterEnemy, setFilterEnemy] = useState(false);
   const [filterBaseGame, setFilterBaseGame] = useState(true);
   const [filterDlc, setFilterDlc] = useState(true);
-  const [searchCriteria, setSearchCriteria] = useState("both");
+  const [searchName, setSearchName] = useState(true);
+  const [searchDescription, setSearchDescription] = useState(true);
+  const [searchSource, setSearchSource] = useState(true);
   const [activeCats, setActiveCats] = useState(Object.values(EVILITY_CATEGORIES));
   const [builderActive, setBuilderActive] = useState(false);
   const [buildEvilities, setBuildEvilities] = useState([]);
@@ -180,17 +180,14 @@ const App = () => {
           sx={{ display: "flex", width: '40em', marginRight: '1em' }}
           onChange={ev => debouncedOnChange(ev)} />
 
-        <RadioGroup
-          row
-          aria-labelledby="radio-group-search-label"
-          name="row-radio-group-search-label"
-          defaultValue="both"
-          onChange={ev => setSearchCriteria(ev.target.value)}
-        >
-          <FormControlLabel value="name" control={<Radio />} label="Name" />
-          <FormControlLabel value="description" control={<Radio />} label="Description" />
-          <FormControlLabel value="both" control={<Radio />} label="Both" />
-        </RadioGroup>
+        <div style={{ display: "flex", flexWrap: 'wrap', margin: "0em 0em" }}>
+          <FormControlLabel control={<Checkbox defaultChecked />} label="Name"
+            onChange={ev => setSearchName(ev.target.checked)} />
+          <FormControlLabel control={<Checkbox defaultChecked />} label="Description"
+            onChange={ev => setSearchDescription(ev.target.checked)} />
+          <FormControlLabel control={<Checkbox defaultChecked />} label="Source"
+            onChange={ev => setSearchSource(ev.target.checked)} />
+        </div>
       </div>
 
       <div style={{ display: "flex", flexWrap: 'wrap', margin: "0em 1em" }}>
@@ -218,7 +215,11 @@ const App = () => {
       <div style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'row' }}>
         <EvilityTable evilities={evilities} addEvilityToBuild={addEvilityToBuild}
           textFilter={searchText}
-          searchCriteria={searchCriteria}
+          searches={{
+            name: searchName,
+            description: searchDescription,
+            source: searchSource
+          }}
           filters={{
             unique: filterUnique,
             generic: filterGeneric,
