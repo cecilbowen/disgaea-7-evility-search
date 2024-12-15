@@ -41,7 +41,7 @@ const PaginationBox = styled(Box)`
 `;
 
 const EvilityTable = ({
-    evilities, textFilter, filters, searchCriteria,
+    evilities, textFilter, filters, searches,
     addEvilityToBuild, building, fixed,
     showNumbers
   }) => {
@@ -92,16 +92,11 @@ const EvilityTable = ({
 
       if (textFilter && textFilter.length > 0) {
         tempFilteredEvilities = tempFilteredEvilities.filter(x => {
-          const nameBool = x.name.toLowerCase().includes(textFilter.toLowerCase());
-          const descBool = x.description.toLowerCase().includes(textFilter.toLowerCase());
-          const bothBool = nameBool || descBool;
+          const nameBool = searches.name && x.name.toLowerCase().includes(textFilter.toLowerCase());
+          const descBool = searches.description && x.description.toLowerCase().includes(textFilter.toLowerCase());
+          const sourceBool = searches.source && x.unlock.toLowerCase().includes(textFilter.toLowerCase());
 
-          switch (searchCriteria) {
-              case "name": return nameBool;
-              case "description": return descBool;
-              case "both": return bothBool;
-              default: return bothBool;
-          }
+          return nameBool || descBool || sourceBool;
         });
       }
 
@@ -274,7 +269,7 @@ EvilityTable.propTypes = {
   evilities: PropTypes.array.isRequired,
   textFilter: PropTypes.string,
   filters: PropTypes.object,
-  searchCriteria: PropTypes.string,
+  searches: PropTypes.object,
   building: PropTypes.bool,
   fixed: PropTypes.string,
   showNumbers: PropTypes.bool
