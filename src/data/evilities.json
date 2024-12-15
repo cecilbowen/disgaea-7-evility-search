@@ -2,7 +2,7 @@
   {
     "id": "EVILITY_ID_FUJI_FIX_1",
     "name": "Dirtier the Better",
-    "description": "Increase ATK by 5% after attacking from behind. (Max 100%)",
+    "description": "Increase attack power by 5% after attacking from behind. (Max 100%)",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -88,7 +88,7 @@
   {
     "id": "EVILITY_ID_PIRIRIKA_FIX_1",
     "name": "Syndicate Head",
-    "description": "Increase max HP and SP by 10% of number of digits of held HL.",
+    "description": "Increase unit's max HP and SP by 10% per digit of held HL.",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -114,7 +114,7 @@
   {
     "id": "EVILITY_ID_PIRIRIKA_GENERIC_1",
     "name": "Cheerful Aura",
-    "description": "Increase Joint Attack rate of adjacent allies by 20%.",
+    "description": "Increase Team Attack rate of adjacent allies by 20%.",
     "notes": "",
     "unique": false,
     "cost": 2,
@@ -126,7 +126,7 @@
   {
     "id": "EVILITY_ID_PIRIRIKA_GENERIC_2",
     "name": "Super-Positivity",
-    "description": "When in combat at base panel, increase own abilities by 100%.",
+    "description": "When in battle inside the base panel, increase own stats by 100%.",
     "notes": "",
     "unique": false,
     "cost": 2,
@@ -174,7 +174,7 @@
   {
     "id": "EVILITY_ID_WEIYASU_FIX_1",
     "name": "Shogun's Influence",
-    "description": "If 2 or more allies are within 2 panels, boost own abilities by 50%.",
+    "description": "If 2 or more allies are within 2 panels, boost own stats by 50%.",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -187,7 +187,7 @@
   {
     "id": "EVILITY_ID_WEIYASU_FIX_2",
     "name": "Shogun's Orders",
-    "description": "Boost abilities of allies on map by 20%.",
+    "description": "Boost stats of allies on map by 20%.",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -200,7 +200,7 @@
   {
     "id": "EVILITY_ID_WEIYASU_GENERIC_1",
     "name": "Human Shield",
-    "description": "Controlled units within 2 panels will be covered when attacked.",
+    "description": "Controlled units within 2 panels will cover this unit when this unit is attacked.",
     "notes": "",
     "unique": false,
     "cost": 1,
@@ -212,7 +212,7 @@
   {
     "id": "EVILITY_ID_WEIYASU_GENERIC_2",
     "name": "Tactical Guidance",
-    "description": "Boost ATK for adjacent ally units by 20%.",
+    "description": "Boost attack power for adjacent ally units by 20%.",
     "notes": "",
     "unique": false,
     "cost": 2,
@@ -224,7 +224,7 @@
   {
     "id": "EVILITY_ID_WEIYASU_GENERIC_3",
     "name": "Wariness",
-    "description": "50% of facing attacker when attacked from behind.",
+    "description": "50% chance to face attacker when attacked from behind.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -298,7 +298,7 @@
   {
     "id": "EVILITY_ID_SIFOU_GENERIC_2",
     "name": "Phantom's Mask",
-    "description": "Increase Equipment ability by 20% when glasses are equipped.",
+    "description": "Increase stat boost from equipped glasses by 20%.",
     "notes": "",
     "unique": false,
     "cost": 1,
@@ -310,7 +310,7 @@
   {
     "id": "EVILITY_ID_SIFOU_GENERIC_3",
     "name": "Ready, Snort!",
-    "description": "Increase ATK by 30% when performing a fire attack.",
+    "description": "Increase attack power by 30% when performing a fire attack.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -322,7 +322,7 @@
   {
     "id": "EVILITY_ID_SIFOU_GENERIC_4",
     "name": "Phantastic Escape",
-    "description": "Increase movement by X after making an attack.",
+    "description": "Increase movement by 5 after making an attack.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -334,7 +334,7 @@
   {
     "id": "EVILITY_ID_SIFOU_GENERIC_5",
     "name": "Unclouded Vision",
-    "description": "Guaranteed hit when attacking a unit X or more panels away.",
+    "description": "Guaranteed hit when attacking a unit 4 or more panels away.",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -397,7 +397,7 @@
   {
     "id": "EVILITY_ID_HIGAN_GENERIC_2",
     "name": "Peerless",
-    "description": "Increase equipped weapon's ability when no armor is equipped by 200%.",
+    "description": "Increase equipped weapon's stats when no armor is equipped by 200%.",
     "notes": "",
     "unique": false,
     "cost": 2,
@@ -433,7 +433,7 @@
   {
     "id": "EVILITY_ID_HIGAN_GENERIC_5",
     "name": "Vainglory",
-    "description": "Increase abilities by 50% when no other units enter battle.",
+    "description": "Increase stats by 50% when no other units enter battle.",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -520,7 +520,7 @@
   {
     "id": "EVILITY_ID_SUISEN_GENERIC_4",
     "name": "A Curious Friend",
-    "description": "Increase ATK and DEF by 30% when Yeyasu is deployed as an ally.",
+    "description": "Increase attack and defense power by 30% when Yeyasu is deployed as an ally.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -544,7 +544,7 @@
   {
     "id": "EVILITY_ID_AO_FIX_1",
     "name": "Insane Power",
-    "description": "Increase ATK by 75% and DEF -25%.",
+    "description": "Increase attack power by 75% and defense power -25%.",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -557,7 +557,7 @@
   {
     "id": "EVILITY_ID_AO_FIX_2",
     "name": "Daddy-Daughter Time!",
-    "description": "Increase abilities by 50% when Fuji is deployed as an ally.",
+    "description": "Increase stats by 50% when Fuji is deployed as an ally.",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -582,7 +582,7 @@
   {
     "id": "EVILITY_ID_AO_GENERIC_2",
     "name": "Pouncing Tiger",
-    "description": "When HP is reduced by 20%, increase ATK by 20%.",
+    "description": "For every 20% HP is reduced by, increase attack power by 20%.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -594,7 +594,7 @@
   {
     "id": "EVILITY_ID_AO_GENERIC_3",
     "name": "Hidden Turtle",
-    "description": "When HP is reduced by 20%, increase DEF by 20%.",
+    "description": "For every 20% HP is reduced by, increase defense power by 20%.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -630,7 +630,7 @@
   {
     "id": "EVILITY_ID_SOROFUNE_FIX_1",
     "name": "Resonating Souls",
-    "description": "At end of turn, increase abilities by 5%. (Max 100%)",
+    "description": "At end of turn, increase stats by 5%. (Max 100%)",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -641,7 +641,7 @@
   {
     "id": "EVILITY_ID_KUROFUNE_FIX_1",
     "name": "Amplified Souls",
-    "description": "At end of turn, increase abilities by 10%. (Max 100%)",
+    "description": "At end of turn, increase stats by 10%. (Max 100%)",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -726,7 +726,7 @@
   {
     "id": "EVILITY_ID_NITRA_GENERIC_5",
     "name": "Weapon Mania",
-    "description": "Increase equipped weapon's ability by 30%.",
+    "description": "Increase equipped weapon's stats by 30%.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -751,7 +751,7 @@
   {
     "id": "EVILITY_ID_OPENER_GENERIC_1",
     "name": "Merciless Command",
-    "description": "Increase ATK by 25% for allies within 3 panels. Take 10% of HP as damage.",
+    "description": "Increase attack power by 25% for allies within 3 panels. Take 10% of HP as damage.",
     "notes": "Both the attack power and the damage apply to allies, not to evility owner.",
     "unique": false,
     "cost": 3,
@@ -763,7 +763,7 @@
   {
     "id": "EVILITY_ID_OPENER_GENERIC_2",
     "name": "Howling Spirit",
-    "description": "ATK of enemies within 2 panels becomes -30%.",
+    "description": "Decrease ATK of enemies within 2 panels becomes -30%.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -787,7 +787,7 @@
   {
     "id": "EVILITY_ID_OPENER_GENERIC_4",
     "name": "Noble Cause",
-    "description": "Boost abilities of allies on map by 10%.",
+    "description": "Boost stats of allies on map by 10%.",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -822,7 +822,7 @@
   {
     "id": "EVILITY_ID_MUGAI_GOD_FIX_1",
     "name": "Super-Deity",
-    "description": "Increases ATK and DEF by 75%.",
+    "description": "Increases attack power and defense power by 75%.",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -833,7 +833,7 @@
   {
     "id": "EVILITY_ID_BIG_BULL_FIX_1",
     "name": "Protection Mag.",
-    "description": "Increase DEF by 100%.",
+    "description": "Increase defense power by 100%.",
     "notes": "Defense power, not DEF stat.",
     "unique": true,
     "cost": 0,
@@ -866,7 +866,7 @@
   {
     "id": "EVILITY_ID_CIRCULAR_FIX_1",
     "name": "S. Princess Mag.",
-    "description": "Increase ATK by 20% for allies within 3 panels.",
+    "description": "Increase attack power by 20% for allies within 3 panels.",
     "notes": "To be clear, this is \"increase allies within 3 panels' attack power by 20%\" and not \"increase Sakoora's attack power by 20% per ally within 3 panels\".",
     "unique": true,
     "cost": 0,
@@ -1141,7 +1141,7 @@
   {
     "id": "EVILITY_ID_CUSTOM_3",
     "name": "S.O. Legion",
-    "description": "At end of turn, summon 3 allies to the map. (Cannot exceed map limit.)",
+    "description": "At end of turn, summon 3 allies to the map. (Cannot exceed map limit)",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -1281,7 +1281,7 @@
   {
     "id": "EVILITY_ID_WARRIOR_FEMALE_GENERIC_2",
     "name": "Hard Effort",
-    "description": "Increase EXP gained when attacked by higher-leveled unit by 50%.",
+    "description": "Increase EXP gained when defeating higher-level units by 50%.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -1389,7 +1389,7 @@
   {
     "id": "EVILITY_ID_WIZARD_MALE_GENERIC_5",
     "name": "Over the Limit",
-    "description": "Increase ATK by 50% when using Specials. Costs 10% SP each turn.",
+    "description": "Increase attack power by 50% when using Specials. Costs 10% SP each turn.",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -1569,7 +1569,7 @@
   {
     "id": "EVILITY_ID_FIGHTER_FEMALE_GENERIC_2",
     "name": "Quick Thinking",
-    "description": "Increase Joint Attack rate by 20% when attacking.",
+    "description": "Increase Team Attack rate by 20% when attacking.",
     "notes": "",
     "unique": false,
     "cost": 1,
@@ -1905,7 +1905,7 @@
   {
     "id": "EVILITY_ID_ARCHER_MALE_FIX_1",
     "name": "Potential Energy",
-    "description": "Increase ATK power by 30% when attacking unit at a lower elevation.",
+    "description": "Increase ATK power by 30% when attacking from a higher elevation.",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -2073,7 +2073,7 @@
   {
     "id": "EVILITY_ID_GUNNER_MALE_GENERIC_2",
     "name": "Sniping",
-    "description": "Attack range increased by 2 panel(s) when gun is equipped.",
+    "description": "Attack range increased by 2 panel(s) when equipped with a gun.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -2157,7 +2157,7 @@
   {
     "id": "EVILITY_ID_GUNNER_FEMALE_GENERIC_3",
     "name": "Wide Shot",
-    "description": "When equipped with a gun, normal attack area is increased.",
+    "description": "Expands the target area of normal attacks when equipped with a gun.",
     "notes": "",
     "unique": false,
     "cost": 2,
@@ -2301,7 +2301,7 @@
   {
     "id": "EVILITY_ID_NINJA_FEMALE_GENERIC_3",
     "name": "Shield Art",
-    "description": "When attacked, cover a random ally up to X time(s) per turn.",
+    "description": "When attacked, a random ally will cover you up to 3 time(s) per turn.",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -2313,7 +2313,7 @@
   {
     "id": "EVILITY_ID_NINJA_FEMALE_GENERIC_4",
     "name": "Scouting Mission",
-    "description": "Increase Mystery Room appearance by 10% when going through Item Worlds.",
+    "description": "Increase Mystery Room appearance by 10% when entering portals in the Item World. (Doesn't stack)",
     "notes": "",
     "unique": false,
     "cost": 2,
@@ -2577,7 +2577,7 @@
   {
     "id": "EVILITY_ID_HEAVYKNIGHT_FEMALE_GENERIC_2",
     "name": "Hold the Line",
-    "description": "When defending, enemies cannot enter within 2 left or right panel(s).",
+    "description": "When defending, enemies cannot enter the first 2 panel(s) to the unit's left or right.",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -2877,7 +2877,7 @@
   {
     "id": "EVILITY_ID_PSYCHIC_MALE_GENERIC_3",
     "name": "Psychic Shackles",
-    "description": "When attacking, decrease target movement by-2. (Lasts 3 turns)",
+    "description": "When attacking, decrease target movement by -2. (Lasts 3 turns)",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -2913,7 +2913,7 @@
   {
     "id": "EVILITY_ID_PROFESSOR_FEMALE_FIX_1",
     "name": "Latest Meds",
-    "description": "Boost stat-increasing effects by 100% when using Specials",
+    "description": "Boost stat-increasing effects by 100% when using Specials.",
     "notes": "I.e. buff effect doubles. Stat buff cap is still 200% total.",
     "unique": true,
     "cost": 0,
@@ -2949,7 +2949,7 @@
   {
     "id": "EVILITY_ID_PROFESSOR_FEMALE_GENERIC_3",
     "name": "Good Management",
-    "description": "Halve the range expansion of magic power.",
+    "description": "Halve the power reduction of a spell when choosing a larger Spell Area.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -2973,7 +2973,7 @@
   {
     "id": "EVILITY_ID_PROFESSOR_FEMALE_GENERIC_5",
     "name": "Extended Heal",
-    "description": "When using healing item, extend range in a 5-panel T-shape.",
+    "description": "When using healing item, expands the target area to a 5-panel +-shape.",
     "notes": "",
     "unique": false,
     "cost": 5,
@@ -3033,7 +3033,7 @@
   {
     "id": "EVILITY_ID_ROBOT_FEMALE_GENERIC_4",
     "name": "Firepower Mode",
-    "description": "Increase ATK power by 50%, but decrease movement by -5 and jump power by -50.",
+    "description": "Increase attack power by 50%, but decrease movement by -5 and jump power by -50.",
     "notes": "Formerly \"Increase ATK power by 50%, but set movement to -5 and jump power to -50.\"",
     "unique": false,
     "cost": 3,
@@ -3525,7 +3525,7 @@
   {
     "id": "EVILITY_ID_ZOMBIE_GENERIC_3",
     "name": "Undead",
-    "description": "Increase defense by 50%, but reverse the recovery of healing Specials.",
+    "description": "Increase defense power by 50%, but reverse the recovery of healing Specials.",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -3609,7 +3609,7 @@
   {
     "id": "EVILITY_ID_SHROOM_GENERIC_4",
     "name": "Mushroom Doping",
-    "description": "Boost one stat of choice by 20% when turn ends. (Lasts 3 turns)",
+    "description": "Boost a random stat by 20% when turn ends. (Lasts 3 turns)",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -3633,7 +3633,7 @@
   {
     "id": "EVILITY_ID_KIT_CAT_FIX_1",
     "name": "Run Them Down",
-    "description": "If target unit’s HP is at or under 10% when attacking, attack again.",
+    "description": "If target unit's HP is at or under 10% when attacking, attack again.",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -3657,7 +3657,7 @@
   {
     "id": "EVILITY_ID_KIT_CAT_GENERIC_2",
     "name": "Joint Maneuvers",
-    "description": "Increase damage correction by 5% during a joint attack.",
+    "description": "Increase damage correction by 5% during a Team Attack.",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -3825,7 +3825,7 @@
   {
     "id": "EVILITY_ID_FLORA_BEAST_GENERIC_4",
     "name": "Power Aroma",
-    "description": "Increase ATK power by 20% for allies within 2 panels when turn ends. (Lasts 3 turns)",
+    "description": "Increase ATK by 20% for allies within 2 panels when turn ends. (Lasts 3 turns)",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -3897,7 +3897,7 @@
   {
     "id": "EVILITY_ID_UNDEAD_GENERIC_4",
     "name": "Crumbling Body",
-    "description": "Attacks increased by 1, but dies at when the turn ends.",
+    "description": "Attacks increased by 1, but dies when the turn ends.",
     "notes": "Formerly \"Attacks increased by 1, then dies at when the turn ends.\"",
     "unique": false,
     "cost": 3,
@@ -3921,7 +3921,7 @@
   {
     "id": "EVILITY_ID_SUCCUBUS_FIX_1",
     "name": "Sexy Aura",
-    "description": "Decrease stats of adjacent male enemies by -20%.",
+    "description": "Decrease stats of adjacent male enemies by 20%.",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -4365,7 +4365,7 @@
   {
     "id": "EVILITY_ID_BIG_EYE_GENERIC_1",
     "name": "Purifying Ailment",
-    "description": "Guaranteed critical when inflicting ailment, but target’s ailment will heal.",
+    "description": "Guaranteed critical on targets with an ailment, but cures target’s ailment.",
     "notes": "Does this actually mean \"if target has ailment\"?",
     "unique": false,
     "cost": 1,
@@ -4664,7 +4664,7 @@
   {
     "id": "EVILITY_ID_GENERIC_0241",
     "name": "Monster Guard",
-    "description": "Increase monster weapon resistance by X%.",
+    "description": "Increase monster weapon resistance by 20%.",
     "notes": "Low-Tier gacha gives Monster Tutor and not Monster Guard...",
     "unique": false,
     "cost": 0,
@@ -5409,7 +5409,7 @@
   {
     "id": "EVILITY_ID_GENERIC_0081",
     "name": "Counter Knowledge",
-    "description": "Increase number of counter-attacks by 1%.",
+    "description": "Increase number of counter-attacks by 1.",
     "notes": "No, this hasn't been corrected yet.",
     "unique": false,
     "cost": 1,
@@ -5673,7 +5673,7 @@
   {
     "id": "EVILITY_ID_GENERIC_0087",
     "name": "Hyper Guy",
-    "description": "Increase SP growth rate by 100%.",
+    "description": "Increase SP growth rate by 10%.",
     "notes": "",
     "unique": false,
     "cost": 1,
@@ -5685,7 +5685,7 @@
   {
     "id": "EVILITY_ID_GENERIC_0088",
     "name": "Extreme Hyper Guy",
-    "description": "Increase SP growth rate by 10%.",
+    "description": "Increase SP growth rate by 25%.",
     "notes": "",
     "unique": false,
     "cost": 2,
@@ -5697,7 +5697,7 @@
   {
     "id": "EVILITY_ID_GENERIC_0089",
     "name": "Intense Hyper Guy",
-    "description": "Increase SP growth rate by 20%.",
+    "description": "Increase SP growth rate by 40%.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -5709,7 +5709,7 @@
   {
     "id": "EVILITY_ID_GENERIC_0090",
     "name": "Super Hyper Guy",
-    "description": "Increase SP growth rate by 40%.",
+    "description": "Increase SP growth rate by 75%.",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -5721,7 +5721,7 @@
   {
     "id": "EVILITY_ID_GENERIC_0091",
     "name": "Ultimate Hyper Guy",
-    "description": "Increase SP growth rate by 75%.",
+    "description": "Increase SP growth rate by 100%.",
     "notes": "",
     "unique": false,
     "cost": 5,
@@ -7673,7 +7673,7 @@
   {
     "id": "EVILITY_ID_CUSTOM_7",
     "name": "Status Guard",
-    "description": "Ally units' stats cannot fall below 75%",
+    "description": "Ally units' stats cannot fall below 75%.",
     "notes": "",
     "unique": false,
     "cost": 5,
@@ -7756,7 +7756,7 @@
   {
     "id": "EVILITY_ID_ENEMY_ONLY_0035",
     "name": "Absolute Power",
-    "description": "Cannot be lifted, nullify knockback, and stats cannot be reduced below Z%.",
+    "description": "Cannot be lifted, nullify knockback, and stats cannot be reduced below 95%.",
     "notes": "",
     "unique": false,
     "cost": 0,
@@ -7806,6 +7806,83 @@
     "cost": 0,
     "enemyOnly": true,
     "unlock": "Enemy exclusive (every Carnage Baal)",
+    "dlc": false
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_ADD_0004",
+    "name": "S.O. Barrier II",
+    "description": "Nullifies damage that is less than 10% of unit's max HP.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy Carnage Baal #2 and 1 of the 3 in Carnage Baal #4 exclusive.",
+    "dlc": false
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_ADD_0005",
+    "name": "S.O. Mirror II",
+    "description": "Deal 50% of damage taken to target.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy Carnage Baal #2 and 1 of the 3 in Carnage Baal #4 exclusive.",
+    "dlc": false
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_ADD_0006",
+    "name": "S.O. Crusher II",
+    "description": "At end of turn, sacrifice an ally to deal 1 trillion damage to enemies within 3 panels.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy Carnage Baal #2 and 1 of the 3 in Carnage Baal #4 exclusive.",
+    "dlc": false
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_ADD_0007",
+    "name": "S.O. Revival II",
+    "description": "Revive when defeated, and deal max HP damage to all enemies on the map (once per battle)",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy Carnage Baal #2 and 1 of the 3 in Carnage Baal #4 exclusive.",
+    "dlc": false
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_ADD_0008",
+    "name": "S.O. Analyze II",
+    "description": "Nullify damage when attacked with a previously-used Special.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy Carnage Baal #2 and 1 of the 3 in Carnage Baal #4 exclusive.",
+    "dlc": false
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_ADD_0009",
+    "name": "S.O. Disaster II",
+    "description": "Area of attack becomes entire map for normal attacks & Specials.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy Carnage Baal #2 and 1 of the 3 in Carnage Baal #4 exclusive.",
+    "dlc": false
+  },
+  {
+    "id": "EVILITY_ID_ENEMY_ONLY_ADD_0010",
+    "name": "S.O. Demise II",
+    "description": "Jumbify after 10 turns.",
+    "notes": "",
+    "unique": true,
+    "cost": 0,
+    "enemyOnly": true,
+    "unlock": "Enemy Carnage Baal #4 exclusive. All 3 Baal's have this evility.",
     "dlc": false
   }
 ]

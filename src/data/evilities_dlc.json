@@ -136,7 +136,7 @@
   {
     "id": "EVILITY_ID_DLC_LAHARL_GENERIC_5",
     "name": "Overlord's Strike",
-    "description": "+30% crit rate and +100% crit damage on Specials",
+    "description": "Increase critical rate by 30% and critical damage by 100% when using Specials.",
     "notes": "",
     "unique": false,
     "cost": 5,
@@ -173,7 +173,7 @@
   {
     "id": "EVILITY_ID_DLC_ETNA_GENERIC_2",
     "name": "Vassal Defense",
-    "description": "An ally Prinny on the map will cover when attacked.",
+    "description": "An ally Prinny on the map will cover when this unit is attacked.",
     "notes": "",
     "unique": false,
     "cost": 1,
@@ -197,7 +197,7 @@
   {
     "id": "EVILITY_ID_DLC_ETNA_GENERIC_4",
     "name": "Dominant Smile",
-    "description": "Increase stats of all ally Prinnies on map by 50%.",
+    "description": "Increase stats of all ally Prinnies on map by 15%.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -209,7 +209,7 @@
   {
     "id": "EVILITY_ID_DLC_ETNA_GENERIC_5",
     "name": "Beauty Queen",
-    "description": "Switches movement type to Flying. Increase Movement by 2 and Jump by 20.",
+    "description": "Switches movement type to Warp. Increase Move by 2 and Jump Power by 20.",
     "notes": "",
     "unique": false,
     "cost": 6,
@@ -294,7 +294,7 @@
   {
     "id": "EVILITY_ID_DLC_ADELL_FIX_1",
     "name": "Indomitable Fist",
-    "description": "After attacking with fist or a unique skill, attack again.",
+    "description": "After attacking with a fist or a unique skill, attack again.",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -392,7 +392,7 @@
   {
     "id": "EVILITY_ID_DLC_FUKA_GENERIC_2",
     "name": "Powered by Sweets",
-    "description": "+30 stats when using a sweets item",
+    "description": "Increase stats by 30% when using a sweets-type item. (Lasts 3 turns)",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -453,7 +453,7 @@
   {
     "id": "EVILITY_ID_DLC_SERAPHINA_GENERIC_1",
     "name": "Search Coin",
-    "description": "Gain HL equal to level when stage is cleared.",
+    "description": "If on map when stage is cleared, gain HL equal to level.",
     "notes": "",
     "unique": false,
     "cost": 2,
@@ -550,7 +550,7 @@
   {
     "id": "EVILITY_ID_DLC_MAO_GENERIC_3",
     "name": "D.I. Overclock",
-    "description": "+50% attack power while Jumbo, but -2 turns Jumbified",
+    "description": "Increase attack power by 50% while Jumbified, but reduce number of turns Jumbified by 2.",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -574,7 +574,7 @@
   {
     "id": "EVILITY_ID_DLC_MAO_GENERIC_5",
     "name": "Elemental Removal",
-    "description": "When hit with an elemental attack, remove elemental properties of the attack.",
+    "description": "When hit with an elemental attack, remove elemental properties from the attack.",
     "notes": "",
     "unique": false,
     "cost": 5,
@@ -586,7 +586,7 @@
   {
     "id": "EVILITY_ID_DLC_AXEL_FIX_1",
     "name": "Obvious Tendency",
-    "description": "Increases stats by 5% per female unit on the map.",
+    "description": "Increase stats by 5% per female unit on map.",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -599,7 +599,7 @@
   {
     "id": "EVILITY_ID_DLC_AXEL_GENERIC_1",
     "name": "Entertainment Life",
-    "description": "When your HP is under 25%, decrease damage taken from elemental attack by 50%.",
+    "description": "When own HP is under 25%, decrease damage taken from elemental attack by 50%.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -611,7 +611,7 @@
   {
     "id": "EVILITY_ID_DLC_AXEL_GENERIC_2",
     "name": "Electric Soul",
-    "description": "+30% damage with wind and -30% from wind",
+    "description": "Increase wind damage dealt by 30%, and reduce wind damage taken by 30%.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -647,7 +647,7 @@
   {
     "id": "EVILITY_ID_DLC_AXEL_GENERIC_5",
     "name": "Dark Hero",
-    "description": "Increase stats by 100% when no other units enter or are able to enter the battle.",
+    "description": "Increase stats by 100% when no other units enter or are able to enter battle.",
     "notes": "",
     "unique": false,
     "cost": 5,
@@ -696,7 +696,7 @@
   {
     "id": "EVILITY_ID_DLC_DESCO_GENERIC_3",
     "name": "Tri Angel (Li'l Sis)",
-    "description": "flying movement, +1 MV, +10 Jump",
+    "description": "Switches movement type to Flying. Increase Movement by 1 and Jump by 10.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -732,7 +732,7 @@
   {
     "id": "EVILITY_ID_DLC_VALVATOREZ_FIX_1",
     "name": "Absorption",
-    "description": "When defeating an enemy, increase own stats by 10% of the defeated target's stats.",
+    "description": "When defeating enemy, increase own stats by 10% of defeated target's stats.",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -781,7 +781,7 @@
   {
     "id": "EVILITY_ID_DLC_VALVATOREZ_GENERIC_4",
     "name": "Lord of the Prinnies",
-    "description": "Increase Research Squad prinnies' stats by 50% of own stats if leading the Research Squad",
+    "description": "Increase research Prinnies' stats by 50% of own stats if leading the Research Support Squad",
     "notes": "",
     "unique": false,
     "cost": 5,
@@ -842,7 +842,7 @@
   {
     "id": "EVILITY_ID_DLC_FLONNE_GENERIC_3",
     "name": "Have You Loved?",
-    "description": "Increase Magic Range by 9.",
+    "description": "Increase Magic Range of Heal Spells by 9.",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -951,7 +951,7 @@
   {
     "id": "EVILITY_ID_DLC_KILLIA_FIX_1",
     "name": "War Demon",
-    "description": "Increase stats by 5% per attack made. (Max 100%).",
+    "description": "Increase stats by 5% per attack made. (Max 100%)",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -1085,7 +1085,7 @@
   {
     "id": "EVILITY_ID_DLC_ARTINA_GENERIC_5",
     "name": "Last Rites",
-    "description": "Upon death, fully restore HP & SP of all allies on map at the end of the turn. Increase their defense power by 30%. (Lasts 3 turns).",
+    "description": "Upon death, fully restore HP & SP of all allies on map at the end of the turn. Increase their DEF power by 30%. (Lasts 3 turns).",
     "notes": "",
     "unique": false,
     "cost": 6,
@@ -1122,7 +1122,7 @@
   {
     "id": "EVILITY_ID_DLC_MELODIA_GENERIC_2",
     "name": "Augmented Chord",
-    "description": "Increase spell area by per adjacent ally unit.",
+    "description": "Increase Spell Area by 1 per adjacent ally unit.",
     "notes": "",
     "unique": false,
     "cost": 3,
@@ -1170,7 +1170,7 @@
   {
     "id": "EVILITY_ID_DLC_ZED_FIX_1",
     "name": "Super Reincarnator",
-    "description": "Increase damage dealt by 2% per Reincarnation. (Max 100%).",
+    "description": "Increase damage dealt by 2% per Reincarnation. (Max 100%)",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -1219,7 +1219,7 @@
   {
     "id": "EVILITY_ID_DLC_ZED_GENERIC_4",
     "name": "Defy the Strong",
-    "description": "Decrease damage from higher-level enemy units by 10%.",
+    "description": "Decrease damage from higher level enemy units by 10%.",
     "notes": "",
     "unique": false,
     "cost": 1,
@@ -1256,7 +1256,7 @@
   {
     "id": "EVILITY_ID_DLC_SICILY_GENERIC_1",
     "name": "Get Along",
-    "description": "Increase adjacent ally Joint Attack rate by 50%.",
+    "description": "Increase adjacent ally Team Attack rate by 50%.",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -1450,7 +1450,7 @@
   {
     "id": "EVILITY_ID_DLC_GIRL_LAHARL_GENERIC_5",
     "name": "Listen to my Song!",
-    "description": "+5% attack power to male ally units per attack (max 100%)",
+    "description": "Increase attack power of male ally units by 5% per attack. (Max 100%)",
     "notes": "",
     "unique": false,
     "cost": 6,
@@ -1462,7 +1462,7 @@
   {
     "id": "EVILITY_ID_DLC_RASBERYL_FIX_1",
     "name": "Love Thy Heart",
-    "description": "If the enemy level is higher, damage dealt increases by 50%.",
+    "description": "If enemy level is higher, damage dealt increases by 50%.",
     "notes": "",
     "unique": true,
     "cost": 0,
@@ -1487,7 +1487,7 @@
   {
     "id": "EVILITY_ID_DLC_RASBERYL_GENERIC_2",
     "name": "Bestie Link",
-    "description": "Increase attack power by 30% when another Best buds Bond ally joins a team attack.",
+    "description": "Increase attack power by 30% when another Bestie Link ally joins a team attack.",
     "notes": "",
     "unique": false,
     "cost": 2,
@@ -1499,7 +1499,7 @@
   {
     "id": "EVILITY_ID_DLC_RASBERYL_GENERIC_3",
     "name": "Innocent Educator",
-    "description": "When set as the leader of the Innocent Farm Squad, increase Innocent Growth Rate by 10%.",
+    "description": "When set as the leader of Innocent Farm Squad, increase Innocent Growth Rate by 10%.",
     "notes": "",
     "unique": false,
     "cost": 4,
@@ -1535,7 +1535,7 @@
   {
     "id": "EVILITY_ID_DLC_USALIA_FIX_1",
     "name": "Anti-Bully Aura",
-    "description": "Decrease damage taken by you or adjacent allies by 10% per adjacent ally. (Max 40%).",
+    "description": "Decrease damage taken by you or adjacent allies by 10% per adjacent ally. (Max 40%)",
     "notes": "",
     "unique": true,
     "cost": 0,
